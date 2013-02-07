@@ -40,7 +40,7 @@ hi Statement            guifg=#800000 ctermfg=16 gui=bold cterm=bold
     hi Exception        guifg=#800000 ctermfg=88 gui=bold cterm=bold
 
 hi PreProc              guifg=#ff00ff ctermfg=102 gui=bold cterm=bold
-    hi Include          guifg=#999999 ctermfg=102 gui=bold cterm=bold
+    hi Include          guifg=#696969 ctermfg=102 gui=bold cterm=bold
     hi Define           guifg=#000000 ctermfg=16 gui=bold cterm=bold
     hi Macro            guifg=#999999 ctermfg=102 gui=bold cterm=bold
     hi PreCondit        guifg=#999999 ctermfg=102 gui=bold cterm=bold
