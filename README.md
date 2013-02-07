@@ -17,11 +17,9 @@ Installing manually
 
 To use, copy proman.vim to ~/.vim/colors and use :colo proman in ViM.
 
----------------------------------------------------------------------------------
-Copyright (c) 2013 Primitivo R. Montero, released under the MIT license
----------------------------------------------------------------------------------
-
 ---------------------------
 Contributions
 ---------------------------
 Primitivo R. Montero
+
+Copyright (c) 2013 Primitivo R. Montero, released under the MIT license
