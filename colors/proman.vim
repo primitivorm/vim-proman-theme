@@ -21,32 +21,32 @@ hi Comment				guifg=#696969 ctermfg=105 gui=italic,bold cterm=italic,bold
 
 hi Constant				guifg=#008080 ctermfg=30
 	hi String			guifg=#C71585 ctermfg=161
-	hi Character		guifg=#C71585 ctermfg=161
+	hi Character			guifg=#C71585 ctermfg=161
 	hi Number			guifg=#009999 ctermfg=30
 	hi Boolean			gui=bold cterm=bold
 	hi Float			guifg=#009999 ctermfg=30
-	hi RubySymbol		guifg=#990073 ctermfg=90
+	hi RubySymbol			guifg=#990073 ctermfg=90
 
-hi Identifier			guifg=#1e90ff ctermfg=30
+hi Identifier				guifg=#1e90ff ctermfg=30
 	hi Function			guifg=#ff4500 ctermfg=88 gui=bold cterm=bold
 
-hi Statement			guifg=#800000 ctermfg=16 gui=bold cterm=bold
-	hi Conditional		guifg=#800000 ctermfg=16 gui=bold cterm=bold
+hi Statement				guifg=#800000 ctermfg=16 gui=bold cterm=bold
+	hi Conditional			guifg=#800000 ctermfg=16 gui=bold cterm=bold
 	hi Repeat			guifg=#800000 ctermfg=16 gui=bold cterm=bold
 	hi Label			guifg=#800000 ctermfg=16 gui=bold cterm=bold
 	hi Operator			guifg=#800000 ctermfg=16 gui=bold cterm=bold
 	hi Keyword			guifg=#800000 ctermfg=16 gui=bold cterm=bold
-	hi Exception		guifg=#800000 ctermfg=88 gui=bold cterm=bold
+	hi Exception			guifg=#800000 ctermfg=88 gui=bold cterm=bold
 
 hi PreProc				guifg=#ff00ff ctermfg=102 gui=bold cterm=bold
 	hi Include			guifg=#009999 ctermfg=102 gui=bold cterm=bold
 	hi Define			guifg=#ff4500 ctermfg=16 gui=bold cterm=bold
 	hi Macro			guifg=#ff4500 ctermfg=102 gui=bold cterm=bold
-	hi PreCondit		guifg=#ff4500 ctermfg=102 gui=bold cterm=bold
+	hi PreCondit			guifg=#ff4500 ctermfg=102 gui=bold cterm=bold
 
 hi Type					guifg=#4B0082 ctermfg=60 gui=bold cterm=bold
-	hi StorageClass		guifg=#4B0082 ctermfg=16 gui=bold cterm=bold gui=bold cterm=bold
-	hi Structure		guifg=#4B0082 ctermfg=16 gui=bold cterm=bold
+	hi StorageClass			guifg=#4B0082 ctermfg=16 gui=bold cterm=bold gui=bold cterm=bold
+	hi Structure			guifg=#4B0082 ctermfg=16 gui=bold cterm=bold
 	hi Typedef			guifg=#4B0082 ctermfg=16 gui=bold cterm=bold
 
 hi Special				guifg=#dd1144 ctermfg=161
