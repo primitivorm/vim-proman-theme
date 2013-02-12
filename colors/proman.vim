@@ -50,31 +50,31 @@ hi Type					guifg=#4B0082 ctermfg=60 gui=bold cterm=bold
 	hi Typedef			guifg=#4B0082 ctermfg=16 gui=bold cterm=bold
 
 hi Special				guifg=#dd1144 ctermfg=161
-	hi SpecialChar		guifg=#808080 ctermfg=161
+	hi SpecialChar			guifg=#808080 ctermfg=161
 	hi Tag				guifg=#000080 ctermfg=18
-	hi Delimiter		guifg=#dd1144 ctermfg=161
-	hi SpecialComment	guifg=#999999 ctermfg=102 gui=bold,italic cterm=bold,italic
+	hi Delimiter			guifg=#dd1144 ctermfg=161
+	hi SpecialComment		guifg=#999999 ctermfg=102 gui=bold,italic cterm=bold,italic
 	hi Debug			guifg=#aa0000 ctermfg=124
 
-hi Underlined			gui=underline cterm=underline
+hi Underlined				gui=underline cterm=underline
 hi Ignore				guifg=bg
 hi Error				guifg=#a61717 ctermfg=124 guibg=#e3d2d2 ctermbg=188
 hi Todo					guifg=#999988 ctermfg=102 gui=italic cterm=italic
 
 hi Cursor				guifg=NONE ctermfg=NONE guibg=#ff9900 ctermbg=227
-hi CursorLine			guifg=NONE ctermfg=NONE guibg=#E6E6FA ctermbg=230 cterm=bold term=bold
-hi CursorColumn			guifg=NONE ctermfg=NONE guibg=#E6E6FA ctermbg=230 cterm=bold term=bold
-hi Directory			guifg=#4183c4 ctermfg=68
+hi CursorLine				guifg=NONE ctermfg=NONE guibg=#E6E6FA ctermbg=230 cterm=bold term=bold
+hi CursorColumn				guifg=NONE ctermfg=NONE guibg=#E6E6FA ctermbg=230 cterm=bold term=bold
+hi Directory				guifg=#4183c4 ctermfg=68
 hi DiffAdd				guifg=#000000 ctermfg=16 guibg=#ddffdd ctermbg=194
-hi DiffDelete			guifg=#000000 ctermfg=16 guibg=#ffdddd ctermbg=224
+hi DiffDelete				guifg=#000000 ctermfg=16 guibg=#ffdddd ctermbg=224
 hi DiffText				guibg=#666666 ctermbg=59
 hi ErrorMsg				guifg=#a61717 ctermfg=124 guibg=#e3d2d2 ctermbg=188 gui=bold cterm=bold
-hi VertSplit			guifg=#666666 ctermfg=59 guibg=#eaeaea ctermbg=188
+hi VertSplit				guifg=#666666 ctermfg=59 guibg=#eaeaea ctermbg=188
 hi LineNr				guifg=#666666 ctermfg=59 guibg=#eaeaea ctermbg=188
 hi ModeMsg				gui=bold cterm=bold
 hi Normal				guifg=#101010 ctermfg=16 guibg=#f8f8f8 ctermbg=231
 hi Pmenu				guibg=#babdb6 ctermbg=145 guifg=#555753 ctermfg=59
-hi StatusLine			guifg=#666666 ctermfg=59 guibg=#eaeaea ctermbg=188
+hi StatusLine				guifg=#666666 ctermfg=59 guibg=#eaeaea ctermbg=188
 hi Visual				guifg=#000000 ctermfg=NONE guibg=#B0C4DE ctermbg=230
 hi Search				guifg=#000000 ctermfg=NONE guibg=#ffff8c ctermbg=230
 
