@@ -2,7 +2,7 @@
 " Maintainer: Primitivo Roman <cibercafe_montero@hotmail.com>
 "      Based on the work by: Ricardo Valeriano <ricardo.valeriano@gmail.com>
 "     URL: https://github.com/ricardovaleriano/vim-github-theme
-" Last Change: May, 24, 2013
+" Last Change: Feb, 06, 2013
 " Version: 0.1
 " Homepage:https://github.com/primitivorm/vim-proman-theme.git
 
@@ -62,7 +62,7 @@ hi Error                guifg=#a61717 ctermfg=160 guibg=#e3d2d2 ctermbg=7
 hi Todo                 guifg=#999988 ctermfg=249 gui=italic cterm=italic
 
 hi Cursor               guifg=NONE ctermfg=NONE guibg=#ff9900 ctermbg=214
-hi CursorLine           guifg=NONE ctermfg=NONE guibg=#E6E6FA ctermbg=231 cterm=bold term=bold gui=underline
+hi CursorLine           guifg=#080808 ctermfg=232 guibg=#d0d0d0 ctermbg=252 cterm=bold term=bold gui=underline
 hi CursorColumn         guifg=NONE ctermfg=NONE guibg=#E6E6FA ctermbg=231 cterm=bold term=bold
 hi CursorIM    			guifg=#eaeaea	guibg=#000090	gui=NONE
 hi lCursor guifg=NONE guibg=#ff0000
@@ -75,7 +75,7 @@ hi ErrorMsg             guifg=#a61717 ctermfg=124 guibg=#e3d2d2 ctermbg=188 gui=
 hi VertSplit            guifg=#666666 ctermfg=239 guibg=#eaeaea ctermbg=188
 hi LineNr               guifg=#009999 ctermfg=30 guibg=#eaeaea ctermbg=188
 hi ModeMsg              gui=bold cterm=bold
-hi Normal               guifg=#101010 ctermfg=234 guibg=#F8F8FF ctermbg=231
+hi Normal               guifg=#101010 ctermfg=234 guibg=#F8F8FF ctermbg=230
 hi Pmenu                guibg=#ffff8c ctermbg=229 guifg=#555753 ctermfg=247
 hi StatusLine           guifg=#666666 ctermfg=239 guibg=#eaeaea ctermbg=188
 hi Visual               guifg=#000000 ctermfg=234 guibg=#B0C4DE ctermbg=147
