@@ -2,7 +2,7 @@
 " Maintainer: Primitivo Roman <cibercafe_montero@hotmail.com>
 "    Based on the work by: Ricardo Valeriano <ricardo.valeriano@gmail.com>
 "   URL: https://github.com/ricardovaleriano/vim-github-theme
-" Last Change: May, 14, 2013
+" Last Change: Jun, 19, 2013
 " Version: 0.1
 " Homepage:https://github.com/primitivorm/vim-proman-theme.git
 
@@ -79,7 +79,8 @@ hi Normal       guifg=#101010 ctermfg=234 guibg=#F8F8FF ctermbg=230
 hi Pmenu        guibg=#ffff8c ctermbg=229 guifg=#555753 ctermfg=247
 hi StatusLine     guifg=#666666 ctermfg=239 guibg=#eaeaea ctermbg=188
 hi Visual       guifg=#000000 ctermfg=234 guibg=#B0C4DE ctermbg=147
-hi Search       guifg=#000000 ctermfg=234 guibg=#ffff8c ctermbg=228
+hi Search       guifg=#000000 ctermfg=234 guibg=#87CEFA ctermbg=228
+hi IncSearch       guifg=#FF7F50 ctermfg=234 guibg=#000000 ctermbg=228
 
 "for Special keys and hiden Characters
 hi SpecialKey guifg=#1E90FF ctermfg=33
