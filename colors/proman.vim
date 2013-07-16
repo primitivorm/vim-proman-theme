@@ -65,13 +65,13 @@ hi Cursor       guifg=NONE ctermfg=NONE guibg=#ff9900 ctermbg=214
 hi CursorLine     guifg=NONE ctermfg=232 guibg=#E6E6FA ctermbg=252 cterm=bold term=bold gui=underline
 hi CursorColumn     guifg=NONE ctermfg=NONE guibg=#E6E6FA ctermbg=231 cterm=bold term=bold
 hi CursorIM       guifg=#eaeaea guibg=#000090 gui=NONE
-hi lCursor guifg=NONE guibg=#ff0000
+hi lCursor guifg=NONE guibg=#FF8C00
 
 hi Directory      guifg=#4183c4 ctermfg=39
-hi DiffAdd        guifg=#000000 ctermfg=234 guibg=#ddffdd ctermbg=194
-hi DiffDelete     guifg=#000000 ctermfg=234 guibg=#ffdddd ctermbg=224
-hi DiffText       guibg=#666666 ctermbg=249
-hi DiffChange     guibg=#ff9900  ctermbg=DarkBlue ctermfg=white cterm=NONE
+hi DiffAdd        guibg=#ddffdd ctermbg=194
+hi DiffDelete     guibg=#ffdddd ctermbg=224
+hi DiffText       guibg=#FFA07A ctermbg=249
+hi DiffChange     guibg=#EE82EE  ctermbg=DarkBlue ctermfg=white cterm=NONE
 
 hi ErrorMsg       guifg=#a61717 ctermfg=124 guibg=#e3d2d2 ctermbg=188 gui=bold cterm=bold
 hi VertSplit      guifg=#666666 ctermfg=239 guibg=#eaeaea ctermbg=188
