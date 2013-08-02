@@ -2,7 +2,7 @@
 " Maintainer: Primitivo Roman <cibercafe_montero@hotmail.com>
 " Based on the work by: Ricardo Valeriano <ricardo.valeriano@gmail.com>
 " URL: https://github.com/ricardovaleriano/vim-github-theme
-" Last Change: 01-Ago-2013
+" Last Change: 02-Ago-2013
 " Version: 0.1
 " Homepage:https://github.com/primitivorm/vim-proman-theme.git
 
@@ -19,7 +19,7 @@ set t_Co=256
 
 hi              Comment                 guifg=#696969      ctermfg=236       gui=italic      cterm=italic
 
-hi              Constant                guifg=#990073      ctermfg=30        gui=bold        cterm=bold
+hi              Constant                guifg=#800000      ctermfg=30        gui=bold        cterm=bold
 hi              String                  guifg=#FF1493      ctermfg=161
 hi              Character               guifg=#FF1493      ctermfg=161
 hi              Number                  guifg=#009999      ctermfg=30        gui=bold        cterm=bold
@@ -29,25 +29,25 @@ hi              RubySymbol              guifg=#990073      ctermfg=90        gui
 
 
 hi              Identifier              guifg=#1e90ff      ctermfg=39
-hi              Function                guifg=#C71585      ctermfg=202       gui=bold        cterm=bold
+hi              Function                guifg=#990073      ctermfg=202       gui=bold        cterm=bold
 
 hi              Statement               guifg=#4B0082      ctermfg=53        gui=bold        cterm=bold
-hi              Conditional             guifg=#800000      ctermfg=88        gui=bold        cterm=bold
-hi              Repeat                  guifg=#800000      ctermfg=88        gui=bold        cterm=bold
-hi              Label                   guifg=#990073      ctermfg=88
-hi              Operator                guifg=#800000      ctermfg=88        gui=bold        cterm=bold
-hi              Keyword                 guifg=#990073      ctermfg=88        gui=bold        cterm=bold
-hi              Exception               guifg=#800000      ctermfg=88        gui=bold        cterm=bold
+hi              Conditional             guifg=#990073      ctermfg=88        gui=bold        cterm=bold
+hi              Repeat                  guifg=#990073      ctermfg=88        gui=bold        cterm=bold
+hi              Label                   guifg=#800000      ctermfg=88
+hi              Operator                guifg=#990073      ctermfg=88        gui=bold        cterm=bold
+hi              Keyword                 guifg=#800000      ctermfg=88        gui=bold        cterm=bold
+hi              Exception               guifg=#990073      ctermfg=88        gui=bold        cterm=bold
 
-hi              PreProc                 guifg=#006400      ctermfg=19        gui=bold        cterm=bold
-hi              Include                 guifg=#DC143C      ctermfg=30
-hi              Define                  guifg=#006400      ctermfg=202       gui=bold        cterm=bold
-hi              Macro                   guifg=#DC143C      ctermfg=202
-hi              PreCondit               guifg=#006400      ctermfg=202       gui=bold        cterm=bold
+hi              PreProc                 guifg=#006400      guibg=#eaeaea     ctermfg=19
+hi              Include                 guifg=#800000      ctermfg=30
+hi              Define                  guifg=#006400      guibg=#eaeaea     ctermfg=202
+hi              Macro                   guifg=#800000      ctermfg=202
+hi              PreCondit               guifg=#006400      guibg=#eaeaea     ctermfg=202
 
-hi              Type                    guifg=#4B0082      ctermfg=30        gui=bold        cterm=bold
-hi              Typedef                 guifg=#4B0082      ctermfg=53        gui=bold        cterm=bold
-hi              StorageClass            guifg=#009999      ctermfg=53        gui=bold        cterm=bold
+hi              Type                    guifg=#009999      ctermfg=30        gui=bold        cterm=bold
+hi              Typedef                 guifg=#009999      ctermfg=53        gui=bold        cterm=bold
+hi              StorageClass            guifg=#4B0082      ctermfg=53        gui=bold        cterm=bold
 hi              Structure               guifg=#4B0082      ctermfg=53        gui=bold        cterm=bold
 
 hi              Special                 guifg=#dd1144      ctermfg=196
