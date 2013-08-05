@@ -28,7 +28,7 @@ hi              Float                   guifg=#009999      ctermfg=30        gui
 hi              RubySymbol              guifg=#990073      ctermfg=90        gui=bold        cterm=bold
 
 
-hi              Identifier              guifg=#1e90ff      ctermfg=39
+hi              Identifier              guifg=#1e90ff      guibg=#eaeaea     ctermfg=39      gui=bold        cterm=bold
 hi              Function                guifg=#990073      ctermfg=202       gui=bold        cterm=bold
 
 hi              Statement               guifg=#4B0082      ctermfg=53        gui=bold        cterm=bold
