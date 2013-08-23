@@ -2,7 +2,7 @@
 " Maintainer: Primitivo Roman <cibercafe_montero@hotmail.com>
 " Based on the work by: Ricardo Valeriano <ricardo.valeriano@gmail.com>
 " URL: https://github.com/ricardovaleriano/vim-github-theme
-" Last Change: 16-Ago-2013
+" Last Change: 23-Ago-2013
 " Version: 0.1
 " Homepage:https://github.com/primitivorm/vim-proman-theme.git
 
@@ -70,7 +70,7 @@ hi              lCursor                 guifg=#ffffff      guibg=#000000
 
 hi              Directory               guifg=#000080      ctermfg=39
 hi              DiffAdd                 guibg=#a3ffa3      ctermbg=194       gui=bold        cterm=bold
-hi              DiffDelete              guibg=#e271a9      ctermbg=224       gui=bold        cterm=bold
+hi              DiffDelete              guibg=#FFDEAD      ctermbg=224       gui=bold        cterm=bold
 hi              DiffText                guibg=#cdc6ca      ctermbg=249       gui=bold        cterm=bold
 hi              DiffChange              guibg=#ffccff      ctermbg=DarkBlue  ctermfg=white   cterm=NONE         gui=bold    cterm=bold
 
