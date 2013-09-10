@@ -2,7 +2,7 @@
 " Maintainer: Primitivo Roman <cibercafe_montero@hotmail.com>
 " Based on the work by: Ricardo Valeriano <ricardo.valeriano@gmail.com>
 " URL: https://github.com/ricardovaleriano/vim-github-theme
-" Last Change: 23-Ago-2013
+" Last Change: 10-Sep-2013
 " Version: 0.1
 " Homepage:https://github.com/primitivorm/vim-proman-theme.git
 
@@ -19,34 +19,34 @@ set t_Co=256
 
 hi              Comment                 guifg=#696969      ctermfg=236       gui=italic      cterm=italic
 
-hi              Constant                guifg=#800000      guibg=#eaeaea     ctermfg=30        gui=bold        cterm=bold
+hi              Constant                guifg=#FF4500      ctermfg=30
 hi              String                  guifg=#FF1493      ctermfg=161
 hi              Character               guifg=#FF1493      ctermfg=161
-hi              Number                  guifg=#009999      ctermfg=30        gui=bold        cterm=bold
+hi              Number                  guifg=#008000      ctermfg=30
 hi              Boolean                 gui=bold           cterm=bold
-hi              Float                   guifg=#009999      ctermfg=30        gui=bold        cterm=bold
+hi              Float                   guifg=#008000      ctermfg=30
 hi              RubySymbol              guifg=#990073      ctermfg=90        gui=bold        cterm=bold
 
 
-hi              Identifier              guifg=#1e90ff      guibg=#eaeaea     ctermfg=39      gui=bold        cterm=bold
+hi              Identifier              guifg=#008000      ctermfg=39
 hi              Function                guifg=#990073      ctermfg=202       gui=bold        cterm=bold
 
 hi              Statement               guifg=#4B0082      ctermfg=53        gui=bold        cterm=bold
 hi              Conditional             guifg=#990073      ctermfg=88        gui=bold        cterm=bold
 hi              Repeat                  guifg=#990073      ctermfg=88        gui=bold        cterm=bold
-hi              Label                   guifg=#800000      guibg=#eaeaea     ctermfg=88
+hi              Label                   guifg=#FF4500      ctermfg=88
 hi              Operator                guifg=#990073      ctermfg=88        gui=bold        cterm=bold
-hi              Keyword                 guifg=#800000      guibg=#eaeaea     ctermfg=88        gui=bold        cterm=bold
+hi              Keyword                 guifg=#FF4500      ctermfg=88
 hi              Exception               guifg=#990073      ctermfg=88        gui=bold        cterm=bold
 
-hi              PreProc                 guifg=#006400      guibg=#eaeaea     ctermfg=19
-hi              Include                 guifg=#800000      guibg=#eaeaea     ctermfg=30
-hi              Define                  guifg=#006400      guibg=#eaeaea     ctermfg=202
-hi              Macro                   guifg=#800000      guibg=#eaeaea     ctermfg=202
-hi              PreCondit               guifg=#006400      guibg=#eaeaea     ctermfg=202
+hi              PreProc                 guifg=#1e90ff      ctermfg=19
+hi              Include                 guifg=#FF4500      ctermfg=30
+hi              Define                  guifg=#1e90ff      ctermfg=202
+hi              Macro                   guifg=#FF4500      ctermfg=202
+hi              PreCondit               guifg=#1e90ff      ctermfg=202
 
-hi              Type                    guifg=#009999      ctermfg=30        gui=bold        cterm=bold
-hi              Typedef                 guifg=#009999      ctermfg=53        gui=bold        cterm=bold
+hi              Type                    guifg=#009999      ctermfg=30
+hi              Typedef                 guifg=#009999      ctermfg=53
 hi              StorageClass            guifg=#4B0082      ctermfg=53        gui=bold        cterm=bold
 hi              Structure               guifg=#4B0082      ctermfg=53        gui=bold        cterm=bold
 
@@ -57,6 +57,7 @@ hi              Delimiter               guifg=#dd1144      ctermfg=196
 hi              SpecialComment          guifg=#999999      ctermfg=249       gui=bold,italic cterm=bold,italic
 hi              Debug                   guifg=#aa0000      ctermfg=160
 
+hi              Directory               guifg=#4B0082      ctermfg=39
 hi              Underlined              gui=underline      cterm=underline
 hi              Ignore                  guifg=bg
 hi              Error                   guifg=#ff0000      ctermfg=160       guibg=#e3d2d2   ctermbg=7
@@ -68,12 +69,6 @@ hi              CursorColumn            guifg=NONE         ctermfg=NONE      gui
 hi              CursorIM                guifg=#eaeaea      guibg=#000090     gui=NONE
 hi              lCursor                 guifg=#ffffff      guibg=#000000
 
-hi              Directory               guifg=#000080      ctermfg=39
-hi              DiffAdd                 guibg=#a3ffa3      ctermbg=194       gui=bold        cterm=bold
-hi              DiffDelete              guibg=#FFDEAD      ctermbg=224       gui=bold        cterm=bold
-hi              DiffText                guibg=#cdc6ca      ctermbg=249       gui=bold        cterm=bold
-hi              DiffChange              guibg=#ffccff      ctermbg=DarkBlue  ctermfg=white   cterm=NONE         gui=bold    cterm=bold
-
 hi              ErrorMsg                guifg=#a61717      ctermfg=124       guibg=#e3d2d2   ctermbg=188        gui=bold    cterm=bold
 hi              VertSplit               guifg=#666666      ctermfg=239       guibg=#eaeaea   ctermbg=188
 hi              LineNr                  guifg=#009999      ctermfg=30        guibg=#eaeaea   ctermbg=188
@@ -84,6 +79,12 @@ hi              StatusLine              guifg=#666666      ctermfg=239       gui
 hi              Visual                  guifg=#000000      ctermfg=234       guibg=#B0C4DE   ctermbg=147
 hi              Search                  guifg=#000000      ctermfg=234       guibg=#87CEFA   ctermbg=228
 hi              IncSearch               guifg=#FF7F50      ctermfg=234       guibg=#000000   ctermbg=228
+
+"Diff Tool
+hi              DiffAdd                 guibg=#a3ffa3      ctermbg=194       gui=bold        cterm=bold
+hi              DiffDelete              guibg=#FFDEAD      ctermbg=224       gui=bold        cterm=bold
+hi              DiffText                guibg=#cdc6ca      ctermbg=249       gui=bold        cterm=bold
+hi              DiffChange              guibg=#ffccff      ctermbg=DarkBlue  ctermfg=white   cterm=NONE         gui=bold    cterm=bold
 
 "for            Special                 keys               and               hiden           Characters
 hi              SpecialKey              guifg=#1E90FF      ctermfg=33
