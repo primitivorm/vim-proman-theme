@@ -2,7 +2,7 @@
 " Maintainer: Primitivo Roman <cibercafe_montero@hotmail.com>
 " Based on the work by: Ricardo Valeriano <ricardo.valeriano@gmail.com>
 " URL: https://github.com/ricardovaleriano/vim-github-theme
-" Last Change: 10-Sep-2013
+" Last Change: 12-Sep-2013
 " Version: 0.1
 " Homepage:https://github.com/primitivorm/vim-proman-theme.git
 
@@ -19,12 +19,12 @@ set t_Co=256
 
 hi              Comment                 guifg=#696969      ctermfg=236       gui=italic      cterm=italic
 
-hi              Constant                guifg=#FF4500      ctermfg=30
-hi              String                  guifg=#FF1493      ctermfg=161
-hi              Character               guifg=#FF1493      ctermfg=161
-hi              Number                  guifg=#008000      ctermfg=30
+hi              Constant                guifg=#FF1493      ctermfg=30
+hi              String                  guifg=#FF4500      ctermfg=161
+hi              Character               guifg=#FF4500      ctermfg=161
+hi              Number                  guifg=#FF1493      ctermfg=30
 hi              Boolean                 gui=bold           cterm=bold
-hi              Float                   guifg=#008000      ctermfg=30
+hi              Float                   guifg=#FF1493      ctermfg=30
 hi              RubySymbol              guifg=#990073      ctermfg=90        gui=bold        cterm=bold
 
 
@@ -34,15 +34,15 @@ hi              Function                guifg=#990073      ctermfg=202       gui
 hi              Statement               guifg=#4B0082      ctermfg=53        gui=bold        cterm=bold
 hi              Conditional             guifg=#990073      ctermfg=88        gui=bold        cterm=bold
 hi              Repeat                  guifg=#990073      ctermfg=88        gui=bold        cterm=bold
-hi              Label                   guifg=#FF4500      ctermfg=88
+hi              Label                   guifg=#FF1493      ctermfg=88
 hi              Operator                guifg=#990073      ctermfg=88        gui=bold        cterm=bold
-hi              Keyword                 guifg=#FF4500      ctermfg=88
+hi              Keyword                 guifg=#FF1493      ctermfg=88
 hi              Exception               guifg=#990073      ctermfg=88        gui=bold        cterm=bold
 
 hi              PreProc                 guifg=#1e90ff      ctermfg=19
-hi              Include                 guifg=#FF4500      ctermfg=30
+hi              Include                 guifg=#FF1493      ctermfg=30
 hi              Define                  guifg=#1e90ff      ctermfg=202
-hi              Macro                   guifg=#FF4500      ctermfg=202
+hi              Macro                   guifg=#FF1493      ctermfg=202
 hi              PreCondit               guifg=#1e90ff      ctermfg=202
 
 hi              Type                    guifg=#009999      ctermfg=30
