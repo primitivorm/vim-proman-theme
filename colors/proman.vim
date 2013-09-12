@@ -39,8 +39,8 @@ hi              Operator                guifg=#990073      ctermfg=88        gui
 hi              Keyword                 guifg=#FF1493      ctermfg=88
 hi              Exception               guifg=#990073      ctermfg=88        gui=bold        cterm=bold
 
-hi              PreProc                 guifg=#1e90ff      ctermfg=19
-hi              Include                 guifg=#FF1493      ctermfg=30
+hi              PreProc                 guifg=#FF1493      ctermfg=19
+hi              Include                 guifg=#008000      ctermfg=30
 hi              Define                  guifg=#1e90ff      ctermfg=202
 hi              Macro                   guifg=#FF1493      ctermfg=202
 hi              PreCondit               guifg=#1e90ff      ctermfg=202
