@@ -77,26 +77,26 @@ if &background=="light"
 
 else
   "background=dark
-  hi              Comment                 guifg=#B0C4DE      ctermfg=236       gui=italic      cterm=italic
+  hi              Comment                 guifg=#808080      ctermfg=236       gui=italic      cterm=italic
 
-  hi              Constant                guifg=#D4AAAA      ctermfg=30
-  hi              String                  guifg=#FF99FF      ctermfg=161
-  hi              Character               guifg=#FF99FF      ctermfg=161
-  hi              Number                  guifg=#D4AAAA      ctermfg=30
+  hi              Constant                guifg=#C266E0      ctermfg=30
+  hi              String                  guifg=#FFB8FF      ctermfg=161
+  hi              Character               guifg=#FFB8FF      ctermfg=161
+  hi              Number                  guifg=#C266E0      ctermfg=30
   hi              Boolean                 gui=bold           cterm=bold
-  hi              Float                   guifg=#D4AAAA      ctermfg=30
+  hi              Float                   guifg=#C266E0      ctermfg=30
   hi              RubySymbol              guifg=#FF9900      ctermfg=90        gui=bold        cterm=bold
 
 
   hi              Identifier              guifg=#A3E0FF      ctermfg=39
   hi              Function                guifg=#FF9900      ctermfg=202       gui=bold        cterm=bold
 
-  hi              Statement               guifg=#FF0066      ctermfg=53        gui=bold        cterm=bold
+  hi              Statement               guifg=#FF9999      ctermfg=53        gui=bold        cterm=bold
   hi              Conditional             guifg=#FF9900      ctermfg=88        gui=bold        cterm=bold
   hi              Repeat                  guifg=#FF9900      ctermfg=88        gui=bold        cterm=bold
-  hi              Label                   guifg=#FF66FF      ctermfg=88
+  hi              Label                   guifg=#FF0066      ctermfg=88
   hi              Operator                guifg=#FF9900      ctermfg=88        gui=bold        cterm=bold
-  hi              Keyword                 guifg=#FF66FF      ctermfg=88
+  hi              Keyword                 guifg=#FF0066      ctermfg=88
   hi              Exception               guifg=#FF9900      ctermfg=88        gui=bold        cterm=bold
 
   hi              PreProc                 guifg=#FF66FF      ctermfg=19
@@ -107,8 +107,8 @@ else
 
   hi              Type                    guifg=#66CCFF      ctermfg=30
   hi              Typedef                 guifg=#66CCFF      ctermfg=53
-  hi              StorageClass            guifg=#FF0066      ctermfg=53        gui=bold        cterm=bold
-  hi              Structure               guifg=#FF0066      ctermfg=53        gui=bold        cterm=bold
+  hi              StorageClass            guifg=#FF9999      ctermfg=53        gui=bold        cterm=bold
+  hi              Structure               guifg=#FF9999      ctermfg=53        gui=bold        cterm=bold
 
   hi              Special                 guifg=#dd1144      ctermfg=196
   hi              SpecialChar             guifg=#808080      ctermfg=249       gui=bold        cterm=bold
@@ -133,7 +133,7 @@ else
   hi              VertSplit               guifg=#666666      ctermfg=239       guibg=#eaeaea   ctermbg=188
   hi              LineNr                  guifg=#009999      ctermfg=30        guibg=#eaeaea   ctermbg=188
   hi              ModeMsg                 gui=bold           cterm=bold
-  hi              Normal                  guifg=#E0E0FF      ctermfg=234       guibg=#303030   ctermbg=230
+  hi              Normal                  guifg=#E0D1FF      ctermfg=234       guibg=#303030   ctermbg=230
 
 endif
 
@@ -173,6 +173,10 @@ hi              TabLineFill             ctermfg=LightGreen ctermbg=DarkGreen
 hi              TabLine                 ctermfg=Blue       ctermbg=Yellow
 hi              TabLineSel              ctermfg=Red        ctermbg=Yellow
 hi              Title                   ctermfg=LightBlue  ctermbg=Magenta
+
+"folding
+highlight       Folded                  guibg=#808080      guifg=#a3ffa3
+highlight       FoldColumn              guibg=darkgrey     guifg=white
 
 "this is a workaround to show the cursor on the Terminal.app
 "thanks to: http://www.damtp.cam.ac.uk/user/rbw/vim-osx-cursor.html
