@@ -73,7 +73,11 @@ if &background=="light"
   hi              VertSplit               guifg=#666666      ctermfg=239       guibg=#eaeaea   ctermbg=188
   hi              LineNr                  guifg=#009999      ctermfg=30        guibg=#eaeaea   ctermbg=188
   hi              ModeMsg                 gui=bold           cterm=bold
-  hi              Normal                  guifg=#303030      ctermfg=234       guibg=#F5F5F5   ctermbg=230
+  hi              Normal                  guifg=#1A1A1A      ctermfg=234       guibg=#F5F5F5   ctermbg=230
+
+  "folding
+  highlight       Folded                  guibg=#e3d2d2      guifg=#1A1A1A
+  highlight       FoldColumn              guibg=#e3d2d2      guifg=#1A1A1A
 
 else
   "background=dark
@@ -91,7 +95,7 @@ else
   hi              Identifier              guifg=#66FF66      ctermfg=39
   hi              Function                guifg=#FF9900      ctermfg=202       gui=bold        cterm=bold
 
-  hi              Statement               guifg=#FF9999      ctermfg=53        gui=bold        cterm=bold
+  hi              Statement               guifg=#FFB8B8      ctermfg=53        gui=bold        cterm=bold
   hi              Conditional             guifg=#FF9900      ctermfg=88        gui=bold        cterm=bold
   hi              Repeat                  guifg=#FF9900      ctermfg=88        gui=bold        cterm=bold
   hi              Label                   guifg=#FF0066      ctermfg=88
@@ -107,8 +111,8 @@ else
 
   hi              Type                    guifg=#66CCFF      ctermfg=30
   hi              Typedef                 guifg=#66CCFF      ctermfg=53
-  hi              StorageClass            guifg=#FF9999      ctermfg=53        gui=bold        cterm=bold
-  hi              Structure               guifg=#FF9999      ctermfg=53        gui=bold        cterm=bold
+  hi              StorageClass            guifg=#FFB8B8      ctermfg=53        gui=bold        cterm=bold
+  hi              Structure               guifg=#FFB8B8      ctermfg=53        gui=bold        cterm=bold
 
   hi              Special                 guifg=#dd1144      ctermfg=196
   hi              SpecialChar             guifg=#808080      ctermfg=249       gui=bold        cterm=bold
@@ -117,7 +121,7 @@ else
   hi              SpecialComment          guifg=#999999      ctermfg=249       gui=bold,italic cterm=bold,italic
   hi              Debug                   guifg=#aa0000      ctermfg=160
 
-  hi              Directory               guifg=#FF0066      ctermfg=39
+  hi              Directory               guifg=#FFB8FF      ctermfg=39
   hi              Underlined              gui=underline      cterm=underline
   hi              Ignore                  guifg=bg
   hi              Error                   guifg=#ff0000      ctermfg=160       guibg=#e3d2d2   ctermbg=7
@@ -133,7 +137,11 @@ else
   hi              VertSplit               guifg=#666666      ctermfg=239       guibg=#eaeaea   ctermbg=188
   hi              LineNr                  guifg=#009999      ctermfg=30        guibg=#eaeaea   ctermbg=188
   hi              ModeMsg                 gui=bold           cterm=bold
-  hi              Normal                  guifg=#E0D1FF      ctermfg=234       guibg=#303030   ctermbg=230
+  hi              Normal                  guifg=#E0D1FF      ctermfg=234       guibg=#333333   ctermbg=230
+
+  "folding
+  highlight       Folded                  guibg=#4C4C4C      guifg=#ffffff
+  highlight       FoldColumn              guibg=#4C4C4C      guifg=#ffffff
 
 endif
 
@@ -173,10 +181,6 @@ hi              TabLineFill             ctermfg=LightGreen ctermbg=DarkGreen
 hi              TabLine                 ctermfg=Blue       ctermbg=Yellow
 hi              TabLineSel              ctermfg=Red        ctermbg=Yellow
 hi              Title                   ctermfg=LightBlue  ctermbg=Magenta
-
-"folding
-highlight       Folded                  guibg=#808080      guifg=#a3ffa3
-highlight       FoldColumn              guibg=darkgrey     guifg=white
 
 "this is a workaround to show the cursor on the Terminal.app
 "thanks to: http://www.damtp.cam.ac.uk/user/rbw/vim-osx-cursor.html
