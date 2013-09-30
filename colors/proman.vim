@@ -118,10 +118,10 @@ else
   hi              Todo                    guifg=#999988      ctermfg=249       gui=italic      cterm=italic
 
   hi              Cursor                  guifg=#666666      ctermfg=NONE      guibg=#ffffff   ctermbg=214
-  hi              CursorLine              guifg=NONE         ctermfg=232       guibg=#000000   ctermbg=252        cterm=bold  term=bold  gui=underline
-  hi              CursorColumn            guifg=NONE         ctermfg=NONE      guibg=#000000   ctermbg=231        cterm=bold  term=bold
-  hi              CursorIM                guifg=#eaeaea      guibg=#000090     gui=NONE
-  hi              lCursor                 guifg=#ffffff      guibg=#000000
+  hi              CursorLine              guifg=NONE         ctermfg=232       guibg=#555753   ctermbg=252        cterm=bold  term=bold  gui=underline
+  hi              CursorColumn            guifg=NONE         ctermfg=NONE      guibg=#555753   ctermbg=231        cterm=bold  term=bold
+  hi              CursorIM                guifg=#000090      guibg=#eaeaea     gui=NONE
+  hi              lCursor                 guifg=#eaeaea      guibg=#000000
 
 endif
 
@@ -129,7 +129,7 @@ hi              ErrorMsg                guifg=#a61717      ctermfg=124       gui
 hi              VertSplit               guifg=#666666      ctermfg=239       guibg=#eaeaea   ctermbg=188
 hi              LineNr                  guifg=#009999      ctermfg=30        guibg=#eaeaea   ctermbg=188
 hi              ModeMsg                 gui=bold           cterm=bold
-hi              Normal                  guifg=#E0E0FF      ctermfg=234       guibg=#303030   ctermbg=230
+hi              Normal                  guifg=#E0E0FF      ctermfg=234       guibg=#202020   ctermbg=230
 
 hi              Pmenu                   guibg=#ffff8c      ctermbg=229       guifg=#555753   ctermfg=247
 hi              StatusLine              guifg=#666666      ctermfg=239       guibg=#eaeaea   ctermbg=188
