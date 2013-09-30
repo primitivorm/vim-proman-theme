@@ -88,7 +88,7 @@ else
   hi              RubySymbol              guifg=#FF9900      ctermfg=90        gui=bold        cterm=bold
 
 
-  hi              Identifier              guifg=#A3E0FF      ctermfg=39
+  hi              Identifier              guifg=#66FF66      ctermfg=39
   hi              Function                guifg=#FF9900      ctermfg=202       gui=bold        cterm=bold
 
   hi              Statement               guifg=#FF9999      ctermfg=53        gui=bold        cterm=bold
