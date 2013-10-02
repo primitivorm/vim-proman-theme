@@ -50,12 +50,12 @@ if &background=="light"
   hi              StorageClass            guifg=#4B0082      ctermfg=53        gui=bold        cterm=bold
   hi              Structure               guifg=#4B0082      ctermfg=53        gui=bold        cterm=bold
 
-  hi              Special                 guifg=#dd1144      ctermfg=196
+  hi              Special                 guifg=#dd1144      ctermfg=196       gui=bold        cterm=bold
   hi              SpecialChar             guifg=#808080      ctermfg=249       gui=bold        cterm=bold
-  hi              Tag                     guifg=#000080      ctermfg=18
-  hi              Delimiter               guifg=#dd1144      ctermfg=196
+  hi              Tag                     guifg=#000080      ctermfg=18        gui=bold        cterm=bold
+  hi              Delimiter               guifg=#dd1144      ctermfg=196       gui=bold        cterm=bold
   hi              SpecialComment          guifg=#999999      ctermfg=249       gui=bold,italic cterm=bold,italic
-  hi              Debug                   guifg=#aa0000      ctermfg=160
+  hi              Debug                   guifg=#aa0000      ctermfg=160       gui=bold        cterm=bold
 
   hi              Directory               guifg=#4B0082      ctermfg=39
   hi              Underlined              gui=underline      cterm=underline
@@ -104,9 +104,9 @@ else
   hi              Statement               guifg=#FFB8B8      ctermfg=53        gui=bold        cterm=bold
   hi              Conditional             guifg=#FF9900      ctermfg=88        gui=bold        cterm=bold
   hi              Repeat                  guifg=#FF9900      ctermfg=88        gui=bold        cterm=bold
-  hi              Label                   guifg=#FF0066      ctermfg=88
+  hi              Label                   guifg=#FFFF66      ctermfg=88        gui=bold        cterm=bold
   hi              Operator                guifg=#FF9900      ctermfg=88        gui=bold        cterm=bold
-  hi              Keyword                 guifg=#FF0066      ctermfg=88
+  hi              Keyword                 guifg=#FFFF66      ctermfg=88        gui=bold        cterm=bold
   hi              Exception               guifg=#FF9900      ctermfg=88        gui=bold        cterm=bold
 
   hi              PreProc                 guifg=#FF66FF      ctermfg=19
@@ -120,17 +120,17 @@ else
   hi              StorageClass            guifg=#FFB8B8      ctermfg=53        gui=bold        cterm=bold
   hi              Structure               guifg=#FFB8B8      ctermfg=53        gui=bold        cterm=bold
 
-  hi              Special                 guifg=#dd1144      ctermfg=196
+  hi              Special                 guifg=#FFFF66      ctermfg=196       gui=bold        cterm=bold
   hi              SpecialChar             guifg=#808080      ctermfg=249       gui=bold        cterm=bold
-  hi              Tag                     guifg=#66CCFF      ctermfg=18
-  hi              Delimiter               guifg=#dd1144      ctermfg=196
+  hi              Tag                     guifg=#66CCFF      ctermfg=18        gui=bold        cterm=bold
+  hi              Delimiter               guifg=#FFFF66      ctermfg=196       gui=bold        cterm=bold
   hi              SpecialComment          guifg=#999999      ctermfg=249       gui=bold,italic cterm=bold,italic
-  hi              Debug                   guifg=#aa0000      ctermfg=160
+  hi              Debug                   guifg=#aa0000      ctermfg=160       gui=bold        cterm=bold
 
   hi              Directory               guifg=#FFB8FF      ctermfg=39
   hi              Underlined              gui=underline      cterm=underline
   hi              Ignore                  guifg=bg
-  hi              Error                   guifg=#ff0000      ctermfg=160       guibg=#e3d2d2   ctermbg=7
+  hi              Error                   guifg=#dd1144      ctermfg=160       guibg=#e3d2d2   ctermbg=7        gui=bold        cterm=bold
   hi              Todo                    guifg=#999988      ctermfg=249       gui=italic      cterm=italic
 
   hi              Cursor                  guifg=#666666      ctermfg=NONE      guibg=#ffffff   ctermbg=214
