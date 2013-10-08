@@ -27,7 +27,6 @@ if &background=="light"
   hi              Float                   guifg=#FF1493      ctermfg=30
   hi              RubySymbol              guifg=#990073      ctermfg=90        gui=bold        cterm=bold
 
-
   hi              Identifier              guifg=#008000      ctermfg=39
   hi              Function                guifg=#990073      ctermfg=202       gui=bold        cterm=bold
 
@@ -87,7 +86,7 @@ if &background=="light"
 
 else
   "background=dark
-  hi              Comment                 guifg=#808080      ctermfg=236       gui=italic      cterm=italic
+  hi              Comment                 guifg=#B2B2B2      ctermfg=236       gui=italic      cterm=italic
 
   hi              Constant                guifg=#C266E0      ctermfg=30
   hi              String                  guifg=#FFB8FF      ctermfg=161
@@ -97,14 +96,13 @@ else
   hi              Float                   guifg=#C266E0      ctermfg=30
   hi              RubySymbol              guifg=#FF9900      ctermfg=90        gui=bold        cterm=bold
 
-
-  hi              Identifier              guifg=#66FF66      ctermfg=39
+  hi              Identifier              guifg=#FFFF66      ctermfg=39
   hi              Function                guifg=#FF9900      ctermfg=202       gui=bold        cterm=bold
 
   hi              Statement               guifg=#FFB8B8      ctermfg=53        gui=bold        cterm=bold
   hi              Conditional             guifg=#FF9900      ctermfg=88        gui=bold        cterm=bold
   hi              Repeat                  guifg=#FF9900      ctermfg=88        gui=bold        cterm=bold
-  hi              Label                   guifg=#FFFF66      ctermfg=88        gui=bold        cterm=bold
+  hi              Label                   guifg=#dd1144      ctermfg=88        gui=bold        cterm=bold
   hi              Operator                guifg=#FF9900      ctermfg=88        gui=bold        cterm=bold
   hi              Keyword                 guifg=#FFFF66      ctermfg=88        gui=bold        cterm=bold
   hi              Exception               guifg=#FF9900      ctermfg=88        gui=bold        cterm=bold
@@ -120,7 +118,7 @@ else
   hi              StorageClass            guifg=#FFB8B8      ctermfg=53        gui=bold        cterm=bold
   hi              Structure               guifg=#FFB8B8      ctermfg=53        gui=bold        cterm=bold
 
-  hi              Special                 guifg=#FFFF66      ctermfg=196       gui=bold        cterm=bold
+  hi              Special                 guifg=#FF4719      ctermfg=196       gui=bold        cterm=bold
   hi              SpecialChar             guifg=#808080      ctermfg=249       gui=bold        cterm=bold
   hi              Tag                     guifg=#66CCFF      ctermfg=18        gui=bold        cterm=bold
   hi              Delimiter               guifg=#FFFF66      ctermfg=196       gui=bold        cterm=bold
@@ -170,7 +168,7 @@ hi              SpecialKey              guifg=#1E90FF      ctermfg=33
 hi              NonText                 guifg=#1E90FF      ctermfg=33
 
 "NERDTree       Colors
-hi              NERDTreeFlag            guifg=#ff0000      ctermfg=160       guibg=#e3d2d2   ctermbg=7
+hi              NERDTreeFlag            guifg=#dd1144      ctermfg=160       guibg=#666666   ctermbg=7
 
 "               MiniBufExpl             Colors
 hi              MBEVisibleActive        guifg=#000080      guibg=fg          gui=bold        cterm=bold
