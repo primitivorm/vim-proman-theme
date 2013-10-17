@@ -2,7 +2,7 @@
 " Maintainer: Primitivo Roman <cibercafe_montero@hotmail.com>
 " Based on the work by: Ricardo Valeriano <ricardo.valeriano@gmail.com>
 " URL: https://github.com/ricardovaleriano/vim-github-theme
-" Last Change: 02-Oct-2013
+" Last Change: 17-Oct-2013
 " Version: 0.1
 " Homepage:https://github.com/primitivorm/vim-proman-theme.git
 
@@ -62,7 +62,7 @@ if &background=="light"
   hi              Error                   guifg=#ff0000      ctermfg=160       guibg=#e3d2d2   ctermbg=7
   hi              Todo                    guifg=#999988      ctermfg=249       gui=italic      cterm=italic
 
-  hi              Cursor                  guifg=#EBEBFF      ctermfg=NONE      guibg=#a61717   ctermbg=214
+  hi              Cursor                  guifg=#F5F5FF      ctermfg=NONE      guibg=#a61717   ctermbg=214
   hi              CursorLine              guifg=NONE         ctermfg=232       guibg=#FFDEAD   ctermbg=252        cterm=bold  term=bold  gui=underline
   hi              CursorColumn            guifg=NONE         ctermfg=NONE      guibg=#FFDEAD   ctermbg=231        cterm=bold  term=bold
   hi              CursorIM                guifg=#a61717      guibg=#000090     gui=NONE
@@ -72,7 +72,7 @@ if &background=="light"
   hi              VertSplit               guifg=#666666      ctermfg=239       guibg=#eaeaea   ctermbg=188
   hi              LineNr                  guifg=#009999      ctermfg=30        guibg=#eaeaea   ctermbg=188
   hi              ModeMsg                 gui=bold           cterm=bold
-  hi              Normal                  guifg=#1A1A1A      ctermfg=234       guibg=#EBEBFF   ctermbg=230
+  hi              Normal                  guifg=#333333      ctermfg=234       guibg=#F5F5FF   ctermbg=230
 
   "Diff Tool
   hi              DiffAdd                 guibg=#a3ffa3      ctermbg=194       gui=bold        cterm=bold
@@ -141,7 +141,7 @@ else
   hi              VertSplit               guifg=#666666      ctermfg=239       guibg=#eaeaea   ctermbg=188
   hi              LineNr                  guifg=#E0D1FF      ctermfg=30        guibg=#696969   ctermbg=188
   hi              ModeMsg                 gui=bold           cterm=bold
-  hi              Normal                  guifg=#E0D1FF      ctermfg=234       guibg=#333333   ctermbg=230
+  hi              Normal                  guifg=#F5F5FF      ctermfg=234       guibg=#333333   ctermbg=230
 
   "Diff Tool
   hi              DiffAdd                 guibg=#004C00      ctermbg=194       gui=bold        cterm=bold
