@@ -2,7 +2,7 @@
 " Maintainer: Primitivo Roman <cibercafe_montero@hotmail.com>
 " Based on the work by: Ricardo Valeriano <ricardo.valeriano@gmail.com>
 " URL: https://github.com/ricardovaleriano/vim-github-theme
-" Last Change: 18-Oct-2013
+" Last Change: 20-Oct-2013
 " Version: 0.1
 " Homepage:https://github.com/primitivorm/vim-proman-theme.git
 
@@ -18,14 +18,14 @@ let g:colors_name="proman"
 set t_Co=256
 
 if &background=="light"
-hi              Comment                 guifg=#696969      ctermfg=8        gui=italic      cterm=italic
+hi              Comment                 guifg=#696969      ctermfg=240        ctermbg=15     gui=italic      cterm=italic
 
-hi              Constant                guifg=#FF1493      ctermfg=13
+hi              Constant                guifg=#FF1493      ctermfg=207
 hi              String                  guifg=#FF4500      ctermfg=9
 hi              Character               guifg=#FF4500      ctermfg=9
-hi              Number                  guifg=#FF1493      ctermfg=13
+hi              Number                  guifg=#FF1493      ctermfg=207
 hi              Boolean                 gui=bold           cterm=bold
-hi              Float                   guifg=#FF1493      ctermfg=13
+hi              Float                   guifg=#FF1493      ctermfg=207
 hi              RubySymbol              guifg=#990073      ctermfg=54
 
 hi              Identifier              guifg=#008000      ctermfg=22
@@ -34,19 +34,19 @@ hi              Function                guifg=#990073      ctermfg=54        gui
 hi              Statement               guifg=#4B0082      ctermfg=93        gui=bold        cterm=bold
 hi              Conditional             guifg=#990073      ctermfg=54        gui=bold        cterm=bold
 hi              Repeat                  guifg=#990073      ctermfg=54        gui=bold        cterm=bold
-hi              Label                   guifg=#FF1493      ctermfg=13
+hi              Label                   guifg=#FF1493      ctermfg=207
 hi              Operator                guifg=#990073      ctermfg=54        gui=bold        cterm=bold
-hi              Keyword                 guifg=#FF1493      ctermfg=13
+hi              Keyword                 guifg=#FF1493      ctermfg=207
 hi              Exception               guifg=#990073      ctermfg=54        gui=bold        cterm=bold
 
-hi              PreProc                 guifg=#FF1493      ctermfg=13
+hi              PreProc                 guifg=#FF1493      ctermfg=207
 hi              Include                 guifg=#008000      ctermfg=22
 hi              Define                  guifg=#1e90ff      ctermfg=27
-hi              Macro                   guifg=#FF1493      ctermfg=13
+hi              Macro                   guifg=#FF1493      ctermfg=207
 hi              PreCondit               guifg=#1e90ff      ctermfg=27
 
-hi              Type                    guifg=#009999      ctermfg=51
-hi              Typedef                 guifg=#009999      ctermfg=51
+hi              Type                    guifg=#009999      ctermfg=37
+hi              Typedef                 guifg=#009999      ctermfg=37
 hi              StorageClass            guifg=#4B0082      ctermfg=93        gui=bold        cterm=bold
 hi              Structure               guifg=#4B0082      ctermfg=93        gui=bold        cterm=bold
 
@@ -71,7 +71,7 @@ hi              lCursor                 guifg=#a61717      guibg=#000000     gui
 
 hi              ErrorMsg                guifg=#a61717      ctermfg=214       guibg=#e3d2d2   ctermbg=7        gui=bold    cterm=bold
 hi              VertSplit               guifg=#666666      ctermfg=8       guibg=#eaeaea   ctermbg=15
-hi              LineNr                  guifg=#009999      ctermfg=51        guibg=#eaeaea   ctermbg=15
+hi              LineNr                  guifg=#009999      ctermfg=207        guibg=#eaeaea   ctermbg=15
 hi              ModeMsg                 gui=bold           cterm=bold
 hi              Normal                  guifg=#333333      ctermfg=0       guibg=#F5F5FF   ctermbg=15
 
@@ -87,7 +87,7 @@ hi              FoldColumn              guibg=#e3d2d2      guifg=#1A1A1A  ctermb
 
 else
 "background=dark
-hi              Comment                 guifg=#B2B2B2      ctermfg=7       gui=italic      cterm=italic
+hi              Comment                 guifg=#B2B2B2      ctermfg=254       gui=italic      cterm=italic
 
 hi              Constant                guifg=#C266E0      ctermfg=171
 hi              String                  guifg=#FF9900      ctermfg=202
@@ -126,7 +126,7 @@ hi              Delimiter               guifg=#FFFF66      ctermfg=227       gui
 hi              SpecialComment          guifg=#999999      ctermfg=249       gui=bold,italic cterm=bold,italic
 hi              Debug                   guifg=#aa0000      ctermfg=214       guibg=#696969   gui=bold        cterm=bold
 
-hi              Directory               guifg=#FFB8FF      ctermfg=183
+hi              Directory               guifg=#FFB8FF      ctermfg=43
 hi              Underlined              gui=underline      cterm=underline
 hi              Ignore                  guifg=bg
 hi              Error                   guifg=#dd1144      ctermfg=124       guibg=#e3d2d2   ctermbg=7        gui=bold        cterm=bold
@@ -140,7 +140,7 @@ hi              lCursor                 guifg=#666666      guibg=#000000 ctermfg
 
 hi              ErrorMsg                guifg=#e3d2d2      ctermfg=252       guibg=#a61717   ctermbg=214        gui=bold    cterm=bold
 hi              VertSplit               guifg=#666666      ctermfg=239       guibg=#eaeaea   ctermbg=15
-hi              LineNr                  guifg=#E0D1FF      ctermfg=183        guibg=#696969   ctermbg=242
+hi              LineNr                  guifg=#E0D1FF      ctermfg=43        guibg=#696969   ctermbg=242
 hi              ModeMsg                 gui=bold           cterm=bold
 hi              Normal                  guifg=#F5F5FF      ctermfg=254       guibg=#333333   ctermbg=233
 
@@ -173,7 +173,7 @@ hi              NERDTreeFlag            guifg=#dd1144      ctermfg=160       gui
 
 "               MiniBufExpl             Colors
 hi              MBEVisibleActive        guifg=#000080      guibg=fg      ctermfg=20     gui=bold        cterm=bold
-hi              MBEVisibleNormal        guifg=#009999      guibg=fg     ctermfg=51     gui=bold        cterm=bold
+hi              MBEVisibleNormal        guifg=#009999      guibg=fg     ctermfg=207     gui=bold        cterm=bold
 hi              MBEVisibleChangedActive guifg=#F1266F      guibg=fg ctermfg=126
 hi              MBEVisibleChanged       guifg=#F1266F      guibg=fg ctermfg=126
 hi              MBEChanged              guifg=#ff0000      guibg=fg ctermfg=196
