@@ -26,6 +26,7 @@ if &background=="light"
   hi LineNr term=underline cterm=NONE ctermbg=255 ctermfg=37 gui=NONE guibg=#eaeaea guifg=#009999
   hi Pmenu term=NONE cterm=NONE ctermbg=231 ctermfg=102 gui=NONE guibg=#ffffff guifg=#666666
   hi PmenuSel term=NONE cterm=NONE ctermbg=102 ctermfg=231 gui=NONE guibg=#666666 guifg=#ffffff
+  hi CursorColumn term=bold cterm=NONE ctermbg=223 ctermfg=16 gui=NONE guibg=#ffdead guifg=#000000
   hi TabLine term=underline cterm=underline ctermbg=252 ctermfg=75 gui=underline guibg=#d3d3d3 guifg=#1e90ff
   hi TabLineSel term=bold cterm=bold ctermbg=bg ctermfg=196 gui=bold guibg=bg guifg=#ff0000
   hi TabLineFill term=reverse cterm=reverse ctermbg=155 ctermfg=fg gui=reverse guibg=bg guifg=#adff2f
@@ -55,6 +56,7 @@ if &background=="light"
   hi Keyword term=NONE cterm=NONE ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Exception term=NONE cterm=bold ctermbg=bg ctermfg=126 gui=bold guibg=bg guifg=#990073
   hi Include term=NONE cterm=NONE ctermbg=bg ctermfg=34 gui=NONE guibg=bg guifg=#008000
+  hi CursorLine term=bold cterm=underline ctermbg=223 ctermfg=16 gui=underline guibg=#ffdead guifg=#000000
   hi Define term=NONE cterm=NONE ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
   hi Macro term=NONE cterm=NONE ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi PreCondit term=NONE cterm=NONE ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
