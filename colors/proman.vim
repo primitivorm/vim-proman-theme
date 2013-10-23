@@ -2,7 +2,7 @@
 " Maintainer: Primitivo Roman <cibercafe_montero@hotmail.com>
 " Based on the work by: Ricardo Valeriano <ricardo.valeriano@gmail.com>
 " URL: https://github.com/ricardovaleriano/vim-github-theme
-" Last Change: 22-Oct-2013
+" Last Change: 23-Oct-2013
 " Version: 0.1
 " Homepage:https://github.com/primitivorm/vim-proman-theme.git
 " This is a ViM's version of the proman color theme.
@@ -24,6 +24,7 @@ if &background=="light"
   hi Search term=reverse cterm=NONE ctermbg=153 ctermfg=16 gui=NONE guibg=#87cefa guifg=#000000
   hi MoreMsg term=bold cterm=bold ctermbg=bg ctermfg=72 gui=bold guibg=bg guifg=#2e8b57
   hi LineNr term=underline cterm=NONE ctermbg=255 ctermfg=37 gui=NONE guibg=#eaeaea guifg=#009999
+  hi SignColumn term=NONE cterm=NONE ctermbg=255 ctermfg=19 gui=NONE guibg=#eaeaea guifg=#000080
   hi Pmenu term=NONE cterm=NONE ctermbg=231 ctermfg=102 gui=NONE guibg=#ffffff guifg=#666666
   hi PmenuSel term=NONE cterm=NONE ctermbg=102 ctermfg=231 gui=NONE guibg=#666666 guifg=#ffffff
   hi CursorColumn term=bold cterm=NONE ctermbg=223 ctermfg=16 gui=NONE guibg=#ffdead guifg=#000000
@@ -47,7 +48,6 @@ if &background=="light"
   hi String term=NONE cterm=NONE ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff4500
   hi Character term=NONE cterm=NONE ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff4500
   hi Number term=NONE cterm=NONE ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
-  hi VertSplit term=reverse cterm=reverse ctermbg=102 ctermfg=255 gui=reverse guibg=#eaeaea guifg=#666666
   hi Float term=NONE cterm=NONE ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Function term=NONE cterm=bold ctermbg=bg ctermfg=126 gui=bold guibg=bg guifg=#990073
   hi Repeat term=NONE cterm=bold ctermbg=bg ctermfg=126 gui=bold guibg=bg guifg=#990073
@@ -82,6 +82,7 @@ if &background=="light"
   hi CursorLineNr term=bold cterm=bold ctermbg=bg ctermfg=131 gui=bold guibg=bg guifg=#804040
   hi Question term=NONE cterm=bold ctermbg=bg ctermfg=72 gui=bold guibg=bg guifg=#2e8b57
   hi StatusLine term=bold,reverse cterm=bold,reverse ctermbg=102 ctermfg=255 gui=bold,reverse guibg=#eaeaea guifg=#666666
+  hi VertSplit term=reverse cterm=reverse ctermbg=223 ctermfg=16 gui=reverse guibg=#ffdead guifg=#000000
   hi Title term=bold cterm=bold ctermbg=153 ctermfg=201 gui=bold guibg=#87cefa guifg=#ff00ff
   hi Visual term=reverse cterm=NONE ctermbg=152 ctermfg=16 gui=NONE guibg=#b0c4de guifg=#000000
   hi WarningMsg term=NONE cterm=NONE ctermbg=bg ctermfg=196 gui=NONE guibg=bg guifg=#ff0000
@@ -90,7 +91,6 @@ if &background=="light"
   hi Folded term=NONE cterm=NONE ctermbg=188 ctermfg=234 gui=NONE guibg=#e3d2d2 guifg=#1a1a1a
   hi FoldColumn term=NONE cterm=NONE ctermbg=188 ctermfg=234 gui=NONE guibg=#e3d2d2 guifg=#1a1a1a
   hi DiffDelete term=bold cterm=bold ctermbg=223 ctermfg=21 gui=bold guibg=#ffdead guifg=#0000ff
-  hi SignColumn term=NONE cterm=NONE ctermbg=250 ctermfg=19 gui=NONE guibg=#c0c0c0 guifg=#000080
   hi Conceal term=NONE cterm=NONE ctermbg=248 ctermfg=252 gui=NONE guibg=#a9a9a9 guifg=#d3d3d3
 else
   hi Normal term=NONE cterm=NONE ctermbg=59 ctermfg=231 gui=NONE guibg=#333333 guifg=#f5f5ff
@@ -102,6 +102,7 @@ else
   hi Search term=reverse cterm=NONE ctermbg=153 ctermfg=16 gui=NONE guibg=#87cefa guifg=#000000
   hi MoreMsg term=bold cterm=bold ctermbg=bg ctermfg=72 gui=bold guibg=bg guifg=#2e8b57
   hi LineNr term=underline cterm=NONE ctermbg=102 ctermfg=189 gui=NONE guibg=#696969 guifg=#e0d1ff
+  hi SignColumn term=NONE cterm=NONE ctermbg=102 ctermfg=51 gui=NONE guibg=#696969 guifg=#00ffff
   hi Cursor term=NONE cterm=NONE ctermbg=124 ctermfg=231 gui=NONE guibg=#a61717 guifg=#ebebff
   hi Pmenu term=NONE cterm=NONE ctermbg=231 ctermfg=102 gui=NONE guibg=#ffffff guifg=#666666
   hi PmenuSel term=NONE cterm=NONE ctermbg=102 ctermfg=231 gui=NONE guibg=#666666 guifg=#ffffff
@@ -125,7 +126,7 @@ else
   hi Number term=NONE cterm=NONE ctermbg=bg ctermfg=176 gui=NONE guibg=bg guifg=#c266e0
   hi Question term=NONE cterm=bold ctermbg=bg ctermfg=46 gui=bold guibg=bg guifg=#00ff00
   hi StatusLine term=bold,reverse cterm=bold,reverse ctermbg=102 ctermfg=255 gui=bold,reverse guibg=#eaeaea guifg=#666666
-  hi VertSplit term=reverse cterm=reverse ctermbg=102 ctermfg=255 gui=reverse guibg=#eaeaea guifg=#666666
+  hi VertSplit term=reverse cterm=reverse ctermbg=16 ctermfg=223 gui=reverse guibg=#000000 guifg=#ffdead
   hi Float term=NONE cterm=NONE ctermbg=bg ctermfg=176 gui=NONE guibg=bg guifg=#c266e0
   hi Function term=NONE cterm=bold ctermbg=bg ctermfg=225 gui=bold guibg=bg guifg=#ffb8ff
   hi Conditional term=NONE cterm=bold ctermbg=bg ctermfg=225 gui=bold guibg=bg guifg=#ffb8ff
@@ -167,7 +168,6 @@ else
   hi WarningMsg term=NONE cterm=NONE ctermbg=bg ctermfg=196 gui=NONE guibg=bg guifg=#ff0000
   hi WildMenu term=NONE cterm=NONE ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff00 guifg=#000000
   hi DiffDelete term=bold cterm=bold ctermbg=223 ctermfg=21 gui=bold guibg=#ffdead guifg=#0000ff
-  hi SignColumn term=NONE cterm=NONE ctermbg=250 ctermfg=51 gui=NONE guibg=#c0c0c0 guifg=#00ffff
   hi FoldColumn term=NONE cterm=NONE ctermbg=239 ctermfg=231 gui=NONE guibg=#4c4c4c guifg=#ffffff
   hi Conceal term=NONE cterm=NONE ctermbg=248 ctermfg=252 gui=NONE guibg=#a9a9a9 guifg=#d3d3d3
 endif
