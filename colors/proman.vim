@@ -21,6 +21,7 @@ if &background=="light"
   hi Directory term=bold cterm=NONE ctermbg=bg ctermfg=55 gui=NONE guibg=bg guifg=#4b0082
   hi ErrorMsg term=NONE cterm=bold ctermbg=188 ctermfg=124 gui=bold guibg=#e3d2d2 guifg=#a61717
   hi IncSearch term=reverse cterm=reverse ctermbg=210 ctermfg=16 gui=reverse guibg=#000000 guifg=#ff7f50
+  hi ColorColumn term=reverse cterm=reverse ctermbg=210 ctermfg=16 gui=reverse guibg=#000000 guifg=#ff7f50
   hi Search term=reverse cterm=NONE ctermbg=153 ctermfg=16 gui=NONE guibg=#87cefa guifg=#000000
   hi MoreMsg term=bold cterm=bold ctermbg=bg ctermfg=72 gui=bold guibg=bg guifg=#2e8b57
   hi LineNr term=underline cterm=NONE ctermbg=255 ctermfg=37 gui=NONE guibg=#eaeaea guifg=#009999
@@ -100,6 +101,7 @@ else
   hi Directory term=bold cterm=NONE ctermbg=bg ctermfg=225 gui=NONE guibg=bg guifg=#ffb8ff
   hi ErrorMsg term=NONE cterm=bold ctermbg=124 ctermfg=188 gui=bold guibg=#a61717 guifg=#e3d2d2
   hi IncSearch term=reverse cterm=reverse ctermbg=210 ctermfg=16 gui=reverse guibg=#000000 guifg=#ff7f50
+  hi ColorColumn term=reverse cterm=reverse ctermbg=210 ctermfg=16 gui=reverse guibg=#000000 guifg=#ff7f50
   hi Search term=reverse cterm=NONE ctermbg=153 ctermfg=16 gui=NONE guibg=#87cefa guifg=#000000
   hi MoreMsg term=bold cterm=bold ctermbg=bg ctermfg=72 gui=bold guibg=bg guifg=#2e8b57
   hi LineNr term=underline cterm=NONE ctermbg=102 ctermfg=255 gui=NONE guibg=#696969 guifg=#eaeaea
