@@ -16,6 +16,8 @@ set t_Co=256
 
 if &background=="light"
   hi Normal term=NONE cterm=NONE ctermbg=231 ctermfg=59 gui=NONE guibg=#f5f5ff guifg=#333333
+  hi LineNr term=underline cterm=NONE ctermbg=102 ctermfg=37 gui=NONE guibg=#eaeaea guifg=#009999
+  hi SignColumn term=NONE cterm=NONE ctermbg=102 ctermfg=19 gui=NONE guibg=#eaeaea guifg=#000080
   hi SpecialKey term=bold cterm=NONE ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
   hi NonText term=bold cterm=bold ctermbg=bg ctermfg=75 gui=bold guibg=bg guifg=#1e90ff
   hi Directory term=bold cterm=NONE ctermbg=bg ctermfg=55 gui=NONE guibg=bg guifg=#4b0082
@@ -24,8 +26,6 @@ if &background=="light"
   hi ColorColumn term=reverse cterm=reverse ctermbg=210 ctermfg=16 gui=reverse guibg=#000000 guifg=#ff7f50
   hi Search term=reverse cterm=NONE ctermbg=153 ctermfg=16 gui=NONE guibg=#87cefa guifg=#000000
   hi MoreMsg term=bold cterm=bold ctermbg=bg ctermfg=72 gui=bold guibg=bg guifg=#2e8b57
-  hi LineNr term=underline cterm=NONE ctermbg=255 ctermfg=37 gui=NONE guibg=#eaeaea guifg=#009999
-  hi SignColumn term=NONE cterm=NONE ctermbg=255 ctermfg=19 gui=NONE guibg=#eaeaea guifg=#000080
   hi Pmenu term=NONE cterm=NONE ctermbg=231 ctermfg=102 gui=NONE guibg=#ffffff guifg=#666666
   hi PmenuSel term=NONE cterm=NONE ctermbg=102 ctermfg=231 gui=NONE guibg=#666666 guifg=#ffffff
   hi CursorColumn term=bold cterm=NONE ctermbg=223 ctermfg=16 gui=NONE guibg=#ffdead guifg=#000000
@@ -96,6 +96,8 @@ if &background=="light"
   hi Conceal term=NONE cterm=NONE ctermbg=248 ctermfg=252 gui=NONE guibg=#a9a9a9 guifg=#d3d3d3
 else
   hi Normal term=NONE cterm=NONE ctermbg=59 ctermfg=231 gui=NONE guibg=#333333 guifg=#f5f5ff
+  hi LineNr term=underline cterm=NONE ctermbg=102 ctermfg=255 gui=NONE guibg=#666666 guifg=#eaeaea
+  hi SignColumn term=NONE cterm=NONE ctermbg=102 ctermfg=16 gui=NONE guibg=#666666 guifg=#ff7f50
   hi SpecialKey term=bold cterm=NONE ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
   hi NonText term=bold cterm=bold ctermbg=bg ctermfg=75 gui=bold guibg=bg guifg=#1e90ff
   hi Directory term=bold cterm=NONE ctermbg=bg ctermfg=225 gui=NONE guibg=bg guifg=#ffb8ff
@@ -104,8 +106,6 @@ else
   hi ColorColumn term=reverse cterm=reverse ctermbg=210 ctermfg=16 gui=reverse guibg=#000000 guifg=#ff7f50
   hi Search term=reverse cterm=NONE ctermbg=153 ctermfg=16 gui=NONE guibg=#87cefa guifg=#000000
   hi MoreMsg term=bold cterm=bold ctermbg=bg ctermfg=72 gui=bold guibg=bg guifg=#2e8b57
-  hi LineNr term=underline cterm=NONE ctermbg=102 ctermfg=255 gui=NONE guibg=#696969 guifg=#eaeaea
-  hi SignColumn term=NONE cterm=NONE ctermbg=102 ctermfg=51 gui=NONE guibg=#696969 guifg=#00ffff
   hi Cursor term=NONE cterm=NONE ctermbg=124 ctermfg=231 gui=NONE guibg=#a61717 guifg=#ebebff
   hi Pmenu term=NONE cterm=NONE ctermbg=231 ctermfg=102 gui=NONE guibg=#ffffff guifg=#666666
   hi PmenuSel term=NONE cterm=NONE ctermbg=102 ctermfg=231 gui=NONE guibg=#666666 guifg=#ffffff
@@ -121,7 +121,7 @@ else
   hi Statement term=bold cterm=bold ctermbg=bg ctermfg=224 gui=bold guibg=bg guifg=#ffb8b8
   hi PreProc term=underline cterm=NONE ctermbg=bg ctermfg=213 gui=NONE guibg=bg guifg=#ff66ff
   hi Type term=underline cterm=bold ctermbg=bg ctermfg=117 gui=bold guibg=bg guifg=#66ccff
-  hi Underlined term=underline cterm=underline ctermbg=bg ctermfg=147 gui=underline guibg=bg guifg=#80a0ff
+  hi Underlined term=underline cterm=underline ctermbg=bg ctermfg=231 gui=underline guibg=bg guifg=#ffffff
   hi Ignore term=NONE cterm=NONE ctermbg=bg ctermfg=59 gui=NONE guibg=bg guifg=#333333
   hi Todo term=NONE cterm=NONE ctermbg=226 ctermfg=145 gui=italic guibg=#ffff00 guifg=#999988
   hi String term=NONE cterm=NONE ctermbg=bg ctermfg=214 gui=NONE guibg=bg guifg=#ff9900
