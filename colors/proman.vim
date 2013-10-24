@@ -2,7 +2,7 @@
 " Maintainer: Primitivo Roman <cibercafe_montero@hotmail.com>
 " Based on the work by: Ricardo Valeriano <ricardo.valeriano@gmail.com>
 " URL: https://github.com/ricardovaleriano/vim-github-theme
-" Last Change: 23-Oct-2013
+" Last Change: 24-Oct-2013
 " Version: 0.1
 " Homepage:https://github.com/primitivorm/vim-proman-theme.git
 " This is a ViM's version of the proman color theme.
@@ -58,6 +58,7 @@ if &background=="light"
   hi Include term=NONE cterm=NONE ctermbg=bg ctermfg=34 gui=NONE guibg=bg guifg=#008000
   hi CursorLine term=bold cterm=underline ctermbg=223 ctermfg=16 gui=underline guibg=#ffdead guifg=#000000
   hi Define term=NONE cterm=NONE ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
+  hi Identifier term=NONE cterm=NONE ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
   hi Macro term=NONE cterm=NONE ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi PreCondit term=NONE cterm=NONE ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
   hi StorageClass term=NONE cterm=bold ctermbg=bg ctermfg=55 gui=bold guibg=bg guifg=#4b0082
@@ -82,7 +83,7 @@ if &background=="light"
   hi CursorLineNr term=bold cterm=bold ctermbg=bg ctermfg=131 gui=bold guibg=bg guifg=#804040
   hi Question term=NONE cterm=bold ctermbg=bg ctermfg=72 gui=bold guibg=bg guifg=#2e8b57
   hi StatusLine term=bold,reverse cterm=bold,reverse ctermbg=102 ctermfg=255 gui=bold,reverse guibg=#eaeaea guifg=#666666
-  hi VertSplit term=reverse cterm=reverse ctermbg=223 ctermfg=16 gui=reverse guibg=#ffdead guifg=#000000
+  hi VertSplit term=reverse cterm=reverse ctermbg=231 ctermfg=16 gui=reverse guibg=#ffffff guifg=#000000
   hi Title term=bold cterm=bold ctermbg=153 ctermfg=201 gui=bold guibg=#87cefa guifg=#ff00ff
   hi Visual term=reverse cterm=NONE ctermbg=152 ctermfg=16 gui=NONE guibg=#b0c4de guifg=#000000
   hi WarningMsg term=NONE cterm=NONE ctermbg=bg ctermfg=196 gui=NONE guibg=bg guifg=#ff0000
@@ -101,7 +102,7 @@ else
   hi IncSearch term=reverse cterm=reverse ctermbg=210 ctermfg=16 gui=reverse guibg=#000000 guifg=#ff7f50
   hi Search term=reverse cterm=NONE ctermbg=153 ctermfg=16 gui=NONE guibg=#87cefa guifg=#000000
   hi MoreMsg term=bold cterm=bold ctermbg=bg ctermfg=72 gui=bold guibg=bg guifg=#2e8b57
-  hi LineNr term=underline cterm=NONE ctermbg=102 ctermfg=189 gui=NONE guibg=#696969 guifg=#e0d1ff
+  hi LineNr term=underline cterm=NONE ctermbg=102 ctermfg=255 gui=NONE guibg=#696969 guifg=#eaeaea
   hi SignColumn term=NONE cterm=NONE ctermbg=102 ctermfg=51 gui=NONE guibg=#696969 guifg=#00ffff
   hi Cursor term=NONE cterm=NONE ctermbg=124 ctermfg=231 gui=NONE guibg=#a61717 guifg=#ebebff
   hi Pmenu term=NONE cterm=NONE ctermbg=231 ctermfg=102 gui=NONE guibg=#ffffff guifg=#666666
@@ -126,7 +127,7 @@ else
   hi Number term=NONE cterm=NONE ctermbg=bg ctermfg=176 gui=NONE guibg=bg guifg=#c266e0
   hi Question term=NONE cterm=bold ctermbg=bg ctermfg=46 gui=bold guibg=bg guifg=#00ff00
   hi StatusLine term=bold,reverse cterm=bold,reverse ctermbg=102 ctermfg=255 gui=bold,reverse guibg=#eaeaea guifg=#666666
-  hi VertSplit term=reverse cterm=reverse ctermbg=16 ctermfg=223 gui=reverse guibg=#000000 guifg=#ffdead
+  hi VertSplit term=reverse cterm=reverse ctermbg=16 ctermfg=231 gui=reverse guibg=#000000 guifg=#ffffff
   hi Float term=NONE cterm=NONE ctermbg=bg ctermfg=176 gui=NONE guibg=bg guifg=#c266e0
   hi Function term=NONE cterm=bold ctermbg=bg ctermfg=225 gui=bold guibg=bg guifg=#ffb8ff
   hi Conditional term=NONE cterm=bold ctermbg=bg ctermfg=225 gui=bold guibg=bg guifg=#ffb8ff
@@ -138,6 +139,7 @@ else
   hi Include term=NONE cterm=NONE ctermbg=bg ctermfg=120 gui=NONE guibg=bg guifg=#66ff66
   hi CursorLine term=bold cterm=underline ctermbg=223 ctermfg=16 gui=underline guibg=#ffdead guifg=#000000
   hi Define term=NONE cterm=NONE ctermbg=bg ctermfg=228 gui=NONE guibg=bg guifg=#ffff66
+  hi Identifier term=NONE cterm=NONE ctermbg=bg ctermfg=228 gui=NONE guibg=bg guifg=#ffff66
   hi Macro term=NONE cterm=NONE ctermbg=bg ctermfg=213 gui=NONE guibg=bg guifg=#ff66ff
   hi PreCondit term=NONE cterm=NONE ctermbg=bg ctermfg=228 gui=NONE guibg=bg guifg=#ffff66
   hi StorageClass term=NONE cterm=bold ctermbg=bg ctermfg=224 gui=bold guibg=bg guifg=#ffb8b8
