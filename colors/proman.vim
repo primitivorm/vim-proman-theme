@@ -68,7 +68,7 @@ if &background=="light"
   hi Number term=NONE cterm=NONE ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Operator term=NONE cterm=bold ctermbg=bg ctermfg=126 gui=bold guibg=bg guifg=#990073
   hi Pmenu term=NONE cterm=NONE ctermbg=59 ctermfg=231 gui=NONE guibg=#333333 guifg=#f5f5ff
-  hi PmenuSel term=NONE cterm=NONE ctermbg=120 ctermfg=59 gui=NONE guibg=#66ff66 guifg=#333333
+  hi PmenuSel term=NONE cterm=NONE ctermbg=153 ctermfg=59 gui=NONE guibg=#87cefa guifg=#333333
   hi PreCondit term=NONE cterm=NONE ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
   hi PreProc term=underline cterm=NONE ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Question term=NONE cterm=bold ctermbg=bg ctermfg=72 gui=bold guibg=bg guifg=#2e8b57
@@ -85,9 +85,9 @@ if &background=="light"
   hi StorageClass term=NONE cterm=bold ctermbg=bg ctermfg=55 gui=bold guibg=bg guifg=#4b0082
   hi String term=NONE cterm=NONE ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff4500
   hi Structure term=NONE cterm=bold ctermbg=bg ctermfg=55 gui=bold guibg=bg guifg=#4b0082
-  hi TabLine term=underline cterm=underline ctermbg=252 ctermfg=75 gui=underline guibg=#d3d3d3 guifg=#1e90ff
-  hi TabLineFill term=reverse cterm=reverse ctermbg=155 ctermfg=fg gui=reverse guibg=bg guifg=#adff2f
-  hi TabLineSel term=bold cterm=bold ctermbg=bg ctermfg=196 gui=bold guibg=bg guifg=#ff0000
+  hi TabLine term=underline cterm=underline ctermbg=252 ctermfg=102 gui=underline guibg=#d3d3d3 guifg=#666666
+  hi TabLineFill term=underline cterm=underline ctermbg=102 ctermfg=fg gui=underline guibg=#eaeaea guifg=fg
+  hi TabLineSel term=underline,bold cterm=underline,bold ctermbg=bg ctermfg=16 gui=underline,bold guibg=bg guifg=#000000
   hi Tag term=NONE cterm=bold ctermbg=bg ctermfg=19 gui=bold guibg=bg guifg=#000080
   hi Title term=bold cterm=bold ctermbg=153 ctermfg=201 gui=bold guibg=#87cefa guifg=#ff00ff
   hi Todo term=NONE cterm=NONE ctermbg=226 ctermfg=145 gui=italic guibg=#ffff00 guifg=#999988
@@ -153,7 +153,7 @@ else
   hi Number term=NONE cterm=NONE ctermbg=bg ctermfg=176 gui=NONE guibg=bg guifg=#c266e0
   hi Operator term=NONE cterm=bold ctermbg=bg ctermfg=225 gui=bold guibg=bg guifg=#ffb8ff
   hi Pmenu term=NONE cterm=NONE ctermbg=231 ctermfg=59 gui=NONE guibg=#f5f5ff guifg=#333333
-  hi PmenuSel term=NONE cterm=NONE ctermbg=120 ctermfg=59 gui=NONE guibg=#66ff66 guifg=#333333
+  hi PmenuSel term=NONE cterm=NONE ctermbg=153 ctermfg=59 gui=NONE guibg=#87cefa guifg=#333333
   hi PreCondit term=NONE cterm=NONE ctermbg=bg ctermfg=228 gui=NONE guibg=bg guifg=#ffff66
   hi PreProc term=underline cterm=NONE ctermbg=bg ctermfg=213 gui=NONE guibg=bg guifg=#ff66ff
   hi Question term=NONE cterm=bold ctermbg=bg ctermfg=46 gui=bold guibg=bg guifg=#00ff00
@@ -170,9 +170,9 @@ else
   hi StorageClass term=NONE cterm=bold ctermbg=bg ctermfg=224 gui=bold guibg=bg guifg=#ffb8b8
   hi String term=NONE cterm=NONE ctermbg=bg ctermfg=214 gui=NONE guibg=bg guifg=#ff9900
   hi Structure term=NONE cterm=bold ctermbg=bg ctermfg=224 gui=bold guibg=bg guifg=#ffb8b8
-  hi TabLine term=underline cterm=underline ctermbg=248 ctermfg=75 gui=underline guibg=#a9a9a9 guifg=#1e90ff
-  hi TabLineFill term=reverse cterm=reverse ctermbg=155 ctermfg=fg gui=reverse guibg=bg guifg=#adff2f
-  hi TabLineSel term=bold cterm=bold ctermbg=bg ctermfg=196 gui=bold guibg=bg guifg=#ff0000
+  hi TabLineSel term=underline cterm=underline,bold ctermbg=16 ctermfg=102 gui=underline,bold guibg=#000000 guifg=#eaeaea
+  hi TabLineFill term=underline cterm=underline ctermbg=102 ctermfg=fg gui=underline guibg=#666666 guifg=fg
+  hi TabLine term=underline cterm=underline ctermbg=bg ctermfg=149 gui=underline guibg=bg guifg=#b2b2b2
   hi Tag term=NONE cterm=bold ctermbg=bg ctermfg=117 gui=bold guibg=bg guifg=#66ccff
   hi Title term=bold cterm=bold ctermbg=153 ctermfg=201 gui=bold guibg=#87cefa guifg=#ff00ff
   hi Todo term=NONE cterm=NONE ctermbg=226 ctermfg=145 gui=italic guibg=#ffff00 guifg=#999988
