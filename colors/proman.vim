@@ -51,7 +51,7 @@ if &background=="light"
   hi IndentGuidesOdd term=NONE cterm=NONE ctermbg=188 ctermfg=188 gui=NONE guibg=#dcdce5 guifg=#c6c6ce
   hi Keyword term=NONE cterm=NONE ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Label term=NONE cterm=NONE ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
-  hi LineNr term=underline cterm=NONE ctermbg=102 ctermfg=37 gui=NONE guibg=#eaeaea guifg=#009999
+  hi LineNr term=underline cterm=NONE ctermbg=255 ctermfg=37 gui=NONE guibg=#eaeaea guifg=#009999
   hi MBEChanged term=NONE cterm=NONE ctermbg=59 ctermfg=196 gui=NONE guibg=#333333 guifg=#ff0000
   hi MBENormal term=NONE cterm=NONE ctermbg=59 ctermfg=102 gui=NONE guibg=#333333 guifg=#696969
   hi MBEVisibleActive term=NONE cterm=bold ctermbg=59 ctermfg=19 gui=bold guibg=#333333 guifg=#000080
