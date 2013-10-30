@@ -22,11 +22,11 @@ if &background=="light"
   hi Comment term=NONE cterm=NONE ctermbg=bg ctermfg=102 gui=italic guibg=bg guifg=#696969
   hi Conceal term=NONE cterm=NONE ctermbg=248 ctermfg=252 gui=NONE guibg=#a9a9a9 guifg=#d3d3d3
   hi Conditional term=bold cterm=bold ctermbg=bg ctermfg=126 gui=bold guibg=bg guifg=#990073
-  hi Constant term=underline cterm=underline ctermbg=bg ctermfg=199 gui=underline guibg=bg guifg=#ff1493
+  hi Constant term=NONE cterm=NONE ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Cursor term=NONE cterm=NONE ctermbg=59 ctermfg=231 gui=NONE guibg=#333333 guifg=#f5f5ff
   hi CursorColumn term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=NONE guifg=NONE
   hi CursorIM term=NONE cterm=NONE ctermbg=19 ctermfg=59 gui=NONE guibg=#000080 guifg=#333333
-  hi CursorLine term=NONE cterm=underline ctermbg=NONE ctermfg=NONE gui=underline guibg=NONE guifg=NONE
+  hi CursorLine term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=NONE guifg=NONE
   hi CursorLineNr term=NONE cterm=NONE ctermbg=bg ctermfg=131 gui=NONE guibg=bg guifg=#804040
   hi lCursor term=NONE cterm=NONE ctermbg=231 ctermfg=59 gui=NONE guibg=#f5f5ff guifg=#333333
   hi Debug term=NONE cterm=NONE ctermbg=bg ctermfg=124 gui=NONE guibg=bg guifg=#aa0000
@@ -52,7 +52,7 @@ if &background=="light"
   hi IndentGuidesOdd term=NONE cterm=NONE ctermbg=188 ctermfg=188 gui=NONE guibg=#dcdce5 guifg=#c6c6ce
   hi Keyword term=NONE cterm=NONE ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Label term=NONE cterm=NONE ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
-  hi LineNr term=underline cterm=NONE ctermbg=255 ctermfg=37 gui=NONE guibg=#eaeaea guifg=#009999
+  hi LineNr term=NONE cterm=NONE ctermbg=255 ctermfg=37 gui=NONE guibg=#eaeaea guifg=#009999
   hi MBEChanged term=NONE cterm=NONE ctermbg=59 ctermfg=196 gui=NONE guibg=#333333 guifg=#ff0000
   hi MBENormal term=NONE cterm=NONE ctermbg=59 ctermfg=102 gui=NONE guibg=#333333 guifg=#696969
   hi MBEVisibleActive term=NONE cterm=NONE ctermbg=59 ctermfg=19 gui=NONE guibg=#333333 guifg=#000080
@@ -72,7 +72,7 @@ if &background=="light"
   hi PmenuSel term=NONE cterm=NONE ctermbg=59 ctermfg=231 gui=NONE guibg=#333333 guifg=#f5f5ff
   hi WildMenu term=NONE cterm=NONE ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff00 guifg=#000000
   hi PreCondit term=NONE cterm=NONE ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
-  hi PreProc term=underline cterm=underline ctermbg=bg ctermfg=199 gui=underline guibg=bg guifg=#ff1493
+  hi PreProc term=NONE cterm=NONE ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Question term=NONE cterm=NONE ctermbg=bg ctermfg=72 gui=NONE guibg=bg guifg=#2e8b57
   hi Repeat term=bold cterm=bold ctermbg=bg ctermfg=126 gui=bold guibg=bg guifg=#990073
   hi RubySymbol term=bold cterm=bold ctermbg=bg ctermfg=126 gui=bold guibg=bg guifg=#990073
@@ -87,15 +87,15 @@ if &background=="light"
   hi StorageClass term=bold cterm=bold ctermbg=bg ctermfg=55 gui=bold guibg=bg guifg=#4b0082
   hi String term=NONE cterm=NONE ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff4500
   hi Structure term=bold cterm=bold ctermbg=bg ctermfg=55 gui=bold guibg=bg guifg=#4b0082
-  hi TabLine term=underline cterm=underline ctermbg=252 ctermfg=102 gui=underline guibg=#d3d3d3 guifg=#666666
-  hi TabLineFill term=underline cterm=underline ctermbg=102 ctermfg=fg gui=underline guibg=#eaeaea guifg=fg
-  hi TabLineSel term=underline cterm=underline ctermbg=bg ctermfg=16 gui=underline guibg=bg guifg=#000000
+  hi TabLine term=NONE cterm=NONE ctermbg=252 ctermfg=102 gui=NONE guibg=#d3d3d3 guifg=#666666
+  hi TabLineFill term=NONE cterm=NONE ctermbg=102 ctermfg=fg gui=NONE guibg=#eaeaea guifg=fg
+  hi TabLineSel term=NONE cterm=NONE ctermbg=bg ctermfg=16 gui=NONE guibg=bg guifg=#000000
   hi Tag term=bold cterm=bold ctermbg=bg ctermfg=19 gui=bold guibg=bg guifg=#000080
   hi Title term=NONE cterm=NONE ctermbg=153 ctermfg=201 gui=NONE guibg=#87cefa guifg=#ff00ff
   hi Todo term=NONE cterm=NONE ctermbg=226 ctermfg=145 gui=italic guibg=#ffff00 guifg=#999988
-  hi Type term=underline cterm=underline ctermbg=bg ctermfg=37 gui=underline guibg=bg guifg=#009999
+  hi Type term=NONE cterm=NONE ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#009999
   hi Typedef term=bold cterm=bold ctermbg=bg ctermfg=37 gui=bold guibg=bg guifg=#009999
-  hi Underlined term=underline cterm=underline ctermbg=bg ctermfg=104 gui=underline guibg=bg guifg=#6a5acd
+  hi NONEd term=NONE cterm=NONE ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6a5acd
   hi VertSplit term=reverse cterm=reverse ctermbg=16 ctermfg=231 gui=reverse guibg=#000000 guifg=#ffffff
   hi Visual term=reverse cterm=NONE ctermbg=152 ctermfg=16 gui=NONE guibg=#b0c4de guifg=#000000
   hi WarningMsg term=NONE cterm=NONE ctermbg=bg ctermfg=196 gui=NONE guibg=bg guifg=#ff0000
@@ -107,11 +107,11 @@ else
   hi Comment term=NONE cterm=NONE ctermbg=bg ctermfg=249 gui=italic guibg=bg guifg=#b2b2b2
   hi Conceal term=NONE cterm=NONE ctermbg=248 ctermfg=252 gui=NONE guibg=#a9a9a9 guifg=#d3d3d3
   hi Conditional term=bold cterm=bold ctermbg=bg ctermfg=225 gui=bold guibg=bg guifg=#ffb8ff
-  hi Constant term=underline cterm=underline ctermbg=bg ctermfg=176 gui=underline guibg=bg guifg=#c266e0
+  hi Constant term=NONE cterm=NONE ctermbg=bg ctermfg=176 gui=NONE guibg=bg guifg=#c266e0
   hi Cursor term=NONE cterm=NONE ctermbg=231 ctermfg=124 gui=NONE guibg=#ebebff guifg=#a61717
   hi CursorColumn term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=NONE guifg=NONE
   hi CursorIM term=NONE cterm=NONE ctermbg=231 ctermfg=117 gui=NONE guibg=#ebebff guifg=#66ccff
-  hi CursorLine term=NONE cterm=underline ctermbg=NONE ctermfg=NONE gui=underline guibg=NONE guifg=NONE
+  hi CursorLine term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=NONE guifg=NONE
   hi CursorLineNr term=NONE cterm=NONE ctermbg=bg ctermfg=226 gui=NONE guibg=bg guifg=#ffff00
   hi lCursor term=NONE cterm=NONE ctermbg=16 ctermfg=102 gui=NONE guibg=#000000 guifg=#666666
   hi Debug term=NONE cterm=NONE ctermbg=102 ctermfg=124 gui=NONE guibg=#696969 guifg=#aa0000
@@ -137,7 +137,7 @@ else
   hi IndentGuidesOdd term=NONE cterm=NONE ctermbg=238 ctermfg=240 gui=NONE guibg=#474747 guifg=#595959
   hi Keyword term=NONE cterm=NONE ctermbg=bg ctermfg=228 gui=NONE guibg=bg guifg=#ffff66
   hi Label term=NONE cterm=NONE ctermbg=bg ctermfg=161 gui=NONE guibg=bg guifg=#dd1144
-  hi LineNr term=underline cterm=NONE ctermbg=102 ctermfg=255 gui=NONE guibg=#666666 guifg=#eaeaea
+  hi LineNr term=NONE cterm=NONE ctermbg=102 ctermfg=255 gui=NONE guibg=#666666 guifg=#eaeaea
   hi MBEChanged term=NONE cterm=NONE ctermbg=231 ctermfg=196 gui=NONE guibg=#f5f5ff guifg=#ff0000
   hi MBENormal term=NONE cterm=NONE ctermbg=231 ctermfg=102 gui=NONE guibg=#f5f5ff guifg=#696969
   hi MBEVisibleActive term=NONE cterm=NONE ctermbg=231 ctermfg=19 gui=NONE guibg=#f5f5ff guifg=#000080
@@ -157,7 +157,7 @@ else
   hi PmenuSel term=NONE cterm=NONE ctermbg=153 ctermfg=59 gui=NONE guibg=#87cefa guifg=#333333
   hi WildMenu term=NONE cterm=NONE ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff00 guifg=#000000
   hi PreCondit term=NONE cterm=NONE ctermbg=bg ctermfg=228 gui=NONE guibg=bg guifg=#ffff66
-  hi PreProc term=underline cterm=underline ctermbg=bg ctermfg=213 gui=underline guibg=bg guifg=#ff66ff
+  hi PreProc term=NONE cterm=NONE ctermbg=bg ctermfg=213 gui=NONE guibg=bg guifg=#ff66ff
   hi Question term=NONE cterm=NONE ctermbg=bg ctermfg=46 gui=NONE guibg=bg guifg=#00ff00
   hi Repeat term=bold cterm=bold ctermbg=bg ctermfg=224 gui=bold guibg=bg guifg=#ffb8b8
   hi RubySymbol term=bold cterm=bold ctermbg=bg ctermfg=225 gui=bold guibg=bg guifg=#ffb8ff
@@ -172,15 +172,15 @@ else
   hi StorageClass term=bold cterm=bold ctermbg=bg ctermfg=224 gui=bold guibg=bg guifg=#ffb8b8
   hi String term=NONE cterm=NONE ctermbg=bg ctermfg=214 gui=NONE guibg=bg guifg=#ff9900
   hi Structure term=bold cterm=bold ctermbg=bg ctermfg=224 gui=bold guibg=bg guifg=#ffb8b8
-  hi TabLineSel term=underline cterm=underline ctermbg=16 ctermfg=102 gui=underline guibg=#000000 guifg=#eaeaea
-  hi TabLineFill term=underline cterm=underline ctermbg=102 ctermfg=fg gui=underline guibg=#666666 guifg=fg
-  hi TabLine term=underline cterm=underline ctermbg=bg ctermfg=149 gui=underline guibg=bg guifg=#b2b2b2
+  hi TabLineSel term=NONE cterm=NONE ctermbg=16 ctermfg=102 gui=NONE guibg=#000000 guifg=#eaeaea
+  hi TabLineFill term=NONE cterm=NONE ctermbg=102 ctermfg=fg gui=NONE guibg=#666666 guifg=fg
+  hi TabLine term=NONE cterm=NONE ctermbg=bg ctermfg=149 gui=NONE guibg=bg guifg=#b2b2b2
   hi Tag term=bold cterm=bold ctermbg=bg ctermfg=117 gui=bold guibg=bg guifg=#66ccff
   hi Title term=NONE cterm=NONE ctermbg=153 ctermfg=201 gui=NONE guibg=#87cefa guifg=#ff00ff
   hi Todo term=NONE cterm=NONE ctermbg=226 ctermfg=145 gui=italic guibg=#ffff00 guifg=#999988
-  hi Type term=underline cterm=underline ctermbg=bg ctermfg=117 gui=underline guibg=bg guifg=#66ccff
+  hi Type term=NONE cterm=NONE ctermbg=bg ctermfg=117 gui=NONE guibg=bg guifg=#66ccff
   hi Typedef term=bold cterm=bold ctermbg=bg ctermfg=117 gui=bold guibg=bg guifg=#66ccff
-  hi Underlined term=underline cterm=underline ctermbg=bg ctermfg=231 gui=underline guibg=bg guifg=#ffffff
+  hi NONEd term=NONE cterm=NONE ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#ffffff
   hi VertSplit term=reverse cterm=reverse ctermbg=231 ctermfg=16 gui=reverse guibg=#ffffff guifg=#000000
   hi Visual term=reverse cterm=NONE ctermbg=152 ctermfg=16 gui=NONE guibg=#b0c4de guifg=#000000
   hi WarningMsg term=NONE cterm=NONE ctermbg=bg ctermfg=196 gui=NONE guibg=bg guifg=#ff0000
