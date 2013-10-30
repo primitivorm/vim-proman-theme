@@ -26,7 +26,7 @@ if &background=="light"
   hi Cursor term=NONE cterm=NONE ctermbg=59 ctermfg=231 gui=NONE guibg=#333333 guifg=#f5f5ff
   hi CursorColumn term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=NONE guifg=NONE
   hi CursorIM term=NONE cterm=NONE ctermbg=19 ctermfg=59 gui=NONE guibg=#000080 guifg=#333333
-  hi CursorLine term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=NONE guifg=NONE
+  hi CursorLine term=underline cterm=underline ctermbg=NONE ctermfg=NONE gui=underline guibg=NONE guifg=NONE
   hi CursorLineNr term=NONE cterm=NONE ctermbg=bg ctermfg=131 gui=NONE guibg=bg guifg=#804040
   hi lCursor term=NONE cterm=NONE ctermbg=231 ctermfg=59 gui=NONE guibg=#f5f5ff guifg=#333333
   hi Debug term=NONE cterm=NONE ctermbg=bg ctermfg=124 gui=NONE guibg=bg guifg=#aa0000
@@ -111,7 +111,7 @@ else
   hi Cursor term=NONE cterm=NONE ctermbg=231 ctermfg=124 gui=NONE guibg=#ebebff guifg=#a61717
   hi CursorColumn term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=NONE guifg=NONE
   hi CursorIM term=NONE cterm=NONE ctermbg=231 ctermfg=117 gui=NONE guibg=#ebebff guifg=#66ccff
-  hi CursorLine term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=NONE guifg=NONE
+  hi CursorLine term=underline cterm=underline ctermbg=NONE ctermfg=NONE gui=underline guibg=NONE guifg=NONE
   hi CursorLineNr term=NONE cterm=NONE ctermbg=bg ctermfg=226 gui=NONE guibg=bg guifg=#ffff00
   hi lCursor term=NONE cterm=NONE ctermbg=16 ctermfg=102 gui=NONE guibg=#000000 guifg=#666666
   hi Debug term=NONE cterm=NONE ctermbg=102 ctermfg=124 gui=NONE guibg=#696969 guifg=#aa0000
