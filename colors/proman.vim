@@ -2,7 +2,7 @@
 " Maintainer: Primitivo Roman <cibercafe_montero@hotmail.com>
 " Based on the work by: Ricardo Valeriano <ricardo.valeriano@gmail.com>
 " URL: https://github.com/ricardovaleriano/vim-github-theme
-" Last Change: 30-Oct-2013
+" Last Change: 31-Oct-2013
 " Version: 0.1
 " Homepage:https://github.com/primitivorm/vim-proman-theme.git
 " This is a ViM's version of the proman color theme.
@@ -26,8 +26,8 @@ if &background=="light"
   hi Cursor term=NONE cterm=NONE ctermbg=59 ctermfg=231 gui=NONE guibg=#333333 guifg=#f5f5ff
   hi CursorColumn term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=NONE guifg=NONE
   hi CursorIM term=NONE cterm=NONE ctermbg=19 ctermfg=59 gui=NONE guibg=#000080 guifg=#333333
-  hi CursorLine term=underline cterm=underline ctermbg=NONE ctermfg=NONE gui=underline guibg=NONE guifg=NONE
-  hi CursorLineNr term=NONE cterm=NONE ctermbg=bg ctermfg=131 gui=NONE guibg=bg guifg=#804040
+  hi CursorLine term=underline cterm=underline ctermbg=NONE ctermfg=NONE gui=NONE guibg=#E0E0FF guifg=NONE
+  hi CursorLineNr term=bold cterm=bold ctermbg=102 ctermfg=231 gui=bold guibg=#696969 guifg=#f5f5ff
   hi lCursor term=NONE cterm=NONE ctermbg=231 ctermfg=59 gui=NONE guibg=#f5f5ff guifg=#333333
   hi Debug term=NONE cterm=NONE ctermbg=bg ctermfg=124 gui=NONE guibg=bg guifg=#aa0000
   hi Define term=bold cterm=bold ctermbg=bg ctermfg=75 gui=bold guibg=bg guifg=#1e90ff
@@ -87,12 +87,12 @@ if &background=="light"
   hi StorageClass term=bold cterm=bold ctermbg=bg ctermfg=55 gui=bold guibg=bg guifg=#4b0082
   hi String term=NONE cterm=NONE ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff4500
   hi Structure term=bold cterm=bold ctermbg=bg ctermfg=55 gui=bold guibg=bg guifg=#4b0082
-  hi TabLine term=NONE cterm=NONE ctermbg=252 ctermfg=102 gui=NONE guibg=#d3d3d3 guifg=#666666
-  hi TabLineFill term=NONE cterm=NONE ctermbg=102 ctermfg=fg gui=NONE guibg=#eaeaea guifg=fg
-  hi TabLineSel term=NONE cterm=NONE ctermbg=bg ctermfg=16 gui=NONE guibg=bg guifg=#000000
+  hi TabLine term=NONE cterm=underline ctermbg=252 ctermfg=59 gui=underline guibg=#d3d3d3 guifg=#333333
+  hi TabLineFill term=NONE cterm=NONE ctermbg=102 ctermfg=fg gui=NONE guibg=#666666 guifg=fg
+  hi TabLineSel term=NONE cterm=bold ctermbg=bg ctermfg=16 gui=bold guibg=bg guifg=#000000
   hi Tag term=bold cterm=bold ctermbg=bg ctermfg=19 gui=bold guibg=bg guifg=#000080
   hi Title term=NONE cterm=NONE ctermbg=153 ctermfg=201 gui=NONE guibg=#87cefa guifg=#ff00ff
-  hi Todo term=NONE cterm=NONE ctermbg=226 ctermfg=145 gui=italic guibg=#ffff00 guifg=#999988
+  hi Todo term=NONE cterm=NONE ctermbg=226 ctermfg=102 gui=italic guibg=#ffff00 guifg=#666666
   hi Type term=NONE cterm=NONE ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#009999
   hi Typedef term=bold cterm=bold ctermbg=bg ctermfg=37 gui=bold guibg=bg guifg=#009999
   hi NONEd term=NONE cterm=NONE ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6a5acd
@@ -108,11 +108,11 @@ else
   hi Conceal term=NONE cterm=NONE ctermbg=248 ctermfg=252 gui=NONE guibg=#a9a9a9 guifg=#d3d3d3
   hi Conditional term=bold cterm=bold ctermbg=bg ctermfg=225 gui=bold guibg=bg guifg=#ffb8ff
   hi Constant term=NONE cterm=NONE ctermbg=bg ctermfg=176 gui=NONE guibg=bg guifg=#c266e0
-  hi Cursor term=NONE cterm=NONE ctermbg=231 ctermfg=124 gui=NONE guibg=#ebebff guifg=#a61717
+  hi Cursor term=NONE cterm=NONE ctermbg=231 ctermfg=59 gui=NONE guibg=#ebebff guifg=#333333
   hi CursorColumn term=NONE cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=NONE guifg=NONE
   hi CursorIM term=NONE cterm=NONE ctermbg=231 ctermfg=117 gui=NONE guibg=#ebebff guifg=#66ccff
-  hi CursorLine term=underline cterm=underline ctermbg=NONE ctermfg=NONE gui=underline guibg=NONE guifg=NONE
-  hi CursorLineNr term=NONE cterm=NONE ctermbg=bg ctermfg=226 gui=NONE guibg=bg guifg=#ffff00
+  hi CursorLine term=NONE cterm=NONE ctermbg=239 ctermfg=NONE gui=NONE guibg=#4c4c4c guifg=NONE
+  hi CursorLineNr term=NONE cterm=bold ctermbg=bg ctermfg=226 gui=bold guibg=bg guifg=#ffff00
   hi lCursor term=NONE cterm=NONE ctermbg=16 ctermfg=102 gui=NONE guibg=#000000 guifg=#666666
   hi Debug term=NONE cterm=NONE ctermbg=102 ctermfg=124 gui=NONE guibg=#696969 guifg=#aa0000
   hi Define term=bold cterm=bold ctermbg=bg ctermfg=228 gui=bold guibg=bg guifg=#ffff66
@@ -172,12 +172,12 @@ else
   hi StorageClass term=bold cterm=bold ctermbg=bg ctermfg=224 gui=bold guibg=bg guifg=#ffb8b8
   hi String term=NONE cterm=NONE ctermbg=bg ctermfg=214 gui=NONE guibg=bg guifg=#ff9900
   hi Structure term=bold cterm=bold ctermbg=bg ctermfg=224 gui=bold guibg=bg guifg=#ffb8b8
-  hi TabLineSel term=NONE cterm=NONE ctermbg=16 ctermfg=102 gui=NONE guibg=#000000 guifg=#eaeaea
-  hi TabLineFill term=NONE cterm=NONE ctermbg=102 ctermfg=fg gui=NONE guibg=#666666 guifg=fg
-  hi TabLine term=NONE cterm=NONE ctermbg=bg ctermfg=149 gui=NONE guibg=bg guifg=#b2b2b2
+  hi TabLine term=NONE cterm=underline ctermbg=16 ctermfg=102 gui=underline guibg=#666666 guifg=#eaeaea
+  hi TabLineFill term=NONE cterm=NONE ctermbg=149 ctermfg=fg gui=NONE guibg=#b2b2b2 guifg=fg
+  hi TabLineSel term=NONE cterm=bold ctermbg=bg ctermfg=231 gui=bold guibg=bg guifg=#ffffff
   hi Tag term=bold cterm=bold ctermbg=bg ctermfg=117 gui=bold guibg=bg guifg=#66ccff
   hi Title term=NONE cterm=NONE ctermbg=153 ctermfg=201 gui=NONE guibg=#87cefa guifg=#ff00ff
-  hi Todo term=NONE cterm=NONE ctermbg=226 ctermfg=145 gui=italic guibg=#ffff00 guifg=#999988
+  hi Todo term=NONE cterm=NONE ctermbg=226 ctermfg=102 gui=italic guibg=#ffff00 guifg=#666666
   hi Type term=NONE cterm=NONE ctermbg=bg ctermfg=117 gui=NONE guibg=bg guifg=#66ccff
   hi Typedef term=bold cterm=bold ctermbg=bg ctermfg=117 gui=bold guibg=bg guifg=#66ccff
   hi NONEd term=NONE cterm=NONE ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#ffffff
