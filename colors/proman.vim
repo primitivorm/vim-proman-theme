@@ -2,7 +2,7 @@
 " Maintainer: Primitivo Roman <cibercafe_montero@hotmail.com>
 " Based on the work by: Ricardo Valeriano <ricardo.valeriano@gmail.com>
 " URL: https://github.com/ricardovaleriano/vim-github-theme
-" Last Change: 31-Oct-2013
+" Last Change: 06-Nov-2013
 " Version: 0.1
 " Homepage:https://github.com/primitivorm/vim-proman-theme.git
 " This is a ViM's version of the proman color theme.
@@ -32,10 +32,10 @@ if &background=="light"
   hi Debug term=NONE cterm=NONE ctermbg=bg ctermfg=124 gui=NONE guibg=bg guifg=#aa0000
   hi Define term=bold cterm=bold ctermbg=bg ctermfg=75 gui=bold guibg=bg guifg=#1e90ff
   hi Delimiter term=bold cterm=bold ctermbg=bg ctermfg=161 gui=bold guibg=bg guifg=#dd1144
-  hi DiffAdd guibg=#a3ffa3 ctermbg=154 gui=NONE cterm=NONE
-  hi DiffChange guibg=#ffccff ctermbg=225 cterm=NONE gui=NONE cterm=NONE
-  hi DiffDelete guibg=#FFDEAD ctermbg=222 gui=NONE cterm=NONE
-  hi DiffText guibg=#cdc6ca ctermbg=7 gui=NONE cterm=NONE
+  hi DiffAdd ctermbg=154 gui=NONE cterm=NONE guibg=#a3ffa3
+  hi DiffChange ctermbg=225 cterm=NONE gui=NONE cterm=NONE guibg=#ffccff
+  hi DiffDelete ctermbg=222 gui=NONE cterm=NONE guibg=#FFDEAD
+  hi DiffText ctermbg=7 gui=NONE cterm=NONE guibg=#cdc6ca
   hi Directory term=NONE cterm=NONE ctermbg=bg ctermfg=55 gui=NONE guibg=bg guifg=#4b0082
   hi Error term=reverse cterm=NONE ctermbg=188 ctermfg=196 gui=NONE guibg=#e3d2d2 guifg=#ff0000
   hi ErrorMsg term=NONE cterm=NONE ctermbg=188 ctermfg=124 gui=NONE guibg=#e3d2d2 guifg=#a61717
@@ -117,10 +117,10 @@ else
   hi Debug term=NONE cterm=NONE ctermbg=102 ctermfg=124 gui=NONE guibg=#696969 guifg=#aa0000
   hi Define term=bold cterm=bold ctermbg=bg ctermfg=228 gui=bold guibg=bg guifg=#ffff66
   hi Delimiter term=bold cterm=bold ctermbg=bg ctermfg=228 gui=bold guibg=bg guifg=#ffff66
-  hi DiffAdd guibg=#004C00 ctermbg=22 gui=NONE cterm=NONE
-  hi DiffChange guibg=#ffccff ctermbg=225 ctermfg=white cterm=NONE gui=NONE cterm=NONE
-  hi DiffDelete guibg=#FFDEAD ctermbg=222 gui=NONE cterm=NONE
-  hi DiffText guibg=#204a87 ctermbg=33 gui=NONE cterm=NONE
+  hi DiffAdd ctermbg=22 gui=NONE cterm=NONE guibg=#004C00
+  hi DiffChange ctermbg=225 ctermfg=59 cterm=NONE gui=NONE guibg=#ffccff guifg=#333333
+  hi DiffDelete ctermbg=222 ctermfg=59 gui=NONE cterm=NONE guibg=#FFDEAD guifg=#333333
+  hi DiffText ctermbg=33 gui=NONE cterm=NONE guibg=#204a87
   hi Directory term=NONE cterm=NONE ctermbg=bg ctermfg=225 gui=NONE guibg=bg guifg=#ffb8ff
   hi Error term=reverse cterm=NONE ctermbg=188 ctermfg=161 gui=NONE guibg=#e3d2d2 guifg=#dd1144
   hi ErrorMsg term=NONE cterm=NONE ctermbg=124 ctermfg=188 gui=NONE guibg=#a61717 guifg=#e3d2d2
