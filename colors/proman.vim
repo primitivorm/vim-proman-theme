@@ -100,7 +100,7 @@ if &background=="light"
   hi Visual term=reverse cterm=NONE ctermbg=152 ctermfg=16 gui=NONE guibg=#b0c4de guifg=#000000
   hi WarningMsg term=NONE cterm=NONE ctermbg=bg ctermfg=196 gui=NONE guibg=bg guifg=#ff0000
 else
-  hi Normal term=NONE cterm=NONE ctermbg=59 ctermfg=210 gui=NONE guibg=#000000 guifg=#f5f5ff
+  hi Normal term=NONE cterm=NONE ctermbg=16 ctermfg=210 gui=NONE guibg=#000000 guifg=#f5f5ff
   hi Boolean gui=bold cterm=bold
   hi Character term=NONE cterm=NONE ctermbg=bg ctermfg=214 gui=NONE guibg=bg guifg=#ff9900
   hi ColorColumn term=reverse cterm=reverse ctermbg=210 ctermfg=16 gui=reverse guibg=#000000 guifg=#ff7f50
@@ -173,7 +173,7 @@ else
   hi String term=NONE cterm=NONE ctermbg=bg ctermfg=214 gui=NONE guibg=bg guifg=#ff9900
   hi Structure term=bold cterm=bold ctermbg=bg ctermfg=224 gui=bold guibg=bg guifg=#ffb8b8
   hi TabLine term=NONE cterm=underline ctermbg=16 ctermfg=102 gui=underline guibg=#666666 guifg=#eaeaea
-  hi TabLineFill term=NONE cterm=NONE ctermbg=149 ctermfg=fg gui=NONE guibg=#b2b2b2 guifg=fg
+  hi TabLineFill term=NONE cterm=NONE ctermbg=249 ctermfg=fg gui=NONE guibg=#b2b2b2 guifg=fg
   hi TabLineSel term=NONE cterm=bold ctermbg=bg ctermfg=231 gui=bold guibg=bg guifg=#ffffff
   hi Tag term=bold cterm=bold ctermbg=bg ctermfg=117 gui=bold guibg=bg guifg=#66ccff
   hi Title term=NONE cterm=NONE ctermbg=153 ctermfg=201 gui=NONE guibg=#87cefa guifg=#ff00ff
