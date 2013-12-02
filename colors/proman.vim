@@ -83,15 +83,11 @@ if &background=="light"
   hi SpecialChar term=NONE cterm=NONE ctermbg=bg ctermfg=244 gui=NONE guibg=bg guifg=#808080
   hi SpecialComment term=NONE cterm=NONE ctermbg=bg ctermfg=145 gui=italic guibg=bg guifg=#999999
   hi SpecialKey term=NONE cterm=NONE ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
-<<<<<<< HEAD
   hi SpellBad ctermfg=Red term=Reverse guisp=Red gui=undercurl ctermbg=White
   hi SpellCap ctermfg=Green term=Reverse guisp=Green gui=undercurl ctermbg=White
   hi SpellLocal ctermfg=Cyan term=Underline guisp=Cyan gui=undercurl ctermbg=White
   hi SpellRare ctermfg=Magenta term=underline guisp=Magenta gui=undercurl ctermbg=White
-  hi Statement term=bold cterm=bold ctermbg=bg ctermfg=55 gui=bold guibg=bg guifg=#4b0082
-=======
   hi Statement term=NONE cterm=NONE ctermbg=bg ctermfg=55 gui=NONE guibg=bg guifg=#4b0082
->>>>>>> ae223bc0bde0917e8c22c5beee99ac8253042f04
   hi StatusLine term=reverse cterm=reverse ctermbg=102 ctermfg=255 gui=reverse guibg=#eaeaea guifg=#666666
   hi StorageClass term=NONE cterm=NONE ctermbg=bg ctermfg=55 gui=NONE guibg=bg guifg=#4b0082
   hi String term=NONE cterm=NONE ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff4500
@@ -177,15 +173,11 @@ else
   hi SpecialChar term=NONE cterm=NONE ctermbg=bg ctermfg=244 gui=NONE guibg=bg guifg=#808080
   hi SpecialComment term=NONE cterm=NONE ctermbg=bg ctermfg=145 gui=italic guibg=bg guifg=#999999
   hi SpecialKey term=NONE cterm=NONE ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
-<<<<<<< HEAD
   hi SpellBad ctermfg=Red term=Reverse guisp=Red gui=undercurl ctermbg=White
   hi SpellCap ctermfg=Green term=Reverse guisp=Green gui=undercurl ctermbg=White
   hi SpellLocal ctermfg=Cyan term=Underline guisp=Cyan gui=undercurl ctermbg=White
   hi SpellRare ctermfg=Magenta term=underline guisp=Magenta gui=undercurl ctermbg=White
-  hi Statement term=bold cterm=bold ctermbg=bg ctermfg=224 gui=bold guibg=bg guifg=#ffb8b8
-=======
   hi Statement term=NONE cterm=NONE ctermbg=bg ctermfg=161 gui=NONE guibg=bg guifg=#dd1144
->>>>>>> ae223bc0bde0917e8c22c5beee99ac8253042f04
   hi StatusLine term=reverse cterm=reverse ctermbg=102 ctermfg=255 gui=reverse guibg=#eaeaea guifg=#666666
   hi StorageClass term=NONE cterm=NONE ctermbg=bg ctermfg=120 gui=NONE guibg=bg guifg=#66ff66
   hi String term=NONE cterm=NONE ctermbg=bg ctermfg=214 gui=NONE guibg=bg guifg=#ff9900
