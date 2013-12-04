@@ -127,7 +127,7 @@ else
   hi DiffDelete ctermbg=222 ctermfg=59 gui=NONE cterm=NONE guibg=#FFDEAD guifg=#333333
   hi DiffText ctermbg=33 gui=NONE cterm=NONE guibg=#204a87
   hi Directory term=NONE cterm=NONE ctermbg=bg ctermfg=225 gui=NONE guibg=bg guifg=#ffb8ff
-  hi Error term=reverse cterm=NONE ctermbg=188 ctermfg=161 gui=NONE guibg=#e3d2d2 guifg=#dd1144
+  hi Error term=reverse cterm=NONE ctermbg=188 ctermfg=161 gui=NONE guibg=#e3d2d2 guifg=#ff0066
   hi ErrorMsg term=NONE cterm=NONE ctermbg=124 ctermfg=188 gui=NONE guibg=#a61717 guifg=#e3d2d2
   hi Exception term=NONE cterm=NONE ctermbg=bg ctermfg=225 gui=NONE guibg=bg guifg=#ffb8ff
   hi Float term=NONE cterm=NONE ctermbg=bg ctermfg=176 gui=NONE guibg=bg guifg=#c266e0
@@ -141,7 +141,7 @@ else
   hi IndentGuidesEven term=NONE cterm=NONE ctermbg=240 ctermfg=238 gui=NONE guibg=#595959 guifg=#474747
   hi IndentGuidesOdd term=NONE cterm=NONE ctermbg=238 ctermfg=240 gui=NONE guibg=#474747 guifg=#595959
   hi Keyword term=NONE cterm=NONE ctermbg=bg ctermfg=228 gui=NONE guibg=bg guifg=#ffff66
-  hi Label term=NONE cterm=NONE ctermbg=bg ctermfg=161 gui=NONE guibg=bg guifg=#dd1144
+  hi Label term=NONE cterm=NONE ctermbg=bg ctermfg=161 gui=NONE guibg=bg guifg=#ff0066
   hi LineNr term=NONE cterm=NONE ctermbg=102 ctermfg=255 gui=NONE guibg=#666666 guifg=#eaeaea
   hi MBEChanged term=NONE cterm=NONE ctermbg=231 ctermfg=196 gui=NONE guibg=#f5f5ff guifg=#ff0000
   hi MBENormal term=NONE cterm=NONE ctermbg=231 ctermfg=102 gui=NONE guibg=#f5f5ff guifg=#696969
@@ -158,15 +158,15 @@ else
   hi NERDTreeBookmarksLeader term=NONE cterm=NONE ctermbg=bg ctermfg=46 gui=NONE guibg=bg guifg=#00ff00
   hi NonText term=NONE cterm=NONE ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
   hi Number term=NONE cterm=NONE ctermbg=bg ctermfg=176 gui=NONE guibg=bg guifg=#c266e0
-  hi Operator term=NONE cterm=NONE ctermbg=bg ctermfg=161 gui=NONE guibg=bg guifg=#dd1144
+  hi Operator term=NONE cterm=NONE ctermbg=bg ctermfg=161 gui=NONE guibg=bg guifg=#ff0066
   hi Pmenu term=NONE cterm=NONE ctermbg=231 ctermfg=59 gui=NONE guibg=#f5f5ff guifg=#333333
   hi PmenuSel term=NONE cterm=NONE ctermbg=153 ctermfg=59 gui=NONE guibg=#87cefa guifg=#333333
   hi WildMenu term=NONE cterm=NONE ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff00 guifg=#000000
   hi PreCondit term=NONE cterm=NONE ctermbg=bg ctermfg=228 gui=NONE guibg=bg guifg=#ffff66
   hi PreProc term=NONE cterm=NONE ctermbg=bg ctermfg=213 gui=NONE guibg=bg guifg=#ff66ff
   hi Question term=NONE cterm=NONE ctermbg=bg ctermfg=46 gui=NONE guibg=bg guifg=#00ff00
-  hi Repeat term=NONE cterm=NONE ctermbg=bg ctermfg=161 gui=NONE guibg=bg guifg=#dd1144
-  hi RubySymbol term=NONE cterm=NONE ctermbg=bg ctermfg=161 gui=NONE guibg=bg guifg=#dd1144
+  hi Repeat term=NONE cterm=NONE ctermbg=bg ctermfg=161 gui=NONE guibg=bg guifg=#ff0066
+  hi RubySymbol term=NONE cterm=NONE ctermbg=bg ctermfg=161 gui=NONE guibg=bg guifg=#ff0066
   hi Search term=reverse cterm=NONE ctermbg=153 ctermfg=16 gui=NONE guibg=#87cefa guifg=#000000
   hi SignColumn term=NONE cterm=NONE ctermbg=102 ctermfg=16 gui=NONE guibg=#666666 guifg=#ff7f50
   hi Special term=NONE cterm=NONE ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff4719
@@ -177,7 +177,7 @@ else
   hi SpellCap ctermfg=Green term=Reverse guisp=Green gui=undercurl ctermbg=White
   hi SpellLocal ctermfg=Cyan term=Underline guisp=Cyan gui=undercurl ctermbg=White
   hi SpellRare ctermfg=Magenta term=underline guisp=Magenta gui=undercurl ctermbg=White
-  hi Statement term=NONE cterm=NONE ctermbg=bg ctermfg=161 gui=NONE guibg=bg guifg=#dd1144
+  hi Statement term=NONE cterm=NONE ctermbg=bg ctermfg=161 gui=NONE guibg=bg guifg=#ff0066
   hi StatusLine term=reverse cterm=reverse ctermbg=102 ctermfg=255 gui=reverse guibg=#eaeaea guifg=#666666
   hi StorageClass term=NONE cterm=NONE ctermbg=bg ctermfg=120 gui=NONE guibg=bg guifg=#66ff66
   hi String term=NONE cterm=NONE ctermbg=bg ctermfg=214 gui=NONE guibg=bg guifg=#ff9900
