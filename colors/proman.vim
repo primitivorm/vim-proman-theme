@@ -117,7 +117,7 @@ hi Debug ctermbg=102 ctermfg=124 gui=NONE guibg=bg guifg=#aa0000
 hi DiffAdd ctermbg=154 ctermfg=59 gui=NONE guibg=#a3ffa3 guifg=#333333
 hi DiffChange ctermbg=225 ctermfg=59 gui=NONE guibg=#ffccff guifg=#333333
 hi DiffDelete ctermbg=222 ctermfg=59 gui=NONE guibg=#FFDEAD guifg=#333333
-hi DiffText ctermbg=7 ctermfg=59 gui=NONE guibg=#cdc6ca guifg=#333333
+hi DiffText ctermbg=7 ctermfg=16 gui=NONE guibg=#ff7f50 guifg=#333333
 hi Error ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#FF944D
 hi ErrorMsg term=reverse ctermbg=bg ctermfg=196 gui=NONE guibg=bg guifg=#ff0000
 hi Ignore ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#f5f5ff
