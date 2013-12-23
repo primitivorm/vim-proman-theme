@@ -154,3 +154,10 @@ hi Macro ctermbg=bg ctermfg=201 gui=NONE guibg=bg guifg=#ff00ff
 hi NERDTreeBookmarksLeader ctermbg=bg ctermfg=201 gui=NONE guibg=bg guifg=#ff00ff
 hi Number ctermbg=bg ctermfg=201 gui=NONE guibg=bg guifg=#ff00ff
 hi PreProc ctermbg=bg ctermfg=201 gui=NONE guibg=bg guifg=#ff00ff
+
+" for cream
+" statusline
+hi User1  gui=bold guifg=#bbbbbb guibg=#f3f3f3
+hi User2  gui=bold guifg=#555555 guibg=#f3f3f3
+hi User3  gui=bold guifg=#000000 guibg=#f3f3f3
+hi User4  gui=bold guifg=#000000 guibg=#f3f3f3
