@@ -145,7 +145,7 @@ hi String ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#FF944D
 hi Tag ctermbg=bg ctermfg=19 gui=NONE guibg=bg guifg=#000080
 hi Todo ctermbg=226 ctermfg=102 gui=italic guibg=#ffff99 guifg=#666666
 hi VertSplit term=reverse cterm=reverse ctermbg=fg ctermfg=bg gui=reverse guibg=fg guifg=bg
-hi Visual ctermbg=33 ctermfg=fg gui=NONE guibg=#204a87 guifg=fg
+hi Visual ctermbg=33 ctermfg=fg gui=NONE guibg=#204a87 guifg=#ffffff
 hi WarningMsg ctermbg=bg ctermfg=196 gui=NONE guibg=bg guifg=#ff0000
 hi Title ctermbg=153 ctermfg=201 gui=NONE guibg=#87cefa guifg=#ff00ff
 hi Constant ctermbg=bg ctermfg=201 gui=NONE guibg=bg guifg=#ff00ff
@@ -157,7 +157,7 @@ hi PreProc ctermbg=bg ctermfg=201 gui=NONE guibg=bg guifg=#ff00ff
 
 " for cream
 " statusline
-hi User1  gui=bold guifg=#bbbbbb guibg=#f3f3f3
-hi User2  gui=bold guifg=#555555 guibg=#f3f3f3
-hi User3  gui=bold guifg=#000000 guibg=#f3f3f3
-hi User4  gui=bold guifg=#000000 guibg=#f3f3f3
+hi User1  gui=bold guifg=#808080 guibg=#FFDEAD
+hi User2  gui=bold guifg=#333333 guibg=#FFDEAD
+hi User3  gui=bold guifg=#000000 guibg=#FFDEAD
+hi User4  gui=bold guifg=#000000 guibg=#FFDEAD
