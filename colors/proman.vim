@@ -16,8 +16,8 @@ set t_Co=256
 
 if &background=="light"
   hi Normal ctermbg=231 ctermfg=59 gui=NONE guibg=#f5f5ff guifg=#333333
-  hi Character ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#FF944D
-  hi ColorColumn cterm=NONE ctermbg=188 ctermfg=fg gui=NONE guibg=#E0E0FF guifg=fg
+  hi Character ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff6600
+  hi ColorColumn cterm=NONE ctermbg=188 ctermfg=fg gui=NONE guibg=#E0E0FF guifg=NONE
   hi Comment ctermbg=bg ctermfg=102 gui=italic guibg=bg guifg=#696969
   hi Cursor ctermbg=59 ctermfg=231 gui=NONE guibg=#333333 guifg=#f5f5ff
   hi CursorColumn term=underline cterm=underline ctermfg=NONE ctermbg=NONE gui=NONE guibg=#E0E0FF guifg=NONE
@@ -63,7 +63,7 @@ if &background=="light"
   hi Structure ctermbg=bg ctermfg=126 gui=NONE guibg=bg guifg=#990073
 else
   hi Normal ctermbg=16 ctermfg=231 gui=NONE guibg=#000000 guifg=#f5f5ff
-  hi Character ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#FF944D
+  hi Character ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff6600
   hi ColorColumn cterm=NONE ctermbg=59 ctermfg=NONE gui=NONE guibg=#333333 guifg=NONE
   hi Comment ctermbg=bg ctermfg=249 gui=italic guibg=bg guifg=#b2b2b2
   hi Cursor ctermbg=231 ctermfg=59 gui=NONE guibg=#ebebff guifg=#333333
@@ -118,7 +118,7 @@ hi DiffAdd ctermbg=154 ctermfg=59 gui=NONE guibg=#a3ffa3 guifg=#333333
 hi DiffChange ctermbg=225 ctermfg=59 gui=NONE guibg=#ffccff guifg=#333333
 hi DiffDelete ctermbg=222 ctermfg=59 gui=NONE guibg=#FFDEAD guifg=#333333
 hi DiffText ctermbg=7 ctermfg=16 gui=NONE guibg=#ff7f50 guifg=#333333
-hi Error ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#FF944D
+hi Error ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff6600
 hi ErrorMsg term=reverse ctermbg=bg ctermfg=196 gui=NONE guibg=bg guifg=#ff0000
 hi Ignore ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#f5f5ff
 hi IncSearch term=reverse cterm=reverse ctermbg=210 ctermfg=16 gui=reverse guibg=#000000 guifg=#ff7f50
@@ -141,7 +141,7 @@ hi SpellCap ctermfg=Green term=Reverse guisp=Green gui=undercurl ctermbg=White
 hi SpellLocal ctermfg=Cyan term=Underline guisp=Cyan gui=undercurl ctermbg=White
 hi SpellRare ctermfg=Magenta term=underline guisp=Magenta gui=undercurl ctermbg=White
 hi StatusLine term=reverse cterm=reverse ctermbg=102 ctermfg=2104 gui=reverse guibg=#eaeaea guifg=#666666
-hi String ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#FF944D
+hi String ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff6600
 hi Tag ctermbg=bg ctermfg=19 gui=NONE guibg=bg guifg=#000080
 hi Todo ctermbg=226 ctermfg=102 gui=italic guibg=#ffff99 guifg=#666666
 hi VertSplit term=reverse cterm=reverse ctermbg=fg ctermfg=bg gui=reverse guibg=fg guifg=bg
@@ -155,8 +155,7 @@ hi NERDTreeBookmarksLeader ctermbg=bg ctermfg=201 gui=NONE guibg=bg guifg=#ff00f
 hi Number ctermbg=bg ctermfg=201 gui=NONE guibg=bg guifg=#ff00ff
 hi PreProc ctermbg=bg ctermfg=201 gui=NONE guibg=bg guifg=#ff00ff
 
-" for cream
-" statusline
+" for cream statusline
 hi User1  gui=bold guifg=#808080 guibg=#FFDEAD
 hi User2  gui=bold guifg=#333333 guibg=#FFDEAD
 hi User3  gui=bold guifg=#000000 guibg=#FFDEAD
