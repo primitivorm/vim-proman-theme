@@ -60,7 +60,7 @@ if &background=="light"
   hi Type ctermbg=bg ctermfg=37 gui=bold guibg=bg guifg=#009999
   hi Typedef ctermbg=bg ctermfg=37 gui=bold guibg=bg guifg=#009999
   hi WildMenu ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff99 guifg=#000000
-  hi lCursor ctermbg=231 ctermfg=59 gui=NONE guibg=#f5f5ff guifg=#333333
+  hi lCursor ctermbg=16 ctermfg=102 gui=NONE guibg=#000000 guifg=#666666
 else
   hi Normal ctermbg=16 ctermfg=231 gui=NONE guibg=#000000 guifg=#f5f5ff
   hi Character ctermbg=bg ctermfg=202 gui=bold guibg=bg guifg=#ff6600
@@ -107,7 +107,7 @@ else
   hi Type ctermbg=bg ctermfg=37 gui=bold guibg=bg guifg=#00cc99
   hi Typedef ctermbg=bg ctermfg=37 gui=bold guibg=bg guifg=#00cc99
   hi WildMenu ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff99 guifg=#000000
-  hi lCursor ctermbg=16 ctermfg=102 gui=NONE guibg=#000000 guifg=#666666
+  hi lCursor ctermbg=231 ctermfg=59 gui=NONE guibg=#f5f5ff guifg=#333333
 endif
 
 "Common
