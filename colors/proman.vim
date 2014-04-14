@@ -43,8 +43,6 @@ if &background=="light"
   hi MoreMsg ctermbg=bg ctermfg=34 gui=NONE guibg=bg guifg=#008000
   hi NONEd ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Operator ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
-  hi Pmenu ctermbg=153 ctermfg=16 gui=NONE guibg=#87cefa guifg=#000000
-  hi PmenuSel ctermbg=59 ctermfg=231 gui=NONE guibg=#333333 guifg=#f5f5ff
   hi PreCondit ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
   hi Question ctermbg=bg ctermfg=34 gui=NONE guibg=bg guifg=#008000
   hi Repeat ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
@@ -60,7 +58,6 @@ if &background=="light"
   hi Tag ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#009999
   hi Type ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#009999
   hi Typedef ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#009999
-  hi WildMenu ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff99 guifg=#000000
   hi lCursor ctermbg=16 ctermfg=102 gui=NONE guibg=#000000 guifg=#666666
   hi Number ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
   hi Constant ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
@@ -95,8 +92,6 @@ else
   hi MoreMsg ctermbg=bg ctermfg=154 gui=NONE guibg=bg guifg=#a3ffa3
   hi NONEd ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Operator ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#ad85ff
-  hi Pmenu ctermbg=231 ctermfg=59 gui=NONE guibg=#f5f5ff guifg=#333333
-  hi PmenuSel ctermbg=153 ctermfg=59 gui=NONE guibg=#87cefa guifg=#333333
   hi PreCondit ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#33adff
   hi Question ctermbg=bg ctermfg=154 gui=NONE guibg=bg guifg=#a3ffa3
   hi Repeat ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#ad85ff
@@ -112,7 +107,6 @@ else
   hi Tag ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#00cc99
   hi Type ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#00cc99
   hi Typedef ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#00cc99
-  hi WildMenu ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff99 guifg=#000000
   hi lCursor ctermbg=231 ctermfg=59 gui=NONE guibg=#f5f5ff guifg=#333333
   hi Number ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#ad85ff
   hi Constant ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#ad85ff
@@ -159,6 +153,9 @@ hi WarningMsg ctermbg=bg ctermfg=196 gui=NONE guibg=bg guifg=#ff0000
 hi Title ctermbg=153 ctermfg=199 gui=NONE guibg=#87cefa guifg=#ff1493
 hi Macro ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
 hi NERDTreeBookmarksLeader ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
+hi Pmenu ctermbg=188 ctermfg=214 gui=NONE guibg=#bcc9db guifg=#666666
+hi PmenuSel ctermbg=33 ctermfg=231 gui=NONE guibg=#204a87 guifg=#ffffff
+hi WildMenu ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff99 guifg=#000000
 
 " for cream statusline
 hi User1  gui=NONE guifg=#808080 guibg=#FFDEAD
