@@ -39,7 +39,7 @@ if &background=="light"
   hi Keyword ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Label ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi LineNr ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#009999
-  hi MBEVisibleNormal ctermbg=59 ctermfg=37 gui=NONE guibg=fg guifg=#009999
+  hi MBEVisibleNormal ctermbg=fg ctermfg=37 gui=NONE guibg=fg guifg=#009999
   hi MoreMsg ctermbg=bg ctermfg=34 gui=NONE guibg=bg guifg=#008000
   hi NONEd ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Operator ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
@@ -88,7 +88,7 @@ else
   hi Keyword ctermbg=bg ctermfg=228 gui=NONE guibg=bg guifg=#ffff99
   hi Label ctermbg=bg ctermfg=154 gui=NONE guibg=bg guifg=#a3ffa3
   hi LineNr ctermbg=bg ctermfg=214 gui=NONE guibg=bg guifg=#eaeaea
-  hi MBEVisibleNormal ctermbg=59 ctermfg=37 gui=NONE guibg=fg guifg=#00cc99
+  hi MBEVisibleNormal ctermbg=fg ctermfg=37 gui=NONE guibg=fg guifg=#00cc99
   hi MoreMsg ctermbg=bg ctermfg=154 gui=NONE guibg=bg guifg=#a3ffa3
   hi NONEd ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Operator ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#ad85ff
@@ -153,7 +153,7 @@ hi WarningMsg ctermbg=bg ctermfg=196 gui=NONE guibg=bg guifg=#ff0000
 hi Title ctermbg=153 ctermfg=199 gui=NONE guibg=#87cefa guifg=#ff1493
 hi Macro ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
 hi NERDTreeBookmarksLeader ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
-hi Pmenu ctermbg=188 ctermfg=214 gui=NONE guibg=#bcc9db guifg=#666666
+hi Pmenu ctermbg=188 ctermfg=59 gui=NONE guibg=#bcc9db guifg=#333333
 hi PmenuSel ctermbg=33 ctermfg=231 gui=NONE guibg=#204a87 guifg=#ffffff
 hi WildMenu ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff99 guifg=#000000
 
