@@ -19,93 +19,93 @@ if &background=="light"
   hi Character ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff6600
   hi ColorColumn cterm=NONE ctermbg=188 ctermfg=NONE gui=NONE guibg=#E0E0FF guifg=NONE
   hi Comment ctermbg=bg ctermfg=102 gui=italic guibg=bg guifg=#696969
-  hi Conditional ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
+  hi Conditional ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc cterm=bold gui=bold
   hi Cursor ctermbg=59 ctermfg=231 gui=NONE guibg=#333333 guifg=#f5f5ff
   hi CursorColumn term=underline cterm=underline ctermfg=NONE ctermbg=NONE gui=NONE guibg=#E0E0FF guifg=NONE
   hi CursorIM ctermbg=19 ctermfg=59 gui=NONE guibg=#000080 guifg=#333333
   hi CursorLine term=underline cterm=underline ctermfg=NONE ctermbg=NONE gui=NONE guibg=#E0E0FF guifg=NONE
-  hi CursorLineNr cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=#E0E0FF guifg=#1a1a1a
-  hi Define ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
+  hi CursorLineNr ctermbg=NONE ctermfg=NONE guibg=bg guifg=#1a1a1a cterm=bold gui=bold
+  hi Define ctermbg=bg ctermfg=75 guibg=bg guifg=#1e90ff cterm=bold gui=bold
   hi Delimiter ctermbg=bg ctermfg=34 gui=NONE guibg=bg guifg=#008000
   hi Directory ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Exception ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
   hi FoldColumn ctermbg=bg ctermfg=234 gui=NONE guibg=bg guifg=#1a1a1a
   hi Folded ctermbg=188 ctermfg=234 gui=NONE guibg=#e3d2d2 guifg=#1a1a1a
-  hi Function ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
-  hi Identifier ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
+  hi Function ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
+  hi Identifier ctermbg=bg ctermfg=75 guibg=bg guifg=#1e90ff cterm=bold gui=bold
   hi Include ctermbg=bg ctermfg=34 gui=NONE guibg=bg guifg=#008000
   hi IndentGuidesEven ctermbg=188 ctermfg=188 gui=NONE guibg=#c6c6ce guifg=#dcdce5
   hi IndentGuidesOdd ctermbg=188 ctermfg=188 gui=NONE guibg=#dcdce5 guifg=#c6c6ce
-  hi Keyword ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
+  hi Keyword ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
   hi Label ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
-  hi LineNr ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#009999
+  hi LineNr ctermbg=bg ctermfg=37 gui=NONE guibg=#E0E0FF guifg=#009999
   hi MBEVisibleNormal ctermbg=fg ctermfg=37 gui=NONE guibg=fg guifg=#009999
   hi MoreMsg ctermbg=bg ctermfg=34 gui=NONE guibg=bg guifg=#008000
   hi NONEd ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
-  hi Operator ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
+  hi Operator ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=bold gui=bold
   hi PreCondit ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
   hi Question ctermbg=bg ctermfg=34 gui=NONE guibg=bg guifg=#008000
   hi Repeat ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
   hi RubySymbol ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
   hi Special ctermbg=bg ctermfg=34 gui=NONE guibg=bg guifg=#008000
   hi SpecialKey ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
-  hi Statement ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
+  hi Statement ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
   hi StorageClass ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Structure ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi TabLine cterm=underline ctermbg=252 ctermfg=59 gui=underline guibg=#d3d3d3 guifg=#333333
   hi TabLineFill ctermbg=102 ctermfg=fg gui=NONE guibg=#666666 guifg=fg
   hi TabLineSel ctermbg=bg ctermfg=16 gui=NONE guibg=bg guifg=#000000
-  hi Tag ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#009999
-  hi Type ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#009999
+  hi Tag ctermbg=bg ctermfg=37 guibg=bg guifg=#009999 cterm=bold gui=bold
+  hi Type ctermbg=bg ctermfg=37 guibg=bg guifg=#009999 cterm=bold gui=bold
   hi Typedef ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#009999
   hi lCursor ctermbg=16 ctermfg=102 gui=NONE guibg=#000000 guifg=#666666
   hi Number ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
   hi Constant ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
-  hi PreProc ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
+  hi PreProc ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=bold gui=bold
   hi Float ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
 else
   hi Normal ctermbg=16 ctermfg=231 gui=NONE guibg=#000000 guifg=#f5f5ff
   hi Character ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff6600
   hi ColorColumn cterm=NONE ctermbg=59 ctermfg=NONE gui=NONE guibg=#333333 guifg=NONE
   hi Comment ctermbg=bg ctermfg=249 gui=italic guibg=bg guifg=#b2b2b2
-  hi Conditional ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#ad85ff
+  hi Conditional ctermbg=bg ctermfg=104 guibg=bg guifg=#ad85ff cterm=bold gui=bold
   hi Cursor ctermbg=231 ctermfg=59 gui=NONE guibg=#ebebff guifg=#333333
   hi CursorColumn term=underline cterm=underline ctermbg=NONE ctermfg=NONE gui=NONE guibg=#333333 guifg=NONE
   hi CursorIM ctermbg=231 ctermfg=117 gui=NONE guibg=#ebebff guifg=#66ccff
   hi CursorLine term=underline cterm=underline ctermbg=NONE ctermfg=NONE gui=NONE guibg=#333333 guifg=NONE
-  hi CursorLineNr ctermbg=59 ctermfg=226 gui=NONE guibg=#333333 guifg=#ffff99
-  hi Define ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#33adff
+  hi CursorLineNr ctermbg=59 ctermfg=226 guibg=bg guifg=#ffff99 cterm=bold gui=bold
+  hi Define ctermbg=bg ctermfg=75 guibg=bg guifg=#33adff cterm=bold gui=bold
   hi Delimiter ctermbg=bg ctermfg=154 gui=NONE guibg=bg guifg=#a3ffa3
   hi Directory ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Exception ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#ad85ff
   hi FoldColumn ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#ffffff
   hi Folded ctermbg=239 ctermfg=231 gui=NONE guibg=#4c4c4c guifg=#ffffff
-  hi Function ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
-  hi Identifier ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#33adff
+  hi Function ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
+  hi Identifier ctermbg=bg ctermfg=75 guibg=bg guifg=#33adff cterm=bold gui=bold
   hi Include ctermbg=bg ctermfg=154 gui=NONE guibg=bg guifg=#a3ffa3
   hi IndentGuidesEven ctermbg=240 ctermfg=238 gui=NONE guibg=#595959 guifg=#474747
   hi IndentGuidesOdd ctermbg=238 ctermfg=240 gui=NONE guibg=#474747 guifg=#595959
-  hi Keyword ctermbg=bg ctermfg=228 gui=NONE guibg=bg guifg=#ffff99
+  hi Keyword ctermbg=bg ctermfg=228 guibg=bg guifg=#ffff99 cterm=bold gui=bold
   hi Label ctermbg=bg ctermfg=154 gui=NONE guibg=bg guifg=#a3ffa3
-  hi LineNr ctermbg=bg ctermfg=214 gui=NONE guibg=bg guifg=#eaeaea
+  hi LineNr ctermbg=bg ctermfg=214 gui=NONE guibg=#333333 guifg=#eaeaea
   hi MBEVisibleNormal ctermbg=fg ctermfg=37 gui=NONE guibg=fg guifg=#00cc99
   hi MoreMsg ctermbg=bg ctermfg=154 gui=NONE guibg=bg guifg=#a3ffa3
   hi NONEd ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
-  hi Operator ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#ad85ff
+  hi Operator ctermbg=bg ctermfg=104 guibg=bg guifg=#ad85ff cterm=bold gui=bold
   hi PreCondit ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#33adff
   hi Question ctermbg=bg ctermfg=154 gui=NONE guibg=bg guifg=#a3ffa3
   hi Repeat ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#ad85ff
   hi RubySymbol ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#ad85ff
   hi Special ctermbg=bg ctermfg=154 gui=NONE guibg=bg guifg=#a3ffa3
   hi SpecialKey ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#33adff
-  hi Statement ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
+  hi Statement ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
   hi StorageClass ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Structure ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi TabLine cterm=underline ctermbg=16 ctermfg=102 gui=underline guibg=#666666 guifg=#eaeaea
   hi TabLineFill ctermbg=249 ctermfg=fg gui=NONE guibg=#b2b2b2 guifg=fg
   hi TabLineSel ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#ffffff
-  hi Tag ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#00cc99
-  hi Type ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#00cc99
+  hi Tag ctermbg=bg ctermfg=37 guibg=bg guifg=#00cc99 cterm=bold gui=bold
+  hi Type ctermbg=bg ctermfg=37 guibg=bg guifg=#00cc99 cterm=bold gui=bold
   hi Typedef ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#00cc99
   hi lCursor ctermbg=231 ctermfg=59 gui=NONE guibg=#f5f5ff guifg=#333333
   hi Number ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#ad85ff
@@ -131,7 +131,7 @@ hi MBENormal ctermbg=59 ctermfg=102 gui=NONE guibg=fg guifg=#696969
 hi MBEVisibleActive ctermbg=59 ctermfg=19 gui=NONE guibg=fg guifg=#000080
 hi MBEVisibleChanged ctermbg=59 ctermfg=204 gui=NONE guibg=fg guifg=#f1996f
 hi MBEVisibleChangedActive ctermbg=59 ctermfg=204 gui=NONE guibg=fg guifg=#f1996f
-hi MatchParen term=reverse ctermbg=1104 ctermfg=16 gui=NONE guibg=#adff2f guifg=#000000
+hi MatchParen term=reverse ctermbg=1104 ctermfg=16 guibg=#adff2f guifg=#000000 cterm=bold gui=bold
 hi MatchTag ctermbg=1104 ctermfg=16 gui=NONE guibg=#adff2f guifg=#000000
 hi ModeMsg gui=NONE
 hi NERDTreeFlag ctermbg=188 ctermfg=196 gui=NONE guibg=#e3d2d2 guifg=#ff0000
@@ -144,9 +144,9 @@ hi SpellBad ctermfg=Red term=Reverse guisp=Red gui=undercurl ctermbg=White
 hi SpellCap ctermfg=Green term=Reverse guisp=Green gui=undercurl ctermbg=White
 hi SpellLocal ctermfg=Cyan term=Underline guisp=Cyan gui=undercurl ctermbg=White
 hi SpellRare ctermfg=Magenta term=underline guisp=Magenta gui=undercurl ctermbg=White
-hi StatusLine term=reverse cterm=reverse ctermbg=102 ctermfg=214 gui=reverse guibg=#eaeaea guifg=#666666
+hi StatusLine term=reverse cterm=reverse ctermbg=102 ctermfg=214 gui=reverse guibg=#eaeaea guifg=#666666 cterm=bold gui=bold
 hi String ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff6600
-hi Todo ctermbg=226 ctermfg=102 gui=italic guibg=#ffff99 guifg=#666666
+hi Todo ctermbg=226 ctermfg=102 gui=italic guibg=#ffff99 guifg=#666666 cterm=bold gui=bold
 hi VertSplit term=reverse cterm=reverse ctermbg=fg ctermfg=bg gui=reverse guibg=fg guifg=bg
 hi Visual ctermbg=33 ctermfg=231 gui=NONE guibg=#204a87 guifg=#ffffff
 hi WarningMsg ctermbg=bg ctermfg=196 gui=NONE guibg=bg guifg=#ff0000
