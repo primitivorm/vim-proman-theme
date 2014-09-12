@@ -26,28 +26,28 @@ if &background=="light"
   hi CursorLine term=underline cterm=underline ctermfg=NONE ctermbg=NONE gui=NONE guibg=#E0E0FF guifg=NONE
   hi CursorLineNr ctermbg=NONE ctermfg=NONE guibg=bg guifg=#1a1a1a cterm=bold gui=bold
   hi Define ctermbg=bg ctermfg=75 guibg=bg guifg=#1e90ff cterm=bold gui=bold
-  hi Delimiter ctermbg=bg ctermfg=34 guibg=bg guifg=#008000 cterm=bold gui=bold
+  hi Delimiter ctermbg=bg ctermfg=31 guibg=bg guifg=#006699 cterm=bold gui=bold
   hi Directory ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Exception ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
-  hi FoldColumn ctermbg=bg ctermfg=234 gui=NONE guibg=bg guifg=#1a1a1a
-  hi Folded ctermbg=188 ctermfg=234 gui=NONE guibg=#e3d2d2 guifg=#1a1a1a
+  hi FoldColumn ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#1a1a1a
+  hi Folded ctermbg=188 ctermfg=231 gui=NONE guibg=#e3d2d2 guifg=#1a1a1a
   hi Function ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
   hi Identifier ctermbg=bg ctermfg=75 guibg=bg guifg=#1e90ff cterm=bold gui=bold
-  hi Include ctermbg=bg ctermfg=34 guibg=bg guifg=#008000 cterm=bold gui=bold
+  hi Include ctermbg=bg ctermfg=31 guibg=bg guifg=#006699 cterm=bold gui=bold
   hi IndentGuidesEven ctermbg=188 ctermfg=188 gui=NONE guibg=#c6c6ce guifg=#dcdce5
   hi IndentGuidesOdd ctermbg=188 ctermfg=188 gui=NONE guibg=#dcdce5 guifg=#c6c6ce
   hi Keyword ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
   hi Label ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi LineNr ctermbg=bg ctermfg=37 gui=NONE guibg=#E0E0FF guifg=#009999
   hi MBEVisibleNormal ctermbg=fg ctermfg=37 gui=NONE guibg=fg guifg=#009999
-  hi MoreMsg ctermbg=bg ctermfg=34 guibg=bg guifg=#008000 cterm=bold gui=bold
+  hi MoreMsg ctermbg=bg ctermfg=31 guibg=bg guifg=#006699 cterm=bold gui=bold
   hi NONEd ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
   hi Operator ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=bold gui=bold
   hi PreCondit ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
-  hi Question ctermbg=bg ctermfg=34 guibg=bg guifg=#008000 cterm=bold gui=bold
+  hi Question ctermbg=bg ctermfg=31 guibg=bg guifg=#006699 cterm=bold gui=bold
   hi Repeat ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
   hi RubySymbol ctermbg=bg ctermfg=104 gui=NONE guibg=bg guifg=#6600cc
-  hi Special ctermbg=bg ctermfg=34 guibg=bg guifg=#008000 cterm=bold gui=bold
+  hi Special ctermbg=bg ctermfg=31 guibg=bg guifg=#006699 cterm=bold gui=bold
   hi SpecialKey ctermbg=bg ctermfg=75 gui=NONE guibg=bg guifg=#1e90ff
   hi Statement ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
   hi StorageClass ctermbg=bg ctermfg=199 gui=NONE guibg=bg guifg=#ff1493
@@ -120,10 +120,12 @@ endif
 hi Boolean gui=NONE
 hi Conceal ctermbg=248 ctermfg=252 gui=NONE guibg=#a9a9a9 guifg=#d3d3d3
 hi Debug ctermbg=bg ctermfg=124 gui=NONE guibg=bg guifg=#aa0000
-hi DiffAdd ctermbg=157 ctermfg=59 gui=NONE guibg=#a3ffa3 guifg=#333333
-hi DiffChange ctermbg=225 ctermfg=59 gui=NONE guibg=#ffccff guifg=#333333
-hi DiffDelete ctermbg=222 ctermfg=59 gui=NONE guibg=#FFDEAD guifg=#333333
-hi DiffText ctermbg=7 ctermfg=16 gui=NONE guibg=#ff7f50 guifg=#333333
+" {{{ Diff like github
+hi DiffAdd         guifg=#003300 guibg=#DDFFDD gui=none
+hi DiffChange                    guibg=#ECECEC gui=none
+hi DiffText        guifg=#000033 guibg=#DDDDFF gui=none
+hi DiffDelete      guifg=#DDCCCC guibg=#FFDDDD gui=none
+" }}}
 hi Error ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff6600
 hi ErrorMsg term=reverse ctermbg=bg ctermfg=196 gui=NONE guibg=bg guifg=#ff0000
 hi Ignore ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#f5f5ff
