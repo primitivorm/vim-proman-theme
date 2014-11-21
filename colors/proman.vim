@@ -107,7 +107,7 @@ hi Debug ctermbg=bg ctermfg=124 gui=NONE guibg=bg guifg=#aa0000
 hi Directory ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=NONE gui=NONE
 " {{{ Diff like github
 hi DiffAdd         guifg=#003300 guibg=#DDFFDD gui=none
-hi DiffChange                    guibg=#ECECEC gui=none
+hi DiffChange      guifg=#474747 guibg=#ECECEC gui=none
 hi DiffText        guifg=#000033 guibg=#DDDDFF gui=none
 hi DiffDelete      guifg=#DDCCCC guibg=#FFDDDD gui=none
 " }}}
