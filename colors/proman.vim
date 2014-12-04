@@ -59,7 +59,7 @@ if &background=="light"
 else
   hi Normal ctermbg=16 ctermfg=231 gui=NONE guibg=#272822 guifg=#ffffff
   hi ColorColumn cterm=NONE ctermbg=59 ctermfg=NONE gui=NONE guibg=#474747 guifg=NONE
-  hi Comment ctermbg=bg ctermfg=249 gui=italic guibg=bg guifg=#b2b2b2
+  hi Comment ctermbg=bg ctermfg=244 gui=italic guibg=bg guifg=#808080
   hi Conditional ctermbg=bg ctermfg=104 guibg=bg guifg=#ad85ff cterm=NONE gui=NONE
   hi Cursor ctermbg=231 ctermfg=59 gui=NONE guibg=#ebebff guifg=#474747
   hi CursorColumn term=underline cterm=underline ctermbg=NONE ctermfg=NONE gui=NONE guibg=#474747 guifg=NONE
@@ -149,11 +149,11 @@ hi Title ctermbg=153 ctermfg=199 guibg=#87cefa guifg=#ff1493 cterm=NONE gui=NONE
 hi Macro ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=NONE gui=NONE
 hi NERDTreeBookmarksLeader ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=NONE gui=NONE
 hi Pmenu ctermbg=188 ctermfg=59 gui=NONE guibg=#bcc9db guifg=#474747
-hi PmenuSel ctermbg=33 ctermfg=231 gui=NONE guibg=#204a87 guifg=#ffffff
+hi PmenuSel ctermbg=33 ctermfg=231 gui=NONE guibg=#204a87 guifg=#ffffff gui=bold
 hi WildMenu ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff99 guifg=#000000
 
 " for cream statusline
-hi User1  gui=NONE guifg=#808080 guibg=#FFDEAD
-hi User2  gui=NONE guifg=#333333 guibg=#FFDEAD
-hi User3  gui=NONE guifg=#000000 guibg=#FFDEAD
-hi User4  gui=NONE guifg=#000000 guibg=#FFDEAD
+hi User1  gui=NONE guifg=#808080 guibg=#073642
+hi User2  gui=NONE guifg=#333333 guibg=#073642
+hi User3  gui=NONE guifg=#000000 guibg=#073642
+hi User4  gui=NONE guifg=#000000 guibg=#073642
