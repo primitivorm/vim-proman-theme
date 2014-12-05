@@ -153,7 +153,7 @@ hi PmenuSel ctermbg=33 ctermfg=231 gui=NONE guibg=#204a87 guifg=#ffffff gui=bold
 hi WildMenu ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff99 guifg=#000000
 
 " for cream statusline
-hi User1  gui=NONE guifg=#dc322f guibg=#073642 gui=bold
-hi User2  gui=NONE guifg=#b58900 guibg=#073642 gui=bold
+hi User1  gui=NONE guifg=#93a1a1 guibg=#073642 gui=NONE
+hi User2  gui=NONE guifg=#eee8d5 guibg=#073642 gui=bold
 hi User3  gui=NONE guifg=#268bd2 guibg=#073642 gui=bold
-hi User4  gui=NONE guifg=#eee8d5 guibg=#073642 gui=bold
+hi User4  gui=NONE guifg=#d7d7af guibg=#073642 gui=bold
