@@ -19,7 +19,7 @@ if &background=="light"
   hi ColorColumn cterm=NONE ctermbg=188 ctermfg=NONE gui=NONE guibg=#E0E0FF guifg=NONE
   hi Comment ctermbg=bg ctermfg=102 gui=italic guibg=bg guifg=#696969
   hi Conditional ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=NONE gui=NONE
-  hi Cursor ctermbg=59 ctermfg=231 gui=NONE guibg=#333333 guifg=#f5f5ff
+  hi Cursor ctermbg=59 ctermfg=231 gui=NONE guibg=#000000 guifg=#f5f5ff
   hi CursorColumn term=underline cterm=underline ctermfg=NONE ctermbg=NONE gui=NONE guibg=#E0E0FF guifg=NONE
   hi CursorIM ctermbg=19 ctermfg=59 gui=NONE guibg=#000080 guifg=#333333
   hi CursorLine term=underline cterm=underline ctermfg=NONE ctermbg=NONE gui=NONE guibg=#E0E0FF guifg=NONE
@@ -56,12 +56,13 @@ if &background=="light"
   hi Constant ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=NONE gui=NONE
   hi PreProc ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=NONE gui=NONE
   hi Float ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=NONE gui=NONE
+  hi Visual ctermbg=33 ctermfg=231 gui=NONE guibg=#33adff guifg=#ffffff
 else
   hi Normal ctermbg=16 ctermfg=231 gui=NONE guibg=#272822 guifg=#ffffff
   hi ColorColumn cterm=NONE ctermbg=59 ctermfg=NONE gui=NONE guibg=#474747 guifg=NONE
   hi Comment ctermbg=bg ctermfg=244 gui=italic guibg=bg guifg=#808080
   hi Conditional ctermbg=bg ctermfg=104 guibg=bg guifg=#ad85ff cterm=NONE gui=NONE
-  hi Cursor ctermbg=231 ctermfg=59 gui=NONE guibg=#ebebff guifg=#474747
+  hi Cursor ctermbg=231 ctermfg=59 gui=NONE guibg=#33adff guifg=#474747
   hi CursorColumn term=underline cterm=underline ctermbg=NONE ctermfg=NONE gui=NONE guibg=#474747 guifg=NONE
   hi CursorIM ctermbg=231 ctermfg=117 gui=NONE guibg=#ebebff guifg=#66ccff
   hi CursorLine term=underline cterm=underline ctermbg=NONE ctermfg=NONE gui=NONE guibg=#474747 guifg=NONE
@@ -93,11 +94,13 @@ else
   hi Tag ctermbg=bg ctermfg=37 guibg=bg guifg=#00cc99 cterm=NONE gui=NONE
   hi Type ctermbg=bg ctermfg=37 guibg=bg guifg=#00cc99 cterm=NONE gui=NONE
   hi Typedef ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#00cc99
-  hi lCursor ctermbg=231 ctermfg=59 gui=NONE guibg=#f5f5ff guifg=#474747
+  hi lCursor ctermbg=231 ctermfg=59 gui=NONE guibg=#33adff guifg=#474747
   hi Number ctermbg=bg ctermfg=104 guibg=bg guifg=#ad85ff cterm=NONE gui=NONE
   hi Constant ctermbg=bg ctermfg=104 guibg=bg guifg=#ad85ff cterm=NONE gui=NONE
   hi PreProc ctermbg=bg ctermfg=104 guibg=bg guifg=#ad85ff cterm=NONE gui=NONE
   hi Float ctermbg=bg ctermfg=104 guibg=bg guifg=#ad85ff cterm=NONE gui=NONE
+  hi Visual ctermbg=33 ctermfg=231 gui=NONE guibg=#204a87 guifg=#ffffff
+  "hi Visual ctermbg=33 ctermfg=231 gui=NONE guibg=#33adff guifg=#ffffff
 endif
 
 "Common
@@ -143,7 +146,6 @@ hi StatusLine term=reverse cterm=reverse ctermbg=102 ctermfg=214 gui=reverse gui
 hi String ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff6600
 hi Todo ctermbg=226 ctermfg=102 gui=italic guibg=#ffff99 guifg=#666666 cterm=NONE gui=NONE
 hi VertSplit term=reverse cterm=reverse ctermbg=fg ctermfg=bg gui=reverse guibg=fg guifg=bg
-hi Visual ctermbg=33 ctermfg=231 gui=NONE guibg=#204a87 guifg=#ffffff
 hi WarningMsg ctermbg=bg ctermfg=196 guibg=bg guifg=#ff0000
 hi Title ctermbg=153 ctermfg=199 guibg=#87cefa guifg=#ff1493 cterm=NONE gui=NONE
 hi Macro ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=NONE gui=NONE
@@ -153,7 +155,7 @@ hi PmenuSel ctermbg=33 ctermfg=231 gui=NONE guibg=#204a87 guifg=#ffffff gui=bold
 hi WildMenu ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff99 guifg=#000000
 
 " for cream statusline
-hi User1  gui=NONE guifg=#93a1a1 guibg=#073642 gui=NONE
-hi User2  gui=NONE guifg=#eee8d5 guibg=#073642 gui=bold
-hi User3  gui=NONE guifg=#268bd2 guibg=#073642 gui=bold
+hi User1  gui=NONE guifg=#999999 guibg=#073642 gui=bold
+hi User2  gui=NONE guifg=#93a1a1 guibg=#073642 gui=NONE
+hi User3  gui=NONE guifg=#bcc9db guibg=#073642 gui=bold
 hi User4  gui=NONE guifg=#d7d7af guibg=#073642 gui=bold
