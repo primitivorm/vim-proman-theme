@@ -28,7 +28,8 @@ if &background=="light"
   hi Delimiter ctermbg=bg ctermfg=31 guibg=bg guifg=#006699 cterm=NONE gui=NONE
   hi Exception ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=NONE gui=NONE
   hi FoldColumn ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#1a1a1a
-  hi Folded ctermbg=188 ctermfg=231 gui=NONE guibg=#e3d2d2 guifg=#1a1a1a
+  hi Folded ctermbg=188 ctermfg=188 gui=NONE guibg=#E0E0FF guifg=#1a1a1a
+  hi Function ctermbg=bg ctermfg=37 guibg=bg guifg=#009999 cterm=NONE gui=NONE
   hi Identifier ctermbg=bg ctermfg=75 guibg=bg guifg=#1e90ff cterm=NONE gui=NONE
   hi Include ctermbg=bg ctermfg=31 guibg=bg guifg=#006699 cterm=NONE gui=NONE
   hi IndentGuidesEven ctermbg=188 ctermfg=188 gui=NONE guibg=#c6c6ce guifg=#dcdce5
@@ -72,6 +73,7 @@ else
   hi Exception ctermbg=bg ctermfg=104 guibg=bg guifg=#ad85ff cterm=NONE gui=NONE
   hi FoldColumn ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#ffffff
   hi Folded ctermbg=239 ctermfg=231 gui=NONE guibg=#4c4c4c guifg=#ffffff
+  hi Function ctermbg=bg ctermfg=16 guibg=bg guifg=#87cefa cterm=NONE gui=NONE
   hi Identifier ctermbg=bg ctermfg=75 guibg=bg guifg=#33adff cterm=NONE gui=NONE
   hi Include ctermbg=bg ctermfg=157 guibg=bg guifg=#a3ffa3 cterm=NONE gui=NONE
   hi IndentGuidesEven ctermbg=240 ctermfg=238 gui=NONE guibg=#595959 guifg=#474747
@@ -100,7 +102,6 @@ else
   hi PreProc ctermbg=bg ctermfg=104 guibg=bg guifg=#ad85ff cterm=NONE gui=NONE
   hi Float ctermbg=bg ctermfg=104 guibg=bg guifg=#ad85ff cterm=NONE gui=NONE
   hi Visual ctermbg=33 ctermfg=231 gui=NONE guibg=#204a87 guifg=#ffffff
-  "hi Visual ctermbg=33 ctermfg=231 gui=NONE guibg=#33adff guifg=#ffffff
 endif
 
 "Common
@@ -117,7 +118,6 @@ hi DiffDelete      guifg=#DDCCCC guibg=#FFDDDD gui=none
 hi Character ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff6600
 hi Error ctermbg=bg ctermfg=202 guibg=bg guifg=#ff6600
 hi ErrorMsg term=reverse ctermbg=bg ctermfg=196 guibg=bg guifg=#ff0000
-hi Function ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=NONE gui=NONE
 hi Ignore ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#f5f5ff
 hi IncSearch term=reverse cterm=reverse ctermbg=210 ctermfg=16 gui=reverse guibg=#000000 guifg=#ff7f50
 hi MatchParen term=reverse ctermbg=104 ctermfg=16 guibg=#adff2f guifg=#000000 cterm=NONE gui=NONE
