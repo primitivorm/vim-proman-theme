@@ -1,5 +1,5 @@
 " Vim color file
-" Maintainer: Primitivo Roman <cibercafe_montero@hotmail.com>
+" : Primitivo Roman <cibercafe_montero@hotmail.com>
 " Based on the work by: Ricardo Valeriano <ricardo.valeriano@gmail.com>
 " URL: https://github.com/ricardovaleriano/vim-github-theme
 " Last Change: 19-Feb-2015
