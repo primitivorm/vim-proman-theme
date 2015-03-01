@@ -49,8 +49,8 @@ if &background=="light"
   hi! TabLine cterm=underline ctermbg=252 ctermfg=59 gui=underline guibg=#d3d3d3 guifg=#333333
   hi! TabLineFill ctermbg=102 ctermfg=fg gui=NONE guibg=#666666 guifg=fg
   hi! TabLineSel ctermbg=bg ctermfg=16 gui=NONE guibg=bg guifg=#000000
-  hi! Tag ctermbg=bg ctermfg=37 guibg=bg guifg=#009999 cterm=NONE gui=NONE
-  hi! Type ctermbg=bg ctermfg=37 guibg=bg guifg=#009999 cterm=NONE gui=NONE
+  hi! Tag ctermbg=bg ctermfg=31 guibg=bg guifg=#006699 cterm=NONE gui=NONE
+  hi! Type ctermbg=bg ctermfg=75 guibg=bg guifg=#1e90ff cterm=NONE gui=NONE
   hi! Typedef ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#009999
   hi! lCursor ctermbg=16 ctermfg=102 gui=NONE guibg=#000000 guifg=#666666
   hi! Number ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=NONE gui=NONE
@@ -75,11 +75,11 @@ else
   hi! Folded ctermbg=239 ctermfg=231 gui=NONE guibg=#4c4c4c guifg=#ffffff
   hi! Function ctermbg=bg ctermfg=16 guibg=bg guifg=#87cefa cterm=NONE gui=NONE
   hi! Identifier ctermbg=bg ctermfg=75 guibg=bg guifg=#33adff cterm=NONE gui=NONE
-  hi! Include ctermbg=bg ctermfg=157 guibg=bg guifg=#a3ffa3 cterm=NONE gui=NONE
+  hi! Include ctermbg=bg ctermfg=226 guibg=bg guifg=#ffff99 cterm=NONE gui=NONE
   hi! IndentGuidesEven ctermbg=240 ctermfg=238 gui=NONE guibg=#595959 guifg=#474747
   hi! IndentGuidesOdd ctermbg=238 ctermfg=240 gui=NONE guibg=#474747 guifg=#595959
-  hi! Keyword ctermbg=bg ctermfg=228 guibg=bg guifg=#ffff99 cterm=NONE gui=NONE
-  hi! Label ctermbg=bg ctermfg=228 guibg=bg guifg=#ffff99 cterm=NONE gui=NONE
+  hi! Keyword ctermbg=bg ctermfg=226 guibg=bg guifg=#ffff99 cterm=NONE gui=NONE
+  hi! Label ctermbg=bg ctermfg=226 guibg=bg guifg=#ffff99 cterm=NONE gui=NONE
   hi! LineNr ctermbg=bg ctermfg=214 gui=NONE guibg=#474747 guifg=#eaeaea
   hi! MBEVisibleNormal ctermbg=fg ctermfg=37 gui=NONE guibg=fg guifg=#00cc99
   hi! MoreMsg ctermbg=bg ctermfg=157 guibg=bg guifg=#a3ffa3
@@ -94,7 +94,7 @@ else
   hi! TabLineFill ctermbg=249 ctermfg=fg gui=NONE guibg=#b2b2b2 guifg=fg
   hi! TabLineSel ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#ffffff
   hi! Tag ctermbg=bg ctermfg=37 guibg=bg guifg=#00cc99 cterm=NONE gui=NONE
-  hi! Type ctermbg=bg ctermfg=37 guibg=bg guifg=#00cc99 cterm=NONE gui=NONE
+  hi! Type ctermbg=bg ctermfg=157 guibg=bg guifg=#a3ffa3 cterm=NONE gui=NONE
   hi! Typedef ctermbg=bg ctermfg=37 gui=NONE guibg=bg guifg=#00cc99
   hi! lCursor ctermbg=231 ctermfg=59 gui=NONE guibg=#33adff guifg=#474747
   hi! Number ctermbg=bg ctermfg=104 guibg=bg guifg=#ad85ff cterm=NONE gui=NONE
