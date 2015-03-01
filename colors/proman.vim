@@ -120,8 +120,10 @@ hi Error ctermbg=bg ctermfg=202 guibg=bg guifg=#ff6600
 hi ErrorMsg term=reverse ctermbg=bg ctermfg=196 guibg=bg guifg=#ff0000
 hi Ignore ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#f5f5ff
 hi IncSearch term=reverse cterm=reverse ctermbg=210 ctermfg=16 gui=reverse guibg=#000000 guifg=#ff7f50
-hi MatchParen term=reverse ctermbg=104 ctermfg=16 guibg=#adff2f guifg=#000000 cterm=NONE gui=NONE
-hi MatchTag ctermbg=104 ctermfg=16 gui=NONE guibg=#adff2f guifg=#000000
+"hi MatchParen term=reverse ctermbg=104 ctermfg=16 guibg=#adff2f guifg=#000000 cterm=NONE gui=NONE
+hi MatchParen term=reverse ctermbg=104 ctermfg=16 guibg=Cyan guifg=#000000 cterm=NONE gui=NONE
+"hi MatchTag ctermbg=104 ctermfg=16 gui=NONE guibg=#adff2f guifg=#000000
+hi MatchTag ctermbg=104 ctermfg=16 gui=NONE guibg=Cyan guifg=#000000
 hi MBEChanged ctermbg=59 ctermfg=196 gui=NONE guibg=fg guifg=#ff0000
 hi MBENormal ctermbg=59 ctermfg=102 gui=NONE guibg=fg guifg=#696969
 hi MBEVisibleActive ctermbg=59 ctermfg=19 gui=NONE guibg=fg guifg=#000080
