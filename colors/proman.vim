@@ -15,7 +15,7 @@ let g:colors_name="proman"
 set t_Co=256
 
 if &background=="light"
-  hi! Normal ctermbg=231 ctermfg=59 gui=NONE guibg=#f5f5ff guifg=#333333
+  hi! Normal ctermbg=33 ctermfg=59 gui=NONE guibg=#ffffff guifg=#333333
   hi! ColorColumn cterm=NONE ctermbg=188 ctermfg=NONE gui=NONE guibg=#E0E0FF guifg=NONE
   hi! Comment ctermbg=bg ctermfg=102 gui=italic guibg=bg guifg=#696969
   hi! Conditional ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=NONE gui=NONE
