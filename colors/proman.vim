@@ -29,9 +29,9 @@ if &background=="light"
   hi! Exception ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=bold gui=bold
   hi! FoldColumn ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#1a1a1a
   hi! Folded ctermbg=bg ctermfg=188 gui=NONE guibg=#c6c6ce guifg=#1a1a1a
-  hi! Function ctermbg=bg ctermfg=37 guibg=bg guifg=#009999 cterm=bold gui=bold
+  hi! Function ctermbg=bg ctermfg=31 guibg=bg guifg=#006699 cterm=bold gui=bold
   hi! Identifier ctermbg=bg ctermfg=75 guibg=bg guifg=#1e90ff cterm=bold gui=bold
-  hi! Include ctermbg=bg ctermfg=31 guibg=bg guifg=#006699 cterm=bold gui=bold
+  hi! Include ctermbg=bg ctermfg=75 guibg=bg guifg=#1e90ff cterm=bold gui=bold
   hi! IndentGuidesEven ctermbg=bg ctermfg=188 gui=NONE guibg=#c6c6ce guifg=#dcdce5
   hi! IndentGuidesOdd ctermbg=bg ctermfg=188 gui=NONE guibg=#dcdce5 guifg=#c6c6ce
   hi! Keyword ctermbg=bg ctermfg=31 guibg=bg guifg=#006699 cterm=bold gui=bold
@@ -40,7 +40,7 @@ if &background=="light"
   hi! MBEVisibleNormal ctermbg=fg ctermfg=37 gui=NONE guibg=fg guifg=#009999
   hi! MoreMsg ctermbg=bg ctermfg=31 guibg=bg guifg=#006699
   hi! Operator ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=NONE gui=NONE
-  hi! PreCondit ctermbg=bg ctermfg=75 guibg=bg guifg=#1e90ff cterm=bold gui=bold
+  hi! PreCondit ctermbg=bg ctermfg=37 guibg=bg guifg=#009999 cterm=bold gui=bold
   hi! Question ctermbg=bg ctermfg=31 guibg=bg guifg=#006699
   hi! Repeat ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=bold gui=bold
   hi! RubySymbol ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=NONE gui=NONE
