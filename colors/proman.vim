@@ -61,7 +61,7 @@ if &background=="light"
 else
   hi! Normal ctermbg=16 ctermfg=231 gui=NONE guibg=#272822 guifg=#ffffff
   hi! ColorColumn cterm=NONE ctermbg=59 ctermfg=NONE gui=NONE guibg=#474747 guifg=NONE
-  hi! Comment ctermbg=bg ctermfg=244 gui=italic guibg=bg guifg=#808080
+  hi! Comment ctermbg=bg ctermfg=249 gui=italic guibg=bg guifg=#b2b2b2
   hi! Conditional ctermbg=bg ctermfg=104 guibg=bg guifg=#ad85ff cterm=NONE gui=NONE
   hi! Cursor ctermbg=231 ctermfg=59 gui=NONE guibg=#33adff guifg=#474747
   hi! CursorColumn term=underline cterm=underline ctermbg=NONE ctermfg=NONE gui=NONE guibg=#474747 guifg=NONE
