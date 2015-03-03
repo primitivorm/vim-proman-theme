@@ -57,8 +57,8 @@ if &background=="light"
   hi! Constant ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=NONE gui=NONE
   hi! PreProc ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=NONE gui=NONE
   hi! Float ctermbg=bg ctermfg=104 guibg=bg guifg=#6600cc cterm=NONE gui=NONE
-  hi! Visual ctermbg=33 ctermfg=231 gui=NONE guibg=#33adff guifg=#ffffff
 else
+
   hi! Normal ctermbg=16 ctermfg=231 gui=NONE guibg=#272822 guifg=#ffffff
   hi! ColorColumn cterm=NONE ctermbg=59 ctermfg=NONE gui=NONE guibg=#474747 guifg=NONE
   hi! Comment ctermbg=bg ctermfg=249 gui=italic guibg=bg guifg=#b2b2b2
@@ -101,7 +101,6 @@ else
   hi! Constant ctermbg=bg ctermfg=104 guibg=bg guifg=#BD9DFF cterm=NONE gui=NONE
   hi! PreProc ctermbg=bg ctermfg=104 guibg=bg guifg=#BD9DFF cterm=NONE gui=NONE
   hi! Float ctermbg=bg ctermfg=104 guibg=bg guifg=#BD9DFF cterm=NONE gui=NONE
-  hi! Visual ctermbg=33 ctermfg=231 gui=NONE guibg=#204a87 guifg=#ffffff
 endif
 
 "Common
@@ -116,44 +115,45 @@ hi! DiffText        guifg=#000033 guibg=#DDDDFF gui=none
 hi! DiffDelete      guifg=#DDCCCC guibg=#FFDDDD gui=none
 " }}}
 
-hi Character ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff6600
-hi Error ctermbg=bg ctermfg=202 guibg=bg guifg=#ff6600
-hi ErrorMsg term=reverse ctermbg=bg ctermfg=196 guibg=bg guifg=#ff0000
-hi Ignore ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#f5f5ff
-hi IncSearch term=reverse cterm=reverse ctermbg=210 ctermfg=16 gui=reverse guibg=#000000 guifg=#ff7f50
-hi MatchParen term=reverse ctermbg=104 ctermfg=16 guibg=Cyan guifg=#000000 cterm=NONE gui=NONE
-hi MatchTag ctermbg=104 ctermfg=16 gui=NONE guibg=Cyan guifg=#000000
-hi MBEChanged ctermbg=59 ctermfg=196 gui=NONE guibg=fg guifg=#ff0000
-hi MBENormal ctermbg=59 ctermfg=102 gui=NONE guibg=fg guifg=#696969
-hi MBEVisibleActive ctermbg=59 ctermfg=19 gui=NONE guibg=fg guifg=#000080
-hi MBEVisibleChanged ctermbg=59 ctermfg=204 gui=NONE guibg=fg guifg=#f1996f
-hi MBEVisibleChangedActive ctermbg=59 ctermfg=204 gui=NONE guibg=fg guifg=#f1996f
-hi ModeMsg gui=NONE
-hi NERDTreeFlag ctermbg=bg ctermfg=196 gui=NONE guibg=#e3d2d2 guifg=#ff0000
-hi NONEd ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=NONE gui=NONE
-hi NonText ctermbg=bg ctermfg=33 gui=NONE guibg=bg guifg=#204a87
-hi Search term=reverse ctermbg=153 ctermfg=16 gui=NONE guibg=#87cefa guifg=#000000
-hi SignColumn ctermbg=bg ctermfg=19 gui=NONE guibg=bg guifg=#000080
-hi SpecialChar ctermbg=bg ctermfg=244 gui=NONE guibg=bg guifg=#808080
-hi SpecialComment ctermbg=bg ctermfg=145 gui=italic guibg=bg guifg=#999999
-hi SpellBad ctermfg=Red term=Reverse guisp=Red gui=undercurl ctermbg=White
-hi SpellCap ctermfg=Green term=Reverse guisp=Green gui=undercurl ctermbg=White
-hi SpellLocal ctermfg=Cyan term=Underline guisp=Cyan gui=undercurl ctermbg=White
-hi SpellRare ctermfg=Magenta term=underline guisp=Magenta gui=undercurl ctermbg=White
-hi Statement ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
-hi StorageClass ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
-hi Structure ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
-hi StatusLine term=reverse cterm=reverse ctermbg=102 ctermfg=214 gui=reverse guibg=#eaeaea guifg=#666666
-hi String ctermbg=bg ctermfg=202 guibg=bg guifg=#ff6600 cterm=bold gui=bold
-hi Todo ctermbg=226 ctermfg=102 gui=italic guibg=#ffff99 guifg=#666666 cterm=NONE gui=NONE
-hi VertSplit term=reverse cterm=reverse ctermbg=fg ctermfg=bg gui=reverse guibg=fg guifg=bg
-hi WarningMsg ctermbg=bg ctermfg=196 guibg=bg guifg=#ff0000
-hi Title ctermbg=153 ctermfg=199 guibg=#87cefa guifg=#ff1493 cterm=NONE gui=NONE
-hi Macro ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
-hi NERDTreeBookmarksLeader ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=NONE gui=NONE
-hi Pmenu ctermbg=bg ctermfg=59 gui=NONE guibg=#bcc9db guifg=#474747
-hi PmenuSel ctermbg=33 ctermfg=231 gui=NONE guibg=#204a87 guifg=#ffffff gui=bold
-hi WildMenu ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff99 guifg=#000000
+hi! Character ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff6600
+hi! Error ctermbg=bg ctermfg=202 guibg=bg guifg=#ff6600
+hi! ErrorMsg term=reverse ctermbg=bg ctermfg=196 guibg=bg guifg=#ff0000
+hi! Ignore ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#f5f5ff
+hi! IncSearch term=reverse cterm=reverse ctermbg=210 ctermfg=16 gui=reverse guibg=#000000 guifg=#ff7f50
+hi! MatchParen term=reverse ctermbg=104 ctermfg=16 guibg=Cyan guifg=#000000 cterm=NONE gui=NONE
+hi! MatchTag ctermbg=104 ctermfg=16 gui=NONE guibg=Cyan guifg=#000000
+hi! MBEChanged ctermbg=59 ctermfg=196 gui=NONE guibg=fg guifg=#ff0000
+hi! MBENormal ctermbg=59 ctermfg=102 gui=NONE guibg=fg guifg=#696969
+hi! MBEVisibleActive ctermbg=59 ctermfg=19 gui=NONE guibg=fg guifg=#000080
+hi! MBEVisibleChanged ctermbg=59 ctermfg=204 gui=NONE guibg=fg guifg=#f1996f
+hi! MBEVisibleChangedActive ctermbg=59 ctermfg=204 gui=NONE guibg=fg guifg=#f1996f
+hi! ModeMsg gui=NONE
+hi! NERDTreeFlag ctermbg=bg ctermfg=196 gui=NONE guibg=#e3d2d2 guifg=#ff0000
+hi! NONEd ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=NONE gui=NONE
+hi! NonText ctermbg=bg ctermfg=33 gui=NONE guibg=bg guifg=#204a87
+hi! Search term=reverse ctermbg=153 ctermfg=16 gui=NONE guibg=#87cefa guifg=#000000
+hi! SignColumn ctermbg=bg ctermfg=19 gui=NONE guibg=bg guifg=#000080
+hi! SpecialChar ctermbg=bg ctermfg=244 gui=NONE guibg=bg guifg=#808080
+hi! SpecialComment ctermbg=bg ctermfg=145 gui=italic guibg=bg guifg=#999999
+hi! SpellBad ctermfg=Red term=Reverse guisp=Red gui=undercurl ctermbg=White
+hi! SpellCap ctermfg=Green term=Reverse guisp=Green gui=undercurl ctermbg=White
+hi! SpellLocal ctermfg=Cyan term=Underline guisp=Cyan gui=undercurl ctermbg=White
+hi! SpellRare ctermfg=Magenta term=underline guisp=Magenta gui=undercurl ctermbg=White
+hi! Statement ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
+hi! StorageClass ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
+hi! Structure ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
+hi! StatusLine term=reverse cterm=reverse ctermbg=102 ctermfg=214 gui=reverse guibg=#eaeaea guifg=#666666
+hi! String ctermbg=bg ctermfg=202 guibg=bg guifg=#ff6600 cterm=bold gui=bold
+hi! Todo ctermbg=226 ctermfg=102 gui=italic guibg=#ffff99 guifg=#666666 cterm=NONE gui=NONE
+hi! VertSplit term=reverse cterm=reverse ctermbg=fg ctermfg=bg gui=reverse guibg=fg guifg=bg
+hi! WarningMsg ctermbg=bg ctermfg=196 guibg=bg guifg=#ff0000
+hi! Title ctermbg=153 ctermfg=199 guibg=#87cefa guifg=#ff1493 cterm=NONE gui=NONE
+hi! Macro ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
+hi! NERDTreeBookmarksLeader ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=NONE gui=NONE
+hi! Pmenu ctermbg=bg ctermfg=59 gui=NONE guibg=#bcc9db guifg=#474747
+hi! PmenuSel ctermbg=33 ctermfg=231 gui=NONE guibg=#204a87 guifg=#ffffff gui=bold
+hi! Visual ctermbg=33 ctermfg=231 gui=NONE guibg=#33adff guifg=#ffffff
+hi! WildMenu ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff99 guifg=#000000
 
 " for cream statusline
 hi! User1  gui=NONE guifg=#999999 guibg=#073642 gui=bold
