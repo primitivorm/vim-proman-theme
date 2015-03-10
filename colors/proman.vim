@@ -73,7 +73,7 @@ else
   hi! Exception ctermbg=bg ctermfg=104 guibg=bg guifg=#BD9DFF cterm=bold gui=bold
   hi! FoldColumn ctermbg=bg ctermfg=231 gui=NONE guibg=bg guifg=#ffffff
   hi! Folded ctermbg=239 ctermfg=231 gui=NONE guibg=#4c4c4c guifg=#ffffff
-  hi! Function ctermbg=bg ctermfg=16 guibg=bg guifg=#87cefa cterm=bold gui=bold
+  hi! Function ctermbg=bg ctermfg=153 guibg=bg guifg=#87cefa cterm=bold gui=bold
   hi! Identifier ctermbg=bg ctermfg=75 guibg=bg guifg=#33adff cterm=bold gui=bold
   hi! Include ctermbg=bg ctermfg=226 guibg=bg guifg=#ffff99 cterm=bold gui=bold
   hi! IndentGuidesEven ctermbg=240 ctermfg=238 gui=NONE guibg=#595959 guifg=#474747
@@ -109,10 +109,10 @@ hi! Conceal ctermbg=248 ctermfg=252 gui=NONE guibg=#a9a9a9 guifg=#d3d3d3
 hi! Debug ctermbg=bg ctermfg=124 gui=NONE guibg=bg guifg=#aa0000
 hi! Directory ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=NONE gui=NONE
 " {{{ Diff like github
-hi! DiffAdd         guifg=#003300 guibg=#DDFFDD gui=none
-hi! DiffChange      guifg=#474747 guibg=#ECECEC gui=none
-hi! DiffText        guifg=#000033 guibg=#DDDDFF gui=none
-hi! DiffDelete      guifg=#DDCCCC guibg=#FFDDDD gui=none
+hi! DiffAdd         guifg=#003300 guibg=#DDFFDD gui=none ctermfg=34 ctermbg=157
+hi! DiffChange      guifg=#474747 guibg=#ECECEC gui=none ctermfg=59 ctermbg=231
+hi! DiffText        guifg=#000033 guibg=#DDDDFF gui=none ctermfg=19 ctermbg=102
+hi! DiffDelete      guifg=#DDCCCC guibg=#FFDDDD gui=none ctermfg=231 ctermbg=204
 " }}}
 
 hi! Character ctermbg=bg ctermfg=202 gui=NONE guibg=bg guifg=#ff6600
@@ -131,7 +131,7 @@ hi! ModeMsg gui=NONE
 hi! NERDTreeFlag ctermbg=bg ctermfg=196 gui=NONE guibg=#e3d2d2 guifg=#ff0000
 hi! NONEd ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=NONE gui=NONE
 hi! NonText ctermbg=bg ctermfg=33 gui=NONE guibg=bg guifg=#204a87
-hi! Search term=reverse ctermbg=153 ctermfg=16 gui=NONE guibg=#87cefa guifg=#000000
+hi! Search term=reverse ctermbg=153 ctermfg=153 gui=NONE guibg=#87cefa guifg=#000000
 hi! SignColumn ctermbg=bg ctermfg=19 gui=NONE guibg=bg guifg=#000080
 hi! SpecialChar ctermbg=bg ctermfg=244 gui=NONE guibg=bg guifg=#808080
 hi! SpecialComment ctermbg=bg ctermfg=145 gui=italic guibg=bg guifg=#999999
@@ -152,7 +152,7 @@ hi! Macro ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=bold gui=bold
 hi! NERDTreeBookmarksLeader ctermbg=bg ctermfg=199 guibg=bg guifg=#ff1493 cterm=NONE gui=NONE
 hi! Pmenu ctermbg=bg ctermfg=59 gui=NONE guibg=#bcc9db guifg=#474747
 hi! PmenuSel ctermbg=33 ctermfg=231 gui=NONE guibg=#204a87 guifg=#ffffff gui=bold
-hi! Visual ctermbg=33 ctermfg=231 gui=NONE guibg=#33adff guifg=#ffffff
+hi! Visual ctermfg=33 ctermbg=231 gui=NONE guibg=#33adff guifg=#ffffff
 hi! WildMenu ctermbg=226 ctermfg=16 gui=NONE guibg=#ffff99 guifg=#000000
 
 " for cream statusline
