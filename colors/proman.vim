@@ -20,9 +20,9 @@ if &background=="light"
   hi! Comment   gui=italic guibg=bg guifg=#696969 ctermfg=242
   hi! Conditional   guibg=bg guifg=#6600cc ctermfg=56  cterm=bold gui=bold
   hi! Cursor   gui=NONE guibg=#000000 ctermbg=0  guifg=#f5f5ff ctermfg=15
-  hi! CursorColumn term=underline cterm=underline   gui=NONE guibg=#c6c6ce ctermbg=251  guifg=NONE
+  hi! CursorColumn cterm=NONE   gui=NONE guibg=#c6c6ce ctermbg=251  guifg=NONE
   hi! CursorIM   gui=NONE guibg=#000080 ctermbg=18  guifg=#333333 ctermfg=236
-  hi! CursorLine term=underline cterm=underline   gui=NONE guibg=#c6c6ce ctermbg=251  guifg=NONE
+  hi! CursorLine cterm=NONE   gui=NONE guibg=#c6c6ce ctermbg=251  guifg=NONE
   hi! CursorLineNr   guibg=bg guifg=#1a1a1a ctermfg=234  cterm=bold gui=bold
   hi! Define   guibg=bg guifg=#1e90ff ctermfg=33  cterm=bold gui=bold
   hi! Delimiter   guibg=bg guifg=#006699 ctermfg=24  cterm=NONE gui=NONE
@@ -64,9 +64,9 @@ else
   hi! Comment   gui=italic guibg=bg guifg=#b2b2b2 ctermfg=249
   hi! Conditional   guibg=bg guifg=#BD9DFF ctermfg=147  cterm=bold gui=bold
   hi! Cursor   gui=NONE guibg=#33adff ctermbg=75  guifg=#474747 ctermfg=238
-  hi! CursorColumn term=underline cterm=underline   gui=NONE guibg=#474747 ctermbg=238  guifg=NONE
+  hi! CursorColumn cterm=NONE gui=NONE guibg=#474747 ctermbg=238  guifg=NONE
   hi! CursorIM   gui=NONE guibg=#ebebff ctermbg=7  guifg=#66ccff ctermfg=81
-  hi! CursorLine term=underline cterm=underline   gui=NONE guibg=#474747 ctermbg=238  guifg=NONE
+  hi! CursorLine cterm=NONE gui=NONE guibg=#474747 ctermbg=238  guifg=NONE
   hi! CursorLineNr   guibg=bg guifg=#ffff99 ctermfg=228  cterm=bold gui=bold
   hi! Define   guibg=bg guifg=#87cefa ctermfg=117  cterm=bold gui=bold
   hi! Delimiter   guibg=bg guifg=#a3ffa3 ctermfg=157  cterm=NONE gui=NONE
@@ -116,36 +116,36 @@ hi! DiffDelete      guifg=#DDCCCC ctermfg=252  guibg=#FFDDDD ctermbg=224  gui=no
 " }}}
 
 hi! Character   gui=NONE guibg=bg guifg=#ff6600 ctermfg=202
-hi! Error   guibg=bg guifg=#ff6600 ctermfg=202
-hi! ErrorMsg term=reverse   guibg=bg guifg=#ff0000 ctermfg=9
+hi! Error   guibg=bg guifg=#ff6600 ctermfg=202 ctermbg=bg
+hi! ErrorMsg guibg=bg guifg=#ff0000 ctermfg=9 ctermbg=bg
 hi! Ignore   gui=NONE guibg=bg guifg=#f5f5ff ctermfg=15
-hi! IncSearch term=reverse cterm=reverse   gui=reverse guibg=#000000 ctermbg=0  guifg=#ff7f50 ctermfg=209
-hi! MatchParen term=reverse   guibg=Cyan guifg=#000000 ctermfg=0  cterm=NONE gui=NONE
+hi! IncSearch cterm=reverse   gui=reverse guibg=#000000 ctermbg=0  guifg=#ff7f50 ctermfg=209
+hi! MatchParen guibg=Cyan guifg=#000000 ctermfg=0  cterm=NONE gui=NONE
 hi! MatchTag   gui=NONE guibg=Cyan guifg=#000000 ctermfg=0
 hi! MBEChanged   gui=NONE guibg=fg guifg=#ff0000 ctermfg=9
 hi! MBENormal   gui=NONE guibg=fg guifg=#696969 ctermfg=242
 hi! MBEVisibleActive   gui=NONE guibg=fg guifg=#000080 ctermfg=18
 hi! MBEVisibleChanged   gui=NONE guibg=fg guifg=#f1996f ctermfg=209
-hi! MBEVisibleChangedActive   gui=NONE guibg=fg guifg=#f1996f ctermfg=209
+hi! MBEVisibleChangedActive gui=NONE guibg=fg guifg=#f1996f ctermfg=209
 hi! ModeMsg gui=NONE
 hi! NERDTreeFlag   gui=NONE guibg=#e3d2d2 ctermbg=188  guifg=#ff0000 ctermfg=9
 hi! NONEd   guibg=bg guifg=#ff1493 ctermfg=198  cterm=NONE gui=NONE
 hi! NonText   gui=NONE guibg=bg guifg=#204a87 ctermfg=24
-hi! Search term=reverse   gui=NONE guibg=#87cefa ctermbg=117  guifg=#000000 ctermfg=0
+hi! Search gui=NONE guibg=#87cefa ctermbg=117  guifg=#000000 ctermfg=0
 hi! SignColumn   gui=NONE guibg=bg guifg=#000080 ctermfg=18
 hi! SpecialChar   gui=NONE guibg=bg guifg=#808080 ctermfg=244
 hi! SpecialComment   gui=italic guibg=bg guifg=#999999 ctermfg=246
-hi! SpellBad  term=Reverse guisp=Red gui=undercurl
-hi! SpellCap  term=Reverse guisp=Green gui=undercurl
-hi! SpellLocal  term=Underline guisp=Cyan gui=undercurl
-hi! SpellRare  term=underline guisp=Magenta gui=undercurl
+hi! SpellBad  cterm=Reverse guisp=Red gui=undercurl
+hi! SpellCap  cterm=Reverse guisp=Green gui=undercurl
+hi! SpellLocal  cterm=underline guisp=Cyan gui=undercurl
+hi! SpellRare  cterm=underline guisp=Magenta gui=undercurl
 hi! Statement   guibg=bg guifg=#ff1493 ctermfg=198  cterm=bold gui=bold
 hi! StorageClass   guibg=bg guifg=#ff1493 ctermfg=198  cterm=bold gui=bold
 hi! Structure   guibg=bg guifg=#ff1493 ctermfg=198  cterm=bold gui=bold
-hi! StatusLine term=reverse cterm=reverse   gui=reverse guibg=#eaeaea ctermbg=7  guifg=#666666 ctermfg=241
+hi! StatusLine cterm=reverse   gui=reverse guibg=#eaeaea ctermbg=7  guifg=#666666 ctermfg=241
 hi! String   guibg=bg guifg=#ff6600 ctermfg=202  cterm=bold gui=bold
 hi! Todo   gui=italic guibg=#ffff99 ctermbg=228  guifg=#666666 ctermfg=241  cterm=NONE gui=NONE
-hi! VertSplit term=reverse cterm=reverse   gui=reverse guibg=fg guifg=bg
+hi! VertSplit cterm=reverse   gui=reverse guibg=fg guifg=bg
 hi! WarningMsg   guibg=bg guifg=#ff0000 ctermfg=9
 hi! Title   guibg=#87cefa ctermbg=117  guifg=#ff1493 ctermfg=198  cterm=NONE gui=NONE
 hi! Macro   guibg=bg guifg=#FF72BE ctermfg=198  cterm=bold gui=bold
