@@ -116,8 +116,8 @@ hi! DiffDelete      guifg=#DDCCCC ctermfg=252  guibg=#FFDDDD ctermbg=224  gui=no
 " }}}
 
 hi! Character   gui=NONE guibg=bg guifg=#ff6600 ctermfg=202
-hi! Error   guibg=bg guifg=#ff6600 ctermfg=202 ctermbg=bg
-hi! ErrorMsg guibg=bg guifg=#ff0000 ctermfg=9 ctermbg=bg
+hi! Error   guibg=bg guifg=#ff6600 ctermfg=202 ctermbg=bg cterm=reverse
+hi! ErrorMsg guibg=bg guifg=#ff0000 ctermfg=9 ctermbg=bg cterm=reverse
 hi! Ignore   gui=NONE guibg=bg guifg=#f5f5ff ctermfg=15
 hi! IncSearch cterm=reverse   gui=reverse guibg=#000000 ctermbg=0  guifg=#ff7f50 ctermfg=209
 hi! MatchParen guibg=Cyan guifg=#000000 ctermfg=0  cterm=NONE gui=NONE
@@ -135,8 +135,8 @@ hi! Search gui=NONE guibg=#87cefa ctermbg=117  guifg=#000000 ctermfg=0
 hi! SignColumn   gui=NONE guibg=bg guifg=#000080 ctermfg=18
 hi! SpecialChar   gui=NONE guibg=bg guifg=#808080 ctermfg=244
 hi! SpecialComment   gui=italic guibg=bg guifg=#999999 ctermfg=246
-hi! SpellBad  cterm=Reverse guisp=Red gui=undercurl
-hi! SpellCap  cterm=Reverse guisp=Green gui=undercurl
+hi! SpellBad  cterm=reverse guisp=Red gui=undercurl ctermbg=bg ctermfg=Red
+hi! SpellCap  cterm=reverse guisp=Green gui=undercurl ctermbg=bg ctermfg=Green
 hi! SpellLocal  cterm=underline guisp=Cyan gui=undercurl
 hi! SpellRare  cterm=underline guisp=Magenta gui=undercurl
 hi! Statement   guibg=bg guifg=#ff1493 ctermfg=198  cterm=bold gui=bold
