@@ -16,13 +16,13 @@ set t_Co=256
 
 if &background == "light"
   hi! Normal   gui=NONE guibg=#ffffff ctermbg=7  guifg=#333333 ctermfg=236
-  hi! ColorColumn cterm=NONE   gui=NONE guibg=#dcdce5 ctermbg=253  guifg=NONE
+  hi! ColorColumn cterm=NONE   gui=NONE guibg=#ededed ctermbg=253  guifg=NONE
   hi! Comment   gui=italic guibg=bg guifg=#696969 ctermfg=242
   hi! Conditional   guibg=bg guifg=#6600cc ctermfg=56  cterm=NONE gui=NONE
   hi! Cursor   gui=NONE guibg=#000000 ctermbg=0  guifg=#f5f5ff ctermfg=15
-  hi! CursorColumn cterm=NONE   gui=NONE guibg=#dcdce5 ctermbg=253  guifg=NONE
+  hi! CursorColumn cterm=NONE   gui=NONE guibg=#ededed ctermbg=253  guifg=NONE
   hi! CursorIM   gui=NONE guibg=#000080 ctermbg=18  guifg=#333333 ctermfg=236
-  hi! CursorLine cterm=NONE   gui=NONE guibg=#dcdce5 ctermbg=253  guifg=NONE
+  hi! CursorLine cterm=NONE   gui=NONE guibg=#ededed ctermbg=253  guifg=NONE
   hi! CursorLineNr   guibg=bg guifg=#1a1a1a ctermfg=234  cterm=NONE gui=NONE
   hi! Define   guibg=bg guifg=#1e90ff ctermfg=33  cterm=NONE gui=NONE
   hi! Delimiter   guibg=bg guifg=#006699 ctermfg=24  cterm=NONE gui=NONE
@@ -36,7 +36,7 @@ if &background == "light"
   hi! IndentGuidesOdd   gui=NONE guibg=#dcdce5 ctermbg=253  guifg=#c6c6ce ctermfg=251
   hi! Keyword   guibg=bg guifg=#006699 ctermfg=24  cterm=NONE gui=NONE
   hi! Label   guibg=bg guifg=#006699 ctermfg=24  cterm=NONE gui=NONE
-  hi! LineNr   gui=NONE guibg=#dcdce5 ctermbg=253  guifg=#009999 ctermfg=30
+  hi! LineNr   gui=NONE guibg=#ededed ctermbg=253  guifg=#009999 ctermfg=30
   hi! MBEVisibleNormal   gui=NONE guibg=fg guifg=#009999 ctermfg=30
   hi! MoreMsg   guibg=bg guifg=#006699 ctermfg=24
   hi! Operator   guibg=bg guifg=#6600cc ctermfg=56  cterm=NONE gui=NONE
@@ -115,7 +115,7 @@ hi! DiffText        guifg=#000033 ctermfg=233  guibg=#DDDDFF ctermbg=189  gui=no
 hi! DiffDelete      guifg=#DDCCCC ctermfg=252  guibg=#FFDDDD ctermbg=224  gui=none
 " }}}
 
-hi! Character   gui=NONE guibg=bg guifg=#ff6600 ctermfg=202
+hi! Character   gui=NONE guibg=bg guifg=#ff1493 ctermfg=202
 hi! Error   guibg=bg guifg=#ff6600 ctermfg=202 ctermbg=bg cterm=reverse
 hi! ErrorMsg guibg=bg guifg=#ff0000 ctermfg=9 ctermbg=bg cterm=reverse
 hi! Ignore   gui=NONE guibg=bg guifg=#f5f5ff ctermfg=15
@@ -139,11 +139,11 @@ hi! SpellBad  cterm=reverse guisp=Red gui=undercurl ctermbg=bg ctermfg=Red
 hi! SpellCap  cterm=reverse guisp=Green gui=undercurl ctermbg=bg ctermfg=Green
 hi! SpellLocal  cterm=underline guisp=Cyan gui=undercurl
 hi! SpellRare  cterm=underline guisp=Magenta gui=undercurl
-hi! Statement   guibg=bg guifg=#ff1493 ctermfg=198  cterm=NONE gui=NONE
-hi! StorageClass   guibg=bg guifg=#ff1493 ctermfg=198  cterm=NONE gui=NONE
-hi! Structure   guibg=bg guifg=#ff1493 ctermfg=198  cterm=NONE gui=NONE
+hi! Statement   guibg=bg guifg=#ff0000 ctermfg=198  cterm=NONE gui=NONE
+hi! StorageClass   guibg=bg guifg=#ff0000 ctermfg=198  cterm=NONE gui=NONE
+hi! Structure   guibg=bg guifg=#ff0000 ctermfg=198  cterm=NONE gui=NONE
 hi! StatusLine cterm=reverse gui=reverse guibg=#eaeaea ctermbg=7  guifg=#666666 ctermfg=241
-hi! String   guibg=bg guifg=#ff6600 ctermfg=202  cterm=NONE gui=NONE
+hi! String   guibg=bg guifg=#ff1493 ctermfg=202  cterm=NONE gui=NONE
 hi! Todo   gui=italic guibg=#ffff99 ctermbg=228  guifg=#666666 ctermfg=241  cterm=NONE gui=NONE
 hi! VertSplit cterm=reverse   gui=reverse guibg=fg guifg=bg
 hi! WarningMsg   guibg=bg guifg=#ff0000 ctermfg=9
