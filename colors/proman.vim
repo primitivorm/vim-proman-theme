@@ -115,7 +115,7 @@ hi! DiffText        guifg=#000033 ctermfg=233  guibg=#DDDDFF ctermbg=189  gui=no
 hi! DiffDelete      guifg=#DDCCCC ctermfg=252  guibg=#FFDDDD ctermbg=224  gui=none
 " }}}
 
-hi! Character   gui=NONE guibg=bg guifg=#ff1493 ctermfg=202
+hi! Character   gui=NONE guibg=bg guifg=#ff6600 ctermfg=202
 hi! Error   guibg=bg guifg=#ff6600 ctermfg=202 ctermbg=bg cterm=reverse
 hi! ErrorMsg guibg=bg guifg=#ff0000 ctermfg=9 ctermbg=bg cterm=reverse
 hi! Ignore   gui=NONE guibg=bg guifg=#f5f5ff ctermfg=15
@@ -139,11 +139,11 @@ hi! SpellBad  cterm=reverse guisp=Red gui=undercurl ctermbg=bg ctermfg=Red
 hi! SpellCap  cterm=reverse guisp=Green gui=undercurl ctermbg=bg ctermfg=Green
 hi! SpellLocal  cterm=underline guisp=Cyan gui=undercurl
 hi! SpellRare  cterm=underline guisp=Magenta gui=undercurl
-hi! Statement   guibg=bg guifg=#ff0000 ctermfg=198  cterm=NONE gui=NONE
-hi! StorageClass   guibg=bg guifg=#ff0000 ctermfg=198  cterm=NONE gui=NONE
-hi! Structure   guibg=bg guifg=#ff0000 ctermfg=198  cterm=NONE gui=NONE
+hi! Statement   guibg=bg guifg=#ff1493 ctermfg=198  cterm=NONE gui=NONE
+hi! StorageClass   guibg=bg guifg=#ff1493 ctermfg=198  cterm=NONE gui=NONE
+hi! Structure   guibg=bg guifg=#ff1493 ctermfg=198  cterm=NONE gui=NONE
 hi! StatusLine cterm=reverse gui=reverse guibg=#eaeaea ctermbg=7  guifg=#666666 ctermfg=241
-hi! String   guibg=bg guifg=#ff1493 ctermfg=202  cterm=NONE gui=NONE
+hi! String   guibg=bg guifg=#ff3333 ctermfg=202  cterm=NONE gui=NONE
 hi! Todo   gui=italic guibg=#ffff99 ctermbg=228  guifg=#666666 ctermfg=241  cterm=NONE gui=NONE
 hi! VertSplit cterm=reverse   gui=reverse guibg=fg guifg=bg
 hi! WarningMsg   guibg=bg guifg=#ff0000 ctermfg=9
