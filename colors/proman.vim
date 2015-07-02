@@ -27,7 +27,7 @@ if &background == "light"
   hi! Define   guibg=bg guifg=#1e90ff ctermfg=33  cterm=NONE gui=NONE
   hi! Delimiter   guibg=bg guifg=#006699 ctermfg=24  cterm=NONE gui=NONE
   hi! Exception   guibg=bg guifg=#6600cc ctermfg=56  cterm=NONE gui=NONE
-  hi! FoldColumn   gui=NONE guibg=bg guifg=#1a1a1a ctermfg=234
+  hi! FoldColumn   gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
   hi! Folded   gui=NONE guibg=#c6c6ce ctermbg=251  guifg=#1a1a1a ctermfg=234
   hi! Function   guibg=bg guifg=#006699 ctermfg=24  cterm=NONE gui=NONE
   hi! Identifier   guibg=bg guifg=#1e90ff ctermfg=33  cterm=NONE gui=NONE
@@ -71,7 +71,7 @@ else
   hi! Define   guibg=bg guifg=#87cefa ctermfg=117  cterm=NONE gui=NONE
   hi! Delimiter   guibg=bg guifg=#a3ffa3 ctermfg=157  cterm=NONE gui=NONE
   hi! Exception   guibg=bg guifg=#BD9DFF ctermfg=147  cterm=NONE gui=NONE
-  hi! FoldColumn   gui=NONE guibg=bg guifg=#ffffff ctermfg=15
+  hi! FoldColumn   gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
   hi! Folded   gui=NONE guibg=#4c4c4c ctermbg=239  guifg=#ffffff ctermfg=15
   hi! Function   guibg=bg guifg=#33adff ctermfg=75  cterm=NONE gui=NONE
   hi! Identifier   guibg=bg guifg=#87cefa ctermfg=117  cterm=NONE gui=NONE
@@ -143,7 +143,7 @@ hi! Statement   guibg=bg guifg=#ff1493 ctermfg=198  cterm=NONE gui=NONE
 hi! StorageClass   guibg=bg guifg=#ff1493 ctermfg=198  cterm=NONE gui=NONE
 hi! Structure   guibg=bg guifg=#ff1493 ctermfg=198  cterm=NONE gui=NONE
 hi! StatusLine cterm=reverse gui=reverse guibg=#eaeaea ctermbg=7  guifg=#666666 ctermfg=241
-hi! String   guibg=bg guifg=#ff3333 ctermfg=202  cterm=NONE gui=NONE
+hi! String   guibg=bg guifg=#ff6600 ctermfg=202  cterm=NONE gui=NONE
 hi! Todo   gui=italic guibg=#ffff99 ctermbg=228  guifg=#666666 ctermfg=241  cterm=NONE gui=NONE
 hi! VertSplit cterm=reverse   gui=reverse guibg=fg guifg=bg
 hi! WarningMsg   guibg=bg guifg=#ff0000 ctermfg=9
@@ -160,3 +160,9 @@ hi! User1  gui=NONE guifg=#999999 ctermfg=246  guibg=#073642 ctermbg=235  gui=NO
 hi! User2  gui=NONE guifg=#93a1a1 ctermfg=247  guibg=#073642 ctermbg=235  gui=NONE
 hi! User3  gui=NONE guifg=#bcc9db ctermfg=152  guibg=#073642 ctermbg=235  gui=NONE
 hi! User4  gui=NONE guifg=#d7d7af ctermfg=187  guibg=#073642 ctermbg=235  gui=NONE
+
+"" Highlighting: Setup some nice colours to show the mark positions.
+"hi! default ShowMarksHLl ctermfg=darkblue ctermbg=blue cterm=bold guifg=blue guibg=lightblue gui=bold
+"hi! default ShowMarksHLu ctermfg=darkblue ctermbg=blue cterm=bold guifg=blue guibg=lightblue gui=bold
+"hi! default ShowMarksHLo ctermfg=darkblue ctermbg=blue cterm=bold guifg=blue guibg=lightblue gui=bold
+"hi! default ShowMarksHLm ctermfg=darkblue ctermbg=blue cterm=bold guifg=blue guibg=lightblue gui=bold
