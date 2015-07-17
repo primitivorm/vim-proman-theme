@@ -25,7 +25,7 @@ if &background == "light"
   hi! CursorLine cterm=NONE   gui=NONE guibg=#ededed ctermbg=253  guifg=NONE
   hi! CursorLineNr   guibg=bg guifg=#1a1a1a ctermfg=234  cterm=NONE gui=NONE
   hi! Define   guibg=bg guifg=#1e90ff ctermfg=33  cterm=NONE gui=NONE
-  hi! Delimiter   guibg=bg guifg=#006699 ctermfg=24  cterm=NONE gui=NONE
+  hi! Delimiter   guibg=bg guifg=#006699 ctermfg=24  cterm=bold gui=bold
   hi! Exception   guibg=bg guifg=#6600cc ctermfg=56  cterm=NONE gui=NONE
   hi! FoldColumn   gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
   hi! Folded   gui=NONE guibg=#c6c6ce ctermbg=251  guifg=#1a1a1a ctermfg=234
@@ -34,17 +34,17 @@ if &background == "light"
   hi! Include   guibg=bg guifg=#8F8F00 ctermfg=3  cterm=NONE gui=NONE
   hi! IndentGuidesEven   gui=NONE guibg=#c6c6ce ctermbg=251  guifg=#dcdce5 ctermfg=253
   hi! IndentGuidesOdd   gui=NONE guibg=#dcdce5 ctermbg=253  guifg=#c6c6ce ctermfg=251
-  hi! Keyword   guibg=bg guifg=#006699 ctermfg=24  cterm=NONE gui=NONE
-  hi! Label   guibg=bg guifg=#006699 ctermfg=24  cterm=NONE gui=NONE
+  hi! Keyword   guibg=bg guifg=#8F8F00 ctermfg=3  cterm=NONE gui=NONE
+  hi! Label   guibg=bg guifg=#8F8F00 ctermfg=3  cterm=NONE gui=NONE
   hi! LineNr   gui=NONE guibg=#ededed ctermbg=253  guifg=#009999 ctermfg=30
   hi! MBEVisibleNormal   gui=NONE guibg=fg guifg=#009999 ctermfg=30
   hi! MoreMsg   guibg=bg guifg=#006699 ctermfg=24
-  hi! Operator   guibg=bg guifg=#6600cc ctermfg=56  cterm=NONE gui=NONE
+  hi! Operator   guibg=bg guifg=#6600cc ctermfg=56  cterm=bold gui=bold
   hi! PreCondit   guibg=bg guifg=#009999 ctermfg=30  cterm=NONE gui=NONE
   hi! Question   guibg=bg guifg=#006699 ctermfg=24
   hi! Repeat   guibg=bg guifg=#6600cc ctermfg=56  cterm=NONE gui=NONE
   hi! RubySymbol   guibg=bg guifg=#6600cc ctermfg=56  cterm=NONE gui=NONE
-  hi! Special   guibg=bg guifg=#006699 ctermfg=24  cterm=NONE gui=NONE
+  hi! Special   guibg=bg guifg=#006699 ctermfg=24  cterm=bold gui=bold
   hi! SpecialKey   gui=NONE guibg=bg guifg=#1e90ff ctermfg=33
   hi! TabLine cterm=underline   gui=underline guibg=#d3d3d3 ctermbg=252  guifg=#333333 ctermfg=236
   hi! TabLineFill   gui=NONE guibg=#666666 ctermbg=241  guifg=fg
@@ -69,7 +69,7 @@ else
   hi! CursorLine cterm=NONE gui=NONE guibg=#474747 ctermbg=238  guifg=NONE
   hi! CursorLineNr   guibg=bg guifg=#ffff99 ctermfg=228  cterm=NONE gui=NONE
   hi! Define   guibg=bg guifg=#87cefa ctermfg=117  cterm=NONE gui=NONE
-  hi! Delimiter   guibg=bg guifg=#a3ffa3 ctermfg=157  cterm=NONE gui=NONE
+  hi! Delimiter   guibg=bg guifg=#a3ffa3 ctermfg=157  cterm=bold gui=bold
   hi! Exception   guibg=bg guifg=#BD9DFF ctermfg=147  cterm=NONE gui=NONE
   hi! FoldColumn   gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
   hi! Folded   gui=NONE guibg=#4c4c4c ctermbg=239  guifg=#ffffff ctermfg=15
@@ -82,13 +82,13 @@ else
   hi! Label   guibg=bg guifg=#ffff99 ctermfg=228  cterm=NONE gui=NONE
   hi! LineNr   gui=NONE guibg=#474747 ctermbg=238  guifg=#eaeaea ctermfg=7
   hi! MBEVisibleNormal   gui=NONE guibg=fg guifg=#00cc99 ctermfg=42
-  hi! MoreMsg   guibg=bg guifg=#a3ffa3 ctermfg=157
-  hi! Operator   guibg=bg guifg=#BD9DFF ctermfg=147  cterm=NONE gui=NONE
+  hi! MoreMsg   guibg=bg guifg=#a3ffa3 ctermfg=157 gui=NONE
+  hi! Operator   guibg=bg guifg=#BD9DFF ctermfg=147  cterm=bold gui=bold
   hi! PreCondit   guibg=bg guifg=#87cefa ctermfg=117  cterm=NONE gui=NONE
-  hi! Question   guibg=bg guifg=#a3ffa3 ctermfg=157
+  hi! Question   guibg=bg guifg=#a3ffa3 ctermfg=157 gui=NONE
   hi! Repeat   guibg=bg guifg=#BD9DFF ctermfg=147  cterm=NONE gui=NONE
   hi! RubySymbol   guibg=bg guifg=#BD9DFF ctermfg=147  cterm=NONE gui=NONE
-  hi! Special   guibg=bg guifg=#a3ffa3 ctermfg=157  cterm=NONE gui=NONE
+  hi! Special   guibg=bg guifg=#a3ffa3 ctermfg=157  cterm=bold gui=bold
   hi! SpecialKey   gui=NONE guibg=bg guifg=#87cefa ctermfg=117
   hi! TabLine cterm=underline   gui=underline guibg=#666666 ctermbg=241  guifg=#eaeaea ctermfg=7
   hi! TabLineFill   gui=NONE guibg=#b2b2b2 ctermbg=249  guifg=fg
