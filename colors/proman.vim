@@ -40,7 +40,7 @@ if &background == "light"
     hi! MBEVisibleNormal guibg=fg guifg=#8F8F00 ctermfg=3
     hi! MoreMsg guibg=bg guifg=#007A00 ctermfg=28
     hi! Operator guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
-    hi! PreCondit guibg=bg guifg=#8F8F00 ctermfg=3
+    hi! PreCondit guibg=bg guifg=#8F8F00 ctermfg=3 cterm=bold gui=bold
     hi! Question guibg=bg guifg=#007A00 ctermfg=28
     hi! Repeat guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
     hi! RubySymbol guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
