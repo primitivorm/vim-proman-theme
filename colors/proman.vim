@@ -32,6 +32,7 @@ if &background == "light"
     hi! Folded guibg=#c6c6ce ctermbg=251 guifg=#1a1a1a ctermfg=234 gui=underline
     hi! Function guibg=bg guifg=#006699 ctermfg=24 cterm=bold gui=bold
     hi! Include guibg=bg guifg=#8F8F00 ctermfg=3 cterm=bold gui=bold
+    hi! Identifier guibg=bg guifg=#8F8F00 ctermfg=3 cterm=bold gui=bold
     hi! IndentGuidesEven guibg=#c6c6ce ctermbg=251 guifg=#dcdce5 ctermfg=253
     hi! IndentGuidesOdd guibg=#dcdce5 ctermbg=253 guifg=#c6c6ce ctermfg=251
     hi! Keyword guibg=bg guifg=#8F8F00 ctermfg=3 cterm=bold gui=bold
@@ -73,6 +74,7 @@ else
     hi! Folded guibg=#666666 ctermbg=241 guifg=#ffffff ctermfg=15 gui=underline
     hi! Function guibg=bg guifg=#87cefa ctermfg=117 cterm=bold gui=bold
     hi! Include guibg=bg guifg=#ffff99 ctermfg=228 cterm=bold gui=bold
+    hi! Identifier guibg=bg guifg=#ffff99 ctermfg=228 cterm=bold gui=bold
     hi! IndentGuidesEven guibg=#595959 ctermbg=240 guifg=#474747 ctermfg=238
     hi! IndentGuidesOdd guibg=#474747 ctermbg=238 guifg=#595959 ctermfg=240
     hi! Keyword guibg=bg guifg=#ffff99 ctermfg=228 cterm=bold gui=bold
@@ -101,7 +103,7 @@ else
 endif
 
 "Common
-hi! Boolean gui=bold cterm=bold
+hi! Boolean guifg=#F92672 ctermfg=161 gui=bold cterm=bold
 hi! Conceal guibg=#a9a9a9 ctermbg=248 guifg=#d3d3d3 ctermfg=252
 hi! Debug guibg=bg guifg=#aa0000 ctermfg=124
 hi! Directory guibg=bg guifg=#ff33cc ctermfg=198 cterm=bold gui=bold
@@ -114,10 +116,9 @@ hi! DiffDelete guifg=#DDCCCC ctermfg=252 guibg=#FFDDDD ctermbg=224 cterm=bold gu
 " }}}
 
 hi! Character guibg=bg guifg=#ff5f00 ctermfg=202 cterm=bold gui=bold
-hi! Define guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
+hi! Define guibg=bg guifg=#87cefa ctermfg=117 cterm=bold gui=bold
 hi! Error guibg=bg guifg=#ff5f00 ctermfg=202 ctermbg=bg cterm=reverse
 hi! ErrorMsg guibg=bg guifg=#ff0000 ctermfg=9 ctermbg=bg cterm=reverse
-hi! Identifier guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
 hi! Ignore guibg=bg guifg=#f5f5ff ctermfg=15
 hi! IncSearch cterm=reverse gui=reverse guibg=#000000 ctermbg=0 guifg=#ff7f50 ctermfg=209
 hi! MatchParen guibg=Cyan guifg=#000000 ctermfg=0 cterm=bold gui=bold
