@@ -31,17 +31,17 @@ if &background == "light"
     hi! FoldColumn gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
     hi! Folded guibg=#c6c6ce ctermbg=251 guifg=#1a1a1a ctermfg=234 gui=underline
     hi! Function guibg=bg guifg=#006699 ctermfg=24 cterm=bold gui=bold
-    hi! Include guibg=bg guifg=#8F8F00 ctermfg=3 cterm=bold gui=bold
-    hi! Identifier guibg=bg guifg=#8F8F00 ctermfg=3 cterm=bold gui=bold
+    hi! Include guibg=bg guifg=#007A00 ctermfg=28 cterm=bold gui=bold
+    hi! Identifier guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
     hi! IndentGuidesEven guibg=#c6c6ce ctermbg=251 guifg=#dcdce5 ctermfg=253
     hi! IndentGuidesOdd guibg=#dcdce5 ctermbg=253 guifg=#c6c6ce ctermfg=251
-    hi! Keyword guibg=bg guifg=#8F8F00 ctermfg=3 cterm=bold gui=bold
-    hi! Label guibg=bg guifg=#8F8F00 ctermfg=3 cterm=bold gui=bold
-    hi! LineNr guibg=#ededed ctermbg=253 guifg=#8F8F00 ctermfg=3
-    hi! MBEVisibleNormal guibg=fg guifg=#8F8F00 ctermfg=3
+    hi! Keyword guibg=bg guifg=#007A00 ctermfg=28 cterm=bold gui=bold
+    hi! Label guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
+    hi! LineNr guibg=#ededed ctermbg=253 guifg=#007A00 ctermfg=28
+    hi! MBEVisibleNormal guibg=fg guifg=#007A00 ctermfg=28
     hi! MoreMsg guibg=bg guifg=#007A00 ctermfg=28
     hi! Operator guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
-    hi! PreCondit guibg=bg guifg=#8F8F00 ctermfg=3 cterm=bold gui=bold
+    hi! PreCondit guibg=bg guifg=#007A00 ctermfg=28 cterm=bold gui=bold
     hi! Question guibg=bg guifg=#007A00 ctermfg=28
     hi! Repeat guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
     hi! RubySymbol guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
@@ -73,17 +73,17 @@ else
     hi! FoldColumn gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
     hi! Folded guibg=#666666 ctermbg=241 guifg=#ffffff ctermfg=15 gui=underline
     hi! Function guibg=bg guifg=#87cefa ctermfg=117 cterm=bold gui=bold
-    hi! Include guibg=bg guifg=#ffff99 ctermfg=228 cterm=bold gui=bold
-    hi! Identifier guibg=bg guifg=#ffff99 ctermfg=228 cterm=bold gui=bold
+    hi! Include guibg=bg guifg=#a3ffa3 ctermfg=157 cterm=bold gui=bold
+    hi! Identifier guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
     hi! IndentGuidesEven guibg=#595959 ctermbg=240 guifg=#474747 ctermfg=238
     hi! IndentGuidesOdd guibg=#474747 ctermbg=238 guifg=#595959 ctermfg=240
-    hi! Keyword guibg=bg guifg=#ffff99 ctermfg=228 cterm=bold gui=bold
-    hi! Label guibg=bg guifg=#ffff99 ctermfg=228 cterm=bold gui=bold
-    hi! LineNr guibg=#474747 ctermbg=238 guifg=#ffff99 ctermfg=228
-    hi! MBEVisibleNormal guibg=fg guifg=#ffff99 ctermfg=228
+    hi! Keyword guibg=bg guifg=#a3ffa3 ctermfg=157 cterm=bold gui=bold
+    hi! Label guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
+    hi! LineNr guibg=#474747 ctermbg=238 guifg=#a3ffa3 ctermfg=157
+    hi! MBEVisibleNormal guibg=fg guifg=#a3ffa3 ctermfg=157
     hi! MoreMsg guibg=bg guifg=#a3ffa3 ctermfg=157
     hi! Operator guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
-    hi! PreCondit guibg=bg guifg=#ffff99 ctermfg=228 cterm=bold gui=bold
+    hi! PreCondit guibg=bg guifg=#a3ffa3 ctermfg=157 cterm=bold gui=bold
     hi! Question guibg=bg guifg=#a3ffa3 ctermfg=157
     hi! Repeat guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
     hi! RubySymbol guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
