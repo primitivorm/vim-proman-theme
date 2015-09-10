@@ -25,7 +25,7 @@ if &background == "light"
     hi! Cursor guibg=#000000 ctermbg=0 guifg=#f5f5ff ctermfg=15
     hi! CursorColumn guibg=#ededed ctermbg=253 guifg=NONE
     hi! CursorLine guibg=#ededed ctermbg=253 guifg=NONE
-    hi! CursorLineNr guibg=bg guifg=#1a1a1a ctermfg=234
+    hi! CursorLineNr guibg=bg guifg=#007A00 ctermfg=28
     hi! Delimiter guibg=bg guifg=#007A00 ctermfg=28 cterm=bold gui=bold
     hi! Exception guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
     hi! FoldColumn gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
@@ -37,7 +37,7 @@ if &background == "light"
     hi! IndentGuidesOdd guibg=#dcdce5 ctermbg=253 guifg=#c6c6ce ctermfg=251
     hi! Keyword guibg=bg guifg=#007A00 ctermfg=28 cterm=bold gui=bold
     hi! Label guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
-    hi! LineNr guibg=#ededed ctermbg=253 guifg=#007A00 ctermfg=28
+    hi! LineNr guibg=#ededed ctermbg=253 guifg=#696969 ctermfg=242
     hi! MBEVisibleNormal guibg=fg guifg=#007A00 ctermfg=28
     hi! MoreMsg guibg=bg guifg=#007A00 ctermfg=28
     hi! Operator guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
@@ -67,7 +67,7 @@ else
     hi! Cursor guibg=#ffffff ctermbg=15 guifg=#474747 ctermfg=238
     hi! CursorColumn guibg=#474747 ctermbg=238 guifg=NONE
     hi! CursorLine guibg=#474747 ctermbg=238 guifg=NONE
-    hi! CursorLineNr guibg=bg guifg=#ffffff ctermfg=15
+    hi! CursorLineNr guibg=bg guifg=#a3ffa3 ctermfg=157
     hi! Delimiter guibg=bg guifg=#a3ffa3 ctermfg=157 cterm=bold gui=bold
     hi! Exception guibg=bg guifg=#BD9DFF ctermfg=147
     hi! FoldColumn gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
@@ -79,7 +79,7 @@ else
     hi! IndentGuidesOdd guibg=#474747 ctermbg=238 guifg=#595959 ctermfg=240
     hi! Keyword guibg=bg guifg=#a3ffa3 ctermfg=157 cterm=bold gui=bold
     hi! Label guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
-    hi! LineNr guibg=#474747 ctermbg=238 guifg=#a3ffa3 ctermfg=157
+    hi! LineNr guibg=#474747 ctermbg=238 guifg=#b2b2b2 ctermfg=249
     hi! MBEVisibleNormal guibg=fg guifg=#a3ffa3 ctermfg=157
     hi! MoreMsg guibg=bg guifg=#a3ffa3 ctermfg=157
     hi! Operator guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
