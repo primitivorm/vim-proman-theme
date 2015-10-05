@@ -25,7 +25,7 @@ if &background == "light"
     hi! Cursor guibg=#000000 ctermbg=0 guifg=#f5f5ff ctermfg=15
     hi! CursorColumn guibg=#ededed ctermbg=253 guifg=NONE
     hi! CursorLine guibg=#ededed ctermbg=253 guifg=NONE
-    hi! CursorLineNr guibg=bg guifg=#007A00 ctermfg=28
+    hi! CursorLineNr guibg=bg guifg=#000000 ctermfg=15
     hi! Delimiter guibg=bg guifg=#007A00 ctermfg=28 cterm=bold gui=bold
     hi! Exception guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
     hi! FoldColumn gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
@@ -67,7 +67,7 @@ else
     hi! Cursor guibg=#ffffff ctermbg=15 guifg=#474747 ctermfg=238
     hi! CursorColumn guibg=#474747 ctermbg=238 guifg=NONE
     hi! CursorLine guibg=#474747 ctermbg=238 guifg=NONE
-    hi! CursorLineNr guibg=bg guifg=#a3ffa3 ctermfg=157
+    hi! CursorLineNr guibg=bg guifg=#ffffff ctermfg=238
     hi! Delimiter guibg=bg guifg=#a3ffa3 ctermfg=157 cterm=bold gui=bold
     hi! Exception guibg=bg guifg=#BD9DFF ctermfg=147
     hi! FoldColumn gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
@@ -120,7 +120,7 @@ hi! Define guibg=bg guifg=#87cefa ctermfg=117 cterm=bold gui=bold
 hi! Error guibg=bg guifg=#ff5f00 ctermfg=202 ctermbg=bg cterm=reverse
 hi! ErrorMsg guibg=bg guifg=#ff0000 ctermfg=9 ctermbg=bg cterm=reverse
 hi! Ignore guibg=bg guifg=#f5f5ff ctermfg=15
-hi! IncSearch cterm=reverse gui=reverse guibg=#000000 ctermbg=0 guifg=#ff7f50 ctermfg=209
+hi! IncSearch cterm=italic gui=italic guibg=#ff7f50 ctermbg=209 guifg=#000000 ctermfg=0
 hi! MatchParen guibg=Cyan guifg=#000000 ctermfg=0 cterm=bold gui=bold
 hi! MatchTag guibg=Cyan guifg=#000000 ctermfg=0 cterm=bold gui=bold
 hi! MBEChanged guibg=fg guifg=#ff0000 ctermfg=9
@@ -132,7 +132,7 @@ hi! ModeMsg gui=bold cterm=bold
 hi! NERDTreeFlag guibg=#e3d2d2 ctermbg=188 guifg=#ff0000 ctermfg=9
 hi! NONEd guibg=bg guifg=#F92672 ctermfg=161
 hi! NonText guibg=bg guifg=#204a87 ctermfg=24 cterm=NONE gui=NONE
-hi! Search guibg=#87cefa ctermbg=117 guifg=#000000 ctermfg=0
+hi! Search guibg=#87cefa ctermbg=117 guifg=#000000 ctermfg=0 cterm=italic gui=italic
 hi! SignColumn guibg=bg guifg=#000080 ctermfg=18
 hi! SpecialChar guibg=bg guifg=#808080 ctermfg=244
 hi! SpecialComment gui=italic guibg=bg guifg=#999999 ctermfg=246
