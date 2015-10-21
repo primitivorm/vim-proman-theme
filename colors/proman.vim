@@ -21,26 +21,19 @@ if &background == "light"
     hi! Normal guibg=#ffffff ctermbg=7 guifg=#333333 ctermfg=236
     hi! ColorColumn guibg=#ededed ctermbg=253 guifg=NONE
     hi! Comment gui=italic guibg=bg guifg=#696969 ctermfg=242
-    hi! Conditional guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
     hi! Cursor guibg=#000000 ctermbg=0 guifg=#f5f5ff ctermfg=15
     hi! CursorColumn guibg=#ededed ctermbg=253 guifg=NONE
     hi! CursorLine guibg=#ededed ctermbg=253 guifg=NONE
     hi! CursorLineNr guibg=bg guifg=#000000 ctermfg=15
-    hi! Exception guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
     hi! FoldColumn gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
     hi! Folded guibg=#c6c6ce ctermbg=251 guifg=#1a1a1a ctermfg=234 gui=underline
     hi! Function guibg=bg guifg=#006699 ctermfg=24 cterm=bold gui=bold
-    hi! Identifier guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
     hi! IndentGuidesEven guibg=#c6c6ce ctermbg=251 guifg=#dcdce5 ctermfg=253
     hi! IndentGuidesOdd guibg=#dcdce5 ctermbg=253 guifg=#c6c6ce ctermfg=251
-    hi! Label guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
     hi! LineNr guibg=#ededed ctermbg=253 guifg=#696969 ctermfg=242
     hi! MBEVisibleNormal guibg=fg guifg=#007A00 ctermfg=28
     hi! MoreMsg guibg=bg guifg=#007A00 ctermfg=28
-    hi! Operator guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
     hi! Question guibg=bg guifg=#007A00 ctermfg=28
-    hi! Repeat guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
-    hi! RubySymbol guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
     hi! SpecialKey guibg=bg guifg=#006699 ctermfg=24
     hi! TabLine guibg=#d3d3d3 ctermbg=252 guifg=#333333 ctermfg=236 cterm=underline gui=underline
     hi! TabLineFill guibg=#666666 ctermbg=241 guifg=fg
@@ -48,35 +41,24 @@ if &background == "light"
     hi! Tag guibg=bg guifg=#006699 ctermfg=24
     hi! Typedef guibg=bg guifg=#006699 ctermfg=24 cterm=bold gui=bold
     hi! lCursor guibg=#000000 ctermbg=0 guifg=#666666 ctermfg=241
-    hi! Number guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
-    hi! Constant guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
-    hi! PreProc guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
-    hi! Float guibg=bg guifg=#6600cc ctermfg=56 cterm=bold gui=bold
 else
 
     hi! Normal guibg=#272822 ctermbg=235 guifg=#ffffff ctermfg=15
     hi! ColorColumn guibg=#474747 ctermbg=238 guifg=NONE
     hi! Comment gui=italic guibg=bg guifg=#b2b2b2 ctermfg=249
-    hi! Conditional guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
     hi! Cursor guibg=#ffffff ctermbg=15 guifg=#474747 ctermfg=238
     hi! CursorColumn guibg=#474747 ctermbg=238 guifg=NONE
     hi! CursorLine guibg=#474747 ctermbg=238 guifg=NONE
     hi! CursorLineNr guibg=bg guifg=#ffffff ctermfg=238
-    hi! Exception guibg=bg guifg=#BD9DFF ctermfg=147
     hi! FoldColumn gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
     hi! Folded guibg=#666666 ctermbg=241 guifg=#ffffff ctermfg=15 gui=underline
     hi! Function guibg=bg guifg=#87cefa ctermfg=117 cterm=bold gui=bold
-    hi! Identifier guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
     hi! IndentGuidesEven guibg=#595959 ctermbg=240 guifg=#474747 ctermfg=238
     hi! IndentGuidesOdd guibg=#474747 ctermbg=238 guifg=#595959 ctermfg=240
-    hi! Label guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
     hi! LineNr guibg=#474747 ctermbg=238 guifg=#b2b2b2 ctermfg=249
     hi! MBEVisibleNormal guibg=fg guifg=#a3ffa3 ctermfg=157
     hi! MoreMsg guibg=bg guifg=#a3ffa3 ctermfg=157
-    hi! Operator guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
     hi! Question guibg=bg guifg=#a3ffa3 ctermfg=157
-    hi! Repeat guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
-    hi! RubySymbol guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
     hi! SpecialKey guibg=bg guifg=#87cefa ctermfg=117
     hi! TabLine guibg=#666666 ctermbg=241 guifg=#eaeaea ctermfg=7 cterm=underline gui=underline
     hi! TabLineFill guibg=#b2b2b2 ctermbg=249 guifg=fg
@@ -84,17 +66,7 @@ else
     hi! Tag guibg=bg guifg=#87cefa ctermfg=117
     hi! Typedef guibg=bg guifg=#87cefa ctermfg=117 cterm=bold gui=bold
     hi! lCursor guibg=#ffffff ctermbg=15 guifg=#474747 ctermfg=238
-    hi! Number guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
-    hi! Constant guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
-    hi! PreProc guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
-    hi! Float guibg=bg guifg=#BD9DFF ctermfg=147 cterm=bold gui=bold
 endif
-
-"Common
-hi! Boolean guifg=#F92672 ctermfg=161 gui=bold cterm=bold
-hi! Conceal guibg=#a9a9a9 ctermbg=248 guifg=#d3d3d3 ctermfg=252
-hi! Debug guibg=bg guifg=#aa0000 ctermfg=124
-hi! Directory guibg=bg guifg=#ff33cc ctermfg=198 cterm=bold gui=bold
 
 " {{{ Diff like github
 hi! DiffAdd guifg=#003300 ctermfg=233 guibg=#DDFFDD ctermbg=194 cterm=bold gui=bold
@@ -103,15 +75,26 @@ hi! DiffText guifg=#000033 ctermfg=233 guibg=#DDDDFF ctermbg=189 cterm=bold gui=
 hi! DiffDelete guifg=#DDCCCC ctermfg=252 guibg=#FFDDDD ctermbg=224 cterm=bold gui=bold
 " }}}
 
+"Common
+hi! Boolean guifg=#F92672 ctermfg=161 gui=bold cterm=bold
+hi! Conceal guibg=#a9a9a9 ctermbg=248 guifg=#d3d3d3 ctermfg=252
+hi! Debug guibg=bg guifg=#aa0000 ctermfg=124
+hi! Directory guibg=bg guifg=#ff33cc ctermfg=198 cterm=bold gui=bold
 hi! Character guibg=bg guifg=#ff5f00 ctermfg=202 cterm=bold gui=bold
+hi! Conditional guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
+hi! Constant guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
 hi! Define guibg=bg guifg=#87cefa ctermfg=117 cterm=bold gui=bold
 hi! Delimiter guibg=bg guifg=#33adff ctermfg=15 cterm=bold gui=bold
 hi! Error guibg=bg guifg=#ff5f00 ctermfg=202 ctermbg=bg cterm=reverse
 hi! ErrorMsg guibg=bg guifg=#ff0000 ctermfg=9 ctermbg=bg cterm=reverse
+hi! Exception guibg=bg guifg=#A366E0 ctermfg=135
+hi! Float guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
+hi! Identifier guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
 hi! Ignore guibg=bg guifg=#f5f5ff ctermfg=15
 hi! IncSearch cterm=italic gui=italic guibg=#ff7f50 ctermbg=209 guifg=#000000 ctermfg=0
 hi! Include guibg=bg guifg=#33adff ctermfg=15 cterm=bold gui=bold
 hi! Keyword guibg=bg guifg=#33adff ctermfg=15 cterm=bold gui=bold
+hi! Label guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
 hi! MBEChanged guibg=fg guifg=#ff0000 ctermfg=9
 hi! MBENormal guibg=fg guifg=#696969 ctermfg=242
 hi! MBEVisibleActive guibg=fg guifg=#000080 ctermfg=18
@@ -125,9 +108,14 @@ hi! NERDTreeBookmarksLeader guibg=bg guifg=#ff33cc ctermfg=198 cterm=bold gui=bo
 hi! NERDTreeFlag guibg=#e3d2d2 ctermbg=188 guifg=#ff0000 ctermfg=9
 hi! NONEd guibg=bg guifg=#F92672 ctermfg=161
 hi! NonText guibg=bg guifg=#204a87 ctermfg=24 cterm=NONE gui=NONE
+hi! Number guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
+hi! Operator guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
 hi! Pmenu guibg=#bcc9db ctermbg=152 guifg=#474747 ctermfg=238
 hi! PmenuSel guibg=#204a87 ctermbg=24 guifg=#ffffff ctermfg=15
 hi! PreCondit guibg=bg guifg=#33adff ctermfg=15 cterm=bold gui=bold
+hi! PreProc guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
+hi! Repeat guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
+hi! RubySymbol guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
 hi! Search guibg=#87cefa ctermbg=117 guifg=#000000 ctermfg=0 cterm=italic gui=italic
 hi! SignColumn guibg=bg guifg=#000080 ctermfg=18
 hi! Special guibg=bg guifg=#33adff ctermfg=15 cterm=bold gui=bold
