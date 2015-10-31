@@ -18,13 +18,13 @@ let g:colors_name="proman"
 set t_Co=256
 
 if &background == "light"
-    hi! Normal guibg=#ffffff ctermbg=7 guifg=#333333 ctermfg=236
+    hi! Normal guibg=#ffffff ctermbg=7 guifg=#333333 ctermfg=0
     hi! ColorColumn guibg=#ededed ctermbg=253 guifg=NONE
     hi! Comment gui=italic guibg=bg guifg=#696969 ctermfg=242
-    hi! Cursor guibg=#000000 ctermbg=0 guifg=#f5f5ff ctermfg=15
+    hi! Cursor guibg=#000000 ctermbg=0 guifg=#f5f5ff ctermfg=75
     hi! CursorColumn guibg=#ededed ctermbg=253 guifg=NONE
     hi! CursorLine guibg=#ededed ctermbg=253 guifg=NONE
-    hi! CursorLineNr guibg=bg guifg=#000000 ctermfg=15
+    hi! CursorLineNr guibg=bg guifg=#000000 ctermfg=75
     hi! FoldColumn gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
     hi! Folded guibg=#c6c6ce ctermbg=251 guifg=#1a1a1a ctermfg=234 gui=underline
     hi! IndentGuidesEven guibg=#c6c6ce ctermbg=251 guifg=#dcdce5 ctermfg=253
@@ -36,22 +36,22 @@ if &background == "light"
     hi! lCursor guibg=#000000 ctermbg=0 guifg=#666666 ctermfg=241
 else
 
-    hi! Normal guibg=#272822 ctermbg=235 guifg=#ffffff ctermfg=15
+    hi! Normal guibg=#272822 ctermbg=235 guifg=#ffffff ctermfg=75
     hi! ColorColumn guibg=#474747 ctermbg=238 guifg=NONE
     hi! Comment gui=italic guibg=bg guifg=#b2b2b2 ctermfg=249
-    hi! Cursor guibg=#ffffff ctermbg=15 guifg=#474747 ctermfg=238
+    hi! Cursor guibg=#ffffff ctermbg=75 guifg=#474747 ctermfg=238
     hi! CursorColumn guibg=#474747 ctermbg=238 guifg=NONE
     hi! CursorLine guibg=#474747 ctermbg=238 guifg=NONE
     hi! CursorLineNr guibg=bg guifg=#ffffff ctermfg=238
     hi! FoldColumn gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
-    hi! Folded guibg=#666666 ctermbg=241 guifg=#ffffff ctermfg=15 gui=underline
+    hi! Folded guibg=#666666 ctermbg=241 guifg=#ffffff ctermfg=75 gui=underline
     hi! IndentGuidesEven guibg=#595959 ctermbg=240 guifg=#474747 ctermfg=238
     hi! IndentGuidesOdd guibg=#474747 ctermbg=238 guifg=#595959 ctermfg=240
     hi! LineNr guibg=#474747 ctermbg=238 guifg=#b2b2b2 ctermfg=249
     hi! TabLine guibg=#666666 ctermbg=241 guifg=#eaeaea ctermfg=7 cterm=underline gui=underline
     hi! TabLineFill guibg=#b2b2b2 ctermbg=249 guifg=fg
-    hi! TabLineSel guibg=bg guifg=#ffffff ctermfg=15
-    hi! lCursor guibg=#ffffff ctermbg=15 guifg=#474747 ctermfg=238
+    hi! TabLineSel guibg=bg guifg=#ffffff ctermfg=75
+    hi! lCursor guibg=#ffffff ctermbg=75 guifg=#474747 ctermfg=238
 endif
 
 " {{{ Diff like github
@@ -69,7 +69,7 @@ hi! Conditional guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
 hi! Constant guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
 hi! Debug guibg=bg guifg=#aa0000 ctermfg=124
 hi! Define guibg=bg guifg=#87cefa ctermfg=117 cterm=bold gui=bold
-hi! Delimiter guibg=bg guifg=#33adff ctermfg=15 cterm=bold gui=bold
+hi! Delimiter guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
 hi! Directory guibg=bg guifg=#ff33cc ctermfg=198 cterm=bold gui=bold
 hi! Error guibg=bg guifg=#ff5f00 ctermfg=202 ctermbg=bg cterm=reverse
 hi! ErrorMsg guibg=bg guifg=#ff0000 ctermfg=9 ctermbg=bg cterm=reverse
@@ -77,10 +77,10 @@ hi! Exception guibg=bg guifg=#A366E0 ctermfg=135
 hi! Float guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
 hi! Function guibg=bg guifg=#00cc99 ctermfg=43 cterm=bold gui=bold
 hi! Identifier guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
-hi! Ignore guibg=bg guifg=#f5f5ff ctermfg=15
+hi! Ignore guibg=bg guifg=#f5f5ff ctermfg=75
 hi! IncSearch cterm=italic gui=italic guibg=#ff7f50 ctermbg=209 guifg=#000000 ctermfg=0
-hi! Include guibg=bg guifg=#33adff ctermfg=15 cterm=bold gui=bold
-hi! Keyword guibg=bg guifg=#33adff ctermfg=15 cterm=bold gui=bold
+hi! Include guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
+hi! Keyword guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
 hi! Label guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
 hi! MBEChanged guibg=fg guifg=#ff0000 ctermfg=9
 hi! MBENormal guibg=fg guifg=#696969 ctermfg=242
@@ -100,15 +100,15 @@ hi! NonText guibg=bg guifg=#204a87 ctermfg=24 cterm=NONE gui=NONE
 hi! Number guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
 hi! Operator guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
 hi! Pmenu guibg=#bcc9db ctermbg=152 guifg=#474747 ctermfg=238
-hi! PmenuSel guibg=#204a87 ctermbg=24 guifg=#ffffff ctermfg=15
-hi! PreCondit guibg=bg guifg=#33adff ctermfg=15 cterm=bold gui=bold
+hi! PmenuSel guibg=#204a87 ctermbg=24 guifg=#ffffff ctermfg=75
+hi! PreCondit guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
 hi! PreProc guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
 hi! Question guibg=bg guifg=#00cc99 ctermfg=43
 hi! Repeat guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
 hi! RubySymbol guibg=bg guifg=#A366E0 ctermfg=135 cterm=bold gui=bold
 hi! Search guibg=#87cefa ctermbg=117 guifg=#000000 ctermfg=0 cterm=italic gui=italic
 hi! SignColumn guibg=bg guifg=#000080 ctermfg=18
-hi! Special guibg=bg guifg=#33adff ctermfg=15 cterm=bold gui=bold
+hi! Special guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
 hi! SpecialChar guibg=bg guifg=#808080 ctermfg=244
 hi! SpecialComment gui=italic guibg=bg guifg=#999999 ctermfg=246
 hi! SpecialKey guibg=bg guifg=#00cc99 ctermfg=43
@@ -124,10 +124,10 @@ hi! Structure guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=bold
 hi! Tag guibg=bg guifg=#00cc99 ctermfg=43
 hi! Title guibg=#87cefa ctermbg=117 guifg=#ff33cc ctermfg=198 cterm=bold gui=bold
 hi! Todo gui=italic guibg=#ffff99 ctermbg=228 guifg=#666666 ctermfg=241
-hi! Type guibg=bg guifg=#33adff ctermfg=15 cterm=bold gui=bold
+hi! Type guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
 hi! Typedef guibg=bg guifg=#00cc99 ctermfg=43 cterm=bold gui=bold
 hi! VertSplit cterm=reverse gui=reverse guibg=fg guifg=bg
-hi! Visual guibg=#33adff ctermbg=75 guifg=#ffffff ctermfg=15
+hi! Visual guibg=#33adff ctermbg=75 guifg=#ffffff ctermfg=75
 hi! WarningMsg guibg=bg guifg=#ff0000 ctermfg=9
 hi! WildMenu guibg=#ffff99 ctermbg=228 guifg=#000000 ctermfg=0
 
