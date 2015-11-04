@@ -21,10 +21,10 @@ if &background == "light"
     hi! Normal guibg=#ffffff ctermbg=7 guifg=#333333 ctermfg=0
     hi! ColorColumn guibg=#ededed ctermbg=253 guifg=NONE
     hi! Comment gui=italic guibg=bg guifg=#696969 ctermfg=242
-    hi! Cursor guibg=#000000 ctermbg=0 guifg=#f5f5ff ctermfg=75
+    hi! Cursor guibg=#000000 ctermbg=0 guifg=#f5f5ff ctermfg=15
     hi! CursorColumn guibg=#ededed ctermbg=253 guifg=NONE
     hi! CursorLine guibg=#ededed ctermbg=253 guifg=NONE
-    hi! CursorLineNr guibg=bg guifg=#000000 ctermfg=75
+    hi! CursorLineNr guibg=bg guifg=#000000 ctermfg=0
     hi! FoldColumn gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
     hi! Folded guibg=#c6c6ce ctermbg=251 guifg=#1a1a1a ctermfg=234 gui=underline
     hi! IndentGuidesEven guibg=#c6c6ce ctermbg=251 guifg=#dcdce5 ctermfg=253
@@ -36,22 +36,22 @@ if &background == "light"
     hi! lCursor guibg=#000000 ctermbg=0 guifg=#666666 ctermfg=241
 else
 
-    hi! Normal guibg=#272822 ctermbg=235 guifg=#ffffff ctermfg=75
+    hi! Normal guibg=#272822 ctermbg=235 guifg=#ffffff ctermfg=15
     hi! ColorColumn guibg=#474747 ctermbg=238 guifg=NONE
     hi! Comment gui=italic guibg=bg guifg=#b2b2b2 ctermfg=249
-    hi! Cursor guibg=#ffffff ctermbg=75 guifg=#474747 ctermfg=238
+    hi! Cursor guibg=#ffffff ctermbg=15 guifg=#474747 ctermfg=238
     hi! CursorColumn guibg=#474747 ctermbg=238 guifg=NONE
     hi! CursorLine guibg=#474747 ctermbg=238 guifg=NONE
     hi! CursorLineNr guibg=bg guifg=#ffffff ctermfg=238
     hi! FoldColumn gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
-    hi! Folded guibg=#666666 ctermbg=241 guifg=#ffffff ctermfg=75 gui=underline
+    hi! Folded guibg=#666666 ctermbg=241 guifg=#ffffff ctermfg=15 gui=underline
     hi! IndentGuidesEven guibg=#595959 ctermbg=240 guifg=#474747 ctermfg=238
     hi! IndentGuidesOdd guibg=#474747 ctermbg=238 guifg=#595959 ctermfg=240
     hi! LineNr guibg=#474747 ctermbg=238 guifg=#b2b2b2 ctermfg=249
     hi! TabLine guibg=#666666 ctermbg=241 guifg=#eaeaea ctermfg=7 cterm=underline gui=underline
     hi! TabLineFill guibg=#b2b2b2 ctermbg=249 guifg=fg
-    hi! TabLineSel guibg=bg guifg=#ffffff ctermfg=75
-    hi! lCursor guibg=#ffffff ctermbg=75 guifg=#474747 ctermfg=238
+    hi! TabLineSel guibg=bg guifg=#ffffff ctermfg=15
+    hi! lCursor guibg=#ffffff ctermbg=15 guifg=#474747 ctermfg=238
 endif
 
 " {{{ Diff like github
@@ -77,7 +77,7 @@ hi! Exception guibg=bg guifg=#A366E0 ctermfg=135
 hi! Float guibg=bg guifg=#A366E0 ctermfg=135 cterm=NONE gui=NONE
 hi! Function guibg=bg guifg=#00cc99 ctermfg=43 cterm=NONE gui=NONE
 hi! Identifier guibg=bg guifg=#A366E0 ctermfg=135 cterm=NONE gui=NONE
-hi! Ignore guibg=bg guifg=#f5f5ff ctermfg=75
+hi! Ignore guibg=bg guifg=#f5f5ff ctermfg=15
 hi! IncSearch cterm=italic gui=italic guibg=#ff7f50 ctermbg=209 guifg=#000000 ctermfg=0
 hi! Include guibg=bg guifg=#33adff ctermfg=75 cterm=NONE gui=NONE
 hi! Keyword guibg=bg guifg=#33adff ctermfg=75 cterm=NONE gui=NONE
@@ -100,7 +100,7 @@ hi! NonText guibg=bg guifg=#204a87 ctermfg=24 cterm=NONE gui=NONE
 hi! Number guibg=bg guifg=#A366E0 ctermfg=135 cterm=NONE gui=NONE
 hi! Operator guibg=bg guifg=#A366E0 ctermfg=135 cterm=NONE gui=NONE
 hi! Pmenu guibg=#bcc9db ctermbg=152 guifg=#474747 ctermfg=238
-hi! PmenuSel guibg=#204a87 ctermbg=24 guifg=#ffffff ctermfg=75
+hi! PmenuSel guibg=#204a87 ctermbg=24 guifg=#ffffff ctermfg=15
 hi! PreCondit guibg=bg guifg=#33adff ctermfg=75 cterm=NONE gui=NONE
 hi! PreProc guibg=bg guifg=#A366E0 ctermfg=135 cterm=NONE gui=NONE
 hi! Question guibg=bg guifg=#00cc99 ctermfg=43
@@ -127,7 +127,7 @@ hi! Todo gui=italic guibg=#ffff99 ctermbg=228 guifg=#666666 ctermfg=241
 hi! Type guibg=bg guifg=#33adff ctermfg=75 cterm=NONE gui=NONE
 hi! Typedef guibg=bg guifg=#00cc99 ctermfg=43 cterm=NONE gui=NONE
 hi! VertSplit cterm=reverse gui=reverse guibg=fg guifg=bg
-hi! Visual guibg=#33adff ctermbg=75 guifg=#ffffff ctermfg=75
+hi! Visual guibg=#33adff ctermbg=75 guifg=#ffffff ctermfg=15
 hi! WarningMsg guibg=bg guifg=#ff0000 ctermfg=9
 hi! WildMenu guibg=#ffff99 ctermbg=228 guifg=#000000 ctermfg=0
 
