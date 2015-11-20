@@ -70,7 +70,7 @@ hi! Conceal guibg=#a9a9a9 ctermbg=248 guifg=#d3d3d3 ctermfg=252
 hi! Conditional guibg=bg guifg=#924ADA ctermfg=99 cterm=bold gui=bold
 hi! Constant guibg=bg guifg=#924ADA ctermfg=99 cterm=bold gui=bold
 hi! Debug guibg=bg guifg=#aa0000 ctermfg=124
-hi! Define guibg=bg guifg=#87cefa ctermfg=117 cterm=bold gui=bold
+hi! Define guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
 hi! Delimiter guibg=bg guifg=#924ADA ctermfg=99 cterm=bold gui=bold
 hi! Directory guibg=bg guifg=#ff33cc ctermfg=198 cterm=bold gui=bold
 hi! Error guibg=bg guifg=#ff5f00 ctermfg=202 ctermbg=bg cterm=reverse
@@ -108,7 +108,7 @@ hi! PreProc guibg=bg guifg=#924ADA ctermfg=99 cterm=bold gui=bold
 hi! Question guibg=bg guifg=#00cc99 ctermfg=43
 hi! Repeat guibg=bg guifg=#924ADA ctermfg=99 cterm=bold gui=bold
 hi! RubySymbol guibg=bg guifg=#924ADA ctermfg=99 cterm=bold gui=bold
-hi! Search guibg=#87cefa ctermbg=117 guifg=#000000 ctermfg=0 cterm=italic gui=italic
+hi! Search guifg=#000000 guibg=#33adff ctermfg=0 ctermbg=75 cterm=italic gui=italic
 hi! SignColumn guibg=bg guifg=#000080 ctermfg=18
 hi! Special guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
 hi! SpecialChar guibg=bg guifg=#808080 ctermfg=244
@@ -124,7 +124,7 @@ hi! StorageClass guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=bold
 hi! String guibg=bg guifg=#ff5f00 ctermfg=202 cterm=bold gui=bold
 hi! Structure guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=bold
 hi! Tag guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=bold
-hi! Title guibg=#87cefa ctermbg=117 guifg=#ff33cc ctermfg=198 cterm=bold gui=bold
+hi! Title guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
 hi! Todo gui=italic guibg=#ffff99 ctermbg=228 guifg=#666666 ctermfg=241
 hi! Type guibg=bg guifg=#00cc99 ctermfg=43 cterm=bold gui=bold
 hi! Typedef guibg=bg guifg=#00cc99 ctermfg=43 cterm=bold gui=bold
