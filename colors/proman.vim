@@ -83,7 +83,7 @@ hi! Function guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
 hi! Identifier guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
 hi! Ignore guibg=bg guifg=#f5f5ff ctermfg=15
 hi! IncSearch guibg=#ff7f50 ctermbg=209 guifg=#000000 ctermfg=0 cterm=italic gui=italic
-hi! Include guibg=bg guifg=#79c936 ctermfg=76 cterm=bold gui=bold
+hi! Include guibg=bg guifg=#6db531 ctermfg=76 cterm=bold gui=bold
 hi! Keyword guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
 hi! Label guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
 hi! MBEChanged guibg=fg guifg=#ff0000 ctermfg=9
@@ -91,7 +91,7 @@ hi! MBENormal guibg=fg guifg=#696969 ctermfg=242
 hi! MBEVisibleActive guibg=fg guifg=#000080 ctermfg=18
 hi! MBEVisibleChanged guibg=fg guifg=#f1996f ctermfg=209
 hi! MBEVisibleChangedActive guibg=fg guifg=#f1996f ctermfg=209
-hi! MBEVisibleNormal guibg=fg guifg=#79c936 ctermfg=76
+hi! MBEVisibleNormal guibg=fg guifg=#6db531 ctermfg=76
 hi! Macro guibg=bg guifg=#ff33cc ctermfg=198 cterm=bold gui=bold
 hi! MatchParen guibg=Cyan guifg=#000000 ctermfg=0 cterm=bold gui=bold
 hi! MatchTag guibg=Cyan guifg=#000000 ctermfg=0 cterm=bold gui=bold
@@ -107,7 +107,7 @@ hi! Pmenu guibg=#bcc9db ctermbg=152 guifg=#474747 ctermfg=238
 hi! PmenuSel guibg=#204a87 ctermbg=24 guifg=#ffffff ctermfg=15
 hi! PreCondit guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
 hi! PreProc guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
-hi! Question guibg=bg guifg=#79c936 ctermfg=76
+hi! Question guibg=bg guifg=#6db531 ctermfg=76
 hi! Repeat guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
 hi! RubySymbol guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
 hi! Search guifg=#000000 guibg=#33adff ctermfg=0 ctermbg=75 cterm=italic gui=italic
@@ -115,7 +115,7 @@ hi! SignColumn guibg=bg guifg=#000080 ctermfg=18
 hi! Special guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
 hi! SpecialChar guibg=bg guifg=#808080 ctermfg=244
 hi! SpecialComment gui=italic guibg=bg guifg=#999999 ctermfg=246
-hi! SpecialKey guibg=bg guifg=#79c936 ctermfg=76
+hi! SpecialKey guibg=bg guifg=#6db531 ctermfg=76
 hi! SpellBad cterm=reverse guisp=Red gui=undercurl ctermbg=bg ctermfg=Red
 hi! SpellCap cterm=reverse guisp=Green gui=undercurl ctermbg=bg ctermfg=Green
 hi! SpellLocal cterm=underline guisp=Cyan gui=undercurl
@@ -128,8 +128,8 @@ hi! Structure guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=bold
 hi! Tag guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=bold
 hi! Title guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
 hi! Todo gui=italic guibg=#ffff99 ctermbg=228 guifg=#666666 ctermfg=241
-hi! Type guibg=bg guifg=#79c936 ctermfg=76 cterm=bold gui=bold
-hi! Type guifg=#79c936 ctermfg=76 cterm=bold gui=bold
+hi! Type guibg=bg guifg=#6db531 ctermfg=76 cterm=bold gui=bold
+hi! Type guifg=#6db531 ctermfg=76 cterm=bold gui=bold
 hi! VertSplit guibg=fg guifg=bg cterm=reverse gui=reverse
 hi! Visual guibg=#33adff ctermbg=75 guifg=#ffffff ctermfg=15
 hi! WarningMsg guibg=bg guifg=#ff0000 ctermfg=9
