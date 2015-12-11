@@ -18,8 +18,7 @@ let g:colors_name="proman"
 set t_Co=256
 
 if &background == "light"
-    "hi! Normal guibg=#ffffff ctermbg=7 guifg=#333333 ctermfg=0
-    hi! Normal guibg=#ffffff ctermbg=0 guifg=#000000 ctermfg=0
+    hi! Normal guibg=#ffffff ctermbg=7 guifg=#333333 ctermfg=0
     hi! ColorColumn guibg=#ededed ctermbg=253
     hi! Comment gui=italic guibg=bg guifg=#696969 ctermfg=242
     hi! Cursor guibg=#000000 ctermbg=0 guifg=#f5f5ff ctermfg=15
@@ -37,7 +36,6 @@ if &background == "light"
     hi! lCursor guibg=#000000 ctermbg=0 guifg=#666666 ctermfg=241
 else
 
-    "hi! Normal guibg=#272822 ctermbg=235 guifg=#ffffff ctermfg=15
     hi! Normal guibg=#333333 ctermbg=235 guifg=#ffffff ctermfg=15
     hi! ColorColumn guibg=#474747 ctermbg=238
     hi! Comment gui=italic guibg=bg guifg=#b2b2b2 ctermfg=249
@@ -57,62 +55,62 @@ else
 endif
 
 " {{{ Diff
-hi! diffAdded    ctermfg=150 guifg=#afdf87
-hi! diffRemoved  ctermfg=174 guifg=#df8787
-hi! diffAdd      ctermfg=0 guifg=#000000 ctermbg=151 guibg=#afdfaf
-hi! diffDelete   ctermfg=238  guifg=#474747 ctermbg=249 guibg=#b2b2b2 cterm=none gui=none
-hi! diffChange   ctermfg=241 guifg=#666666 ctermbg=224 guibg=#FFDDDD
-hi! diffText     ctermfg=18 guifg=#000080 ctermbg=174 guibg=#df8787 cterm=none gui=none
+hi! diffAdded ctermfg=150 guifg=#afdf87
+hi! diffRemoved ctermfg=174 guifg=#df8787
+hi! diffAdd ctermfg=0 guifg=#000000 ctermbg=151 guibg=#afdfaf
+hi! diffDelete ctermfg=238 guifg=#474747 ctermbg=249 guibg=#b2b2b2 cterm=none gui=none
+hi! diffChange ctermfg=241 guifg=#666666 ctermbg=224 guibg=#FFDDDD
+hi! diffText ctermfg=18 guifg=#000080 ctermbg=174 guibg=#df8787 cterm=none gui=none
 " }}}
 
 "Common
-hi! Boolean guifg=#F92672 ctermfg=161 cterm=bold gui=bold
-hi! Character guibg=bg guifg=#ff5f00 ctermfg=202 cterm=bold gui=bold
+hi! Boolean guifg=#F92672 ctermfg=161 cterm=bold gui=NONE
+hi! Character guibg=bg guifg=#ff5f00 ctermfg=202 cterm=bold gui=NONE
 hi! Conceal guibg=#a9a9a9 ctermbg=248 guifg=#d3d3d3 ctermfg=252
-hi! Conditional guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
-hi! Constant guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
+hi! Conditional guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
+hi! Constant guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
 hi! Debug guibg=bg guifg=#aa0000 ctermfg=124
-hi! Define guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
-hi! Delimiter guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
-hi! Directory guibg=bg guifg=#ff33cc ctermfg=198 cterm=bold gui=bold
+hi! Define guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=NONE
+hi! Delimiter guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
+hi! Directory guibg=bg guifg=#ff33cc ctermfg=198 cterm=bold gui=NONE
 hi! Error guibg=bg guifg=#ff5f00 ctermfg=202 ctermbg=bg cterm=reverse
 hi! ErrorMsg guibg=bg guifg=#ff0000 ctermfg=9 ctermbg=bg cterm=reverse
-hi! Exception guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
-hi! Float guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
-hi! Function guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
-hi! Identifier guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
+hi! Exception guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
+hi! Float guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
+hi! Function guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=NONE
+hi! Identifier guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
 hi! Ignore guibg=bg guifg=#f5f5ff ctermfg=15
 hi! IncSearch guibg=#ff7f50 ctermbg=209 guifg=#000000 ctermfg=0 cterm=italic gui=italic
-hi! Include guibg=bg guifg=#6db531 ctermfg=76 cterm=bold gui=bold
-hi! Keyword guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
-hi! Label guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
+hi! Include guibg=bg guifg=#6db531 ctermfg=76 cterm=bold gui=NONE
+hi! Keyword guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=NONE
+hi! Label guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
 hi! MBEChanged guibg=fg guifg=#ff0000 ctermfg=9
 hi! MBENormal guibg=fg guifg=#696969 ctermfg=242
 hi! MBEVisibleActive guibg=fg guifg=#000080 ctermfg=18
 hi! MBEVisibleChanged guibg=fg guifg=#f1996f ctermfg=209
 hi! MBEVisibleChangedActive guibg=fg guifg=#f1996f ctermfg=209
 hi! MBEVisibleNormal guibg=fg guifg=#6db531 ctermfg=76
-hi! Macro guibg=bg guifg=#ff33cc ctermfg=198 cterm=bold gui=bold
-hi! MatchParen guibg=Cyan guifg=#000000 ctermfg=0 cterm=bold gui=bold
-hi! MatchTag guibg=Cyan guifg=#000000 ctermfg=0 cterm=bold gui=bold
+hi! Macro guibg=bg guifg=#ff33cc ctermfg=198 cterm=bold gui=NONE
+hi! MatchParen guibg=Cyan guifg=#000000 ctermfg=0 cterm=bold gui=NONE
+hi! MatchTag guibg=Cyan guifg=#000000 ctermfg=0 cterm=bold gui=NONE
 hi! ModeMsg cterm=none gui=none
 hi! MoreMsg guibg=bg guifg=#33adff ctermfg=75
 hi! NERDTreeBookmarksLeader guibg=bg guifg=#204a87 ctermfg=24
 hi! NERDTreeFlag guibg=#e3d2d2 ctermbg=188 guifg=#ff0000 ctermfg=9
 hi! NONEd guibg=bg guifg=#F92672 ctermfg=161
-hi! NonText guibg=bg guifg=#204a87 ctermfg=24 cterm=bold gui=bold
-hi! Number guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
-hi! Operator guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
+hi! NonText guibg=bg guifg=#204a87 ctermfg=24 cterm=bold gui=NONE
+hi! Number guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
+hi! Operator guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
 hi! Pmenu guibg=#bcc9db ctermbg=152 guifg=#474747 ctermfg=238
 hi! PmenuSel guibg=#204a87 ctermbg=24 guifg=#ffffff ctermfg=15
-hi! PreCondit guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
-hi! PreProc guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
+hi! PreCondit guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=NONE
+hi! PreProc guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
 hi! Question guibg=bg guifg=#6db531 ctermfg=76
-hi! Repeat guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
-hi! RubySymbol guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=bold
-hi! Search guifg=#000000 guibg=#33adff ctermfg=0 ctermbg=75 cterm=italic gui=italic
+hi! Repeat guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
+hi! RubySymbol guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
+hi! Search guifg=#000000 guibg=#ffff66 ctermfg=0 ctermbg=227 cterm=italic gui=italic
 hi! SignColumn guibg=bg guifg=#000080 ctermfg=18
-hi! Special guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
+hi! Special guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=NONE
 hi! SpecialChar guibg=bg guifg=#808080 ctermfg=244
 hi! SpecialComment gui=italic guibg=bg guifg=#999999 ctermfg=246
 hi! SpecialKey guibg=bg guifg=#6db531 ctermfg=76
@@ -120,20 +118,20 @@ hi! SpellBad cterm=reverse guisp=Red gui=undercurl ctermbg=bg ctermfg=Red
 hi! SpellCap cterm=reverse guisp=Green gui=undercurl ctermbg=bg ctermfg=Green
 hi! SpellLocal cterm=underline guisp=Cyan gui=undercurl
 hi! SpellRare cterm=underline guisp=Magenta gui=undercurl
-hi! Statement guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=bold
+hi! Statement guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=NONE
 hi! StatusLine guibg=#eaeaea ctermbg=7 guifg=#666666 ctermfg=241
-hi! StorageClass guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=bold
-hi! String guibg=bg guifg=#ff5f00 ctermfg=202 cterm=bold gui=bold
-hi! Structure guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=bold
-hi! Tag guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=bold
-hi! Title guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=bold
-hi! Todo gui=italic guibg=#ffff99 ctermbg=228 guifg=#666666 ctermfg=241
-hi! Type guibg=bg guifg=#6db531 ctermfg=76 cterm=bold gui=bold
-hi! Type guifg=#6db531 ctermfg=76 cterm=bold gui=bold
+hi! StorageClass guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=NONE
+hi! String guibg=bg guifg=#ff5f00 ctermfg=202 cterm=bold gui=NONE
+hi! Structure guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=NONE
+hi! Tag guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=NONE
+hi! Title guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=NONE
+hi! Todo gui=italic guibg=#ffff66 ctermbg=227 guifg=#666666 ctermfg=241
+hi! Type guibg=bg guifg=#6db531 ctermfg=76 cterm=bold gui=NONE
+hi! Type guifg=#6db531 ctermfg=76 cterm=bold gui=NONE
 hi! VertSplit guibg=fg guifg=bg cterm=reverse gui=reverse
 hi! Visual guibg=#33adff ctermbg=75 guifg=#ffffff ctermfg=15
 hi! WarningMsg guibg=bg guifg=#ff0000 ctermfg=9
-hi! WildMenu guibg=#ffff99 ctermbg=228 guifg=#000000 ctermfg=0
+hi! WildMenu guibg=#ffff66 ctermbg=227 guifg=#000000 ctermfg=0
 
 " for cream statusline
 hi! User1 guifg=#999999 ctermfg=246 guibg=#073642 ctermbg=235
@@ -142,8 +140,8 @@ hi! User3 guifg=#bcc9db ctermfg=152 guibg=#073642 ctermbg=235
 hi! User4 guifg=#d7d7af ctermfg=187 guibg=#073642 ctermbg=235
 
 "" Highlighting: Setup some nice colours to show the mark positions.
-"hi! default ShowMarksHLl ctermfg=darkblue ctermbg=blue guifg=blue guibg=lightblue cterm=bold gui=bold
-"hi! default ShowMarksHLu ctermfg=darkblue ctermbg=blue guifg=blue guibg=lightblue cterm=bold gui=bold
-"hi! default ShowMarksHLo ctermfg=darkblue ctermbg=blue guifg=blue guibg=lightblue cterm=bold gui=bold
-"hi! default ShowMarksHLm ctermfg=darkblue ctermbg=blue guifg=blue guibg=lightblue cterm=bold gui=bold
+"hi! default ShowMarksHLl ctermfg=darkblue ctermbg=blue guifg=blue guibg=lightblue cterm=bold gui=NONE
+"hi! default ShowMarksHLu ctermfg=darkblue ctermbg=blue guifg=blue guibg=lightblue cterm=bold gui=NONE
+"hi! default ShowMarksHLo ctermfg=darkblue ctermbg=blue guifg=blue guibg=lightblue cterm=bold gui=NONE
+"hi! default ShowMarksHLm ctermfg=darkblue ctermbg=blue guifg=blue guibg=lightblue cterm=bold gui=NONE
 
