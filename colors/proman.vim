@@ -67,23 +67,23 @@ hi! diffText ctermfg=18 guifg=#000080 ctermbg=174 guibg=#df8787 cterm=none gui=n
 hi! Boolean guifg=#F92672 ctermfg=161 cterm=bold gui=NONE
 hi! Character guibg=bg guifg=#ff5f00 ctermfg=202 cterm=bold gui=NONE
 hi! Conceal guibg=#a9a9a9 ctermbg=248 guifg=#d3d3d3 ctermfg=252
-hi! Conditional guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
-hi! Constant guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
+hi! Conditional guibg=bg guifg=#9955dd ctermfg=99 cterm=bold gui=NONE
+hi! Constant guibg=bg guifg=#9955dd ctermfg=99 cterm=bold gui=NONE
 hi! Debug guibg=bg guifg=#aa0000 ctermfg=124
-hi! Define guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=NONE
-hi! Delimiter guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
+hi! Define guibg=bg guifg=#0089e6 ctermfg=39 cterm=bold gui=NONE
+hi! Delimiter guibg=bg guifg=#9955dd ctermfg=99 cterm=bold gui=NONE
 hi! Directory guibg=bg guifg=#ff33cc ctermfg=198 cterm=bold gui=NONE
 hi! Error guibg=bg guifg=#ff5f00 ctermfg=202 ctermbg=bg cterm=reverse
 hi! ErrorMsg guibg=bg guifg=#ff0000 ctermfg=9 ctermbg=bg cterm=reverse
-hi! Exception guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
-hi! Float guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
-hi! Function guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=NONE
-hi! Identifier guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
+hi! Exception guibg=bg guifg=#9955dd ctermfg=99 cterm=bold gui=NONE
+hi! Float guibg=bg guifg=#9955dd ctermfg=99 cterm=bold gui=NONE
+hi! Function guibg=bg guifg=#0089e6 ctermfg=39 cterm=bold gui=NONE
+hi! Identifier guibg=bg guifg=#9955dd ctermfg=99 cterm=bold gui=NONE
 hi! Ignore guibg=bg guifg=#f5f5ff ctermfg=15
 hi! IncSearch guibg=#ff7f50 ctermbg=209 guifg=#000000 ctermfg=0 cterm=italic gui=italic
 hi! Include guibg=bg guifg=#61a12b ctermfg=76 cterm=bold gui=NONE
-hi! Keyword guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=NONE
-hi! Label guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
+hi! Keyword guibg=bg guifg=#0089e6 ctermfg=39 cterm=bold gui=NONE
+hi! Label guibg=bg guifg=#9955dd ctermfg=99 cterm=bold gui=NONE
 hi! MBEChanged guibg=fg guifg=#ff0000 ctermfg=9
 hi! MBENormal guibg=fg guifg=#696969 ctermfg=242
 hi! MBEVisibleActive guibg=fg guifg=#000080 ctermfg=18
@@ -94,23 +94,23 @@ hi! Macro guibg=bg guifg=#ff33cc ctermfg=198 cterm=bold gui=NONE
 hi! MatchParen guibg=Cyan guifg=#000000 ctermfg=0 cterm=bold gui=NONE
 hi! MatchTag guibg=Cyan guifg=#000000 ctermfg=0 cterm=bold gui=NONE
 hi! ModeMsg cterm=none gui=none
-hi! MoreMsg guibg=bg guifg=#33adff ctermfg=75
+hi! MoreMsg guibg=bg guifg=#0089e6 ctermfg=39
 hi! NERDTreeBookmarksLeader guibg=bg guifg=#204a87 ctermfg=24
 hi! NERDTreeFlag guibg=#e3d2d2 ctermbg=188 guifg=#ff0000 ctermfg=9
 hi! NONEd guibg=bg guifg=#F92672 ctermfg=161
 hi! NonText guibg=bg guifg=#204a87 ctermfg=24 cterm=bold gui=NONE
-hi! Number guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
-hi! Operator guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
+hi! Number guibg=bg guifg=#9955dd ctermfg=99 cterm=bold gui=NONE
+hi! Operator guibg=bg guifg=#9955dd ctermfg=99 cterm=bold gui=NONE
 hi! Pmenu guibg=#bcc9db ctermbg=152 guifg=#474747 ctermfg=238
 hi! PmenuSel guibg=#204a87 ctermbg=24 guifg=#ffffff ctermfg=15
-hi! PreCondit guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=NONE
-hi! PreProc guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
+hi! PreCondit guibg=bg guifg=#0089e6 ctermfg=39 cterm=bold gui=NONE
+hi! PreProc guibg=bg guifg=#9955dd ctermfg=99 cterm=bold gui=NONE
 hi! Question guibg=bg guifg=#61a12b ctermfg=76
-hi! Repeat guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
-hi! RubySymbol guibg=bg guifg=#a66be1 ctermfg=99 cterm=bold gui=NONE
+hi! Repeat guibg=bg guifg=#9955dd ctermfg=99 cterm=bold gui=NONE
+hi! RubySymbol guibg=bg guifg=#9955dd ctermfg=99 cterm=bold gui=NONE
 hi! Search guifg=#000000 guibg=#ffff66 ctermfg=0 ctermbg=227 cterm=italic gui=italic
 hi! SignColumn guibg=bg guifg=#000080 ctermfg=18
-hi! Special guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=NONE
+hi! Special guibg=bg guifg=#0089e6 ctermfg=39 cterm=bold gui=NONE
 hi! SpecialChar guibg=bg guifg=#808080 ctermfg=244
 hi! SpecialComment gui=italic guibg=bg guifg=#999999 ctermfg=246
 hi! SpecialKey guibg=bg guifg=#61a12b ctermfg=76
@@ -124,12 +124,12 @@ hi! StorageClass guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=NONE
 hi! String guibg=bg guifg=#ff5f00 ctermfg=202 cterm=bold gui=NONE
 hi! Structure guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=NONE
 hi! Tag guibg=bg guifg=#F92672 ctermfg=161 cterm=bold gui=NONE
-hi! Title guibg=bg guifg=#33adff ctermfg=75 cterm=bold gui=NONE
+hi! Title guibg=bg guifg=#0089e6 ctermfg=39 cterm=bold gui=NONE
 hi! Todo gui=italic guibg=#ffff66 ctermbg=227 guifg=#666666 ctermfg=241
 hi! Type guibg=bg guifg=#61a12b ctermfg=76 cterm=bold gui=NONE
 hi! Type guifg=#61a12b ctermfg=76 cterm=bold gui=NONE
 hi! VertSplit guibg=fg guifg=bg cterm=reverse gui=reverse
-hi! Visual guibg=#33adff ctermbg=75 guifg=#ffffff ctermfg=15
+hi! Visual guibg=#0089e6 ctermbg=39 guifg=#ffffff ctermfg=15
 hi! WarningMsg guibg=bg guifg=#ff0000 ctermfg=9
 hi! WildMenu guibg=#ffff66 ctermbg=227 guifg=#000000 ctermfg=0
 
