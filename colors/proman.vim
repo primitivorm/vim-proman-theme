@@ -129,7 +129,7 @@ hi! Todo gui=italic guibg=#ffff66 ctermbg=227 guifg=#666666 ctermfg=241
 hi! Type guibg=bg guifg=#61a12b ctermfg=76 cterm=bold gui=NONE
 hi! Type guifg=#61a12b ctermfg=76 cterm=bold gui=NONE
 hi! VertSplit guibg=fg guifg=bg cterm=reverse gui=reverse
-hi! Visual guibg=#0089e6 ctermbg=39 guifg=#ffffff ctermfg=15
+hi! Visual guibg=#204a87 ctermbg=24 guifg=#ffffff ctermfg=15
 hi! WarningMsg guibg=bg guifg=#ff0000 ctermfg=9
 hi! WildMenu guibg=#ffff66 ctermbg=227 guifg=#000000 ctermfg=0
 
