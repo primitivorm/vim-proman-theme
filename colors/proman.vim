@@ -2,7 +2,9 @@
 " Vim color file
 " This is a ViM's version of the proman color theme.
 " Primitivo Roman <cibercafe_montero@hotmail.com>
-" Last Change: 16-dic-2015
+" :help hitest.vim
+" :so $VIMRUNTIME/syntax/hitest.vim
+" Last Change: 21-ene-2016
 "
 " Version: 1.0
 " Homepage:https://github.com/primitivorm/vim-proman-theme.git
@@ -14,135 +16,155 @@ if exists("syntax_on")
 endif
 
 let g:colors_name="proman"
+
 set t_Co=256
 
-if &background == "light"
-    hi! Normal guibg=#ffffff ctermbg=7 guifg=#1a1a1a ctermfg=233
-    hi! ColorColumn guibg=#ededed ctermbg=253
-    hi! Comment gui=italic guibg=bg guifg=#696969 ctermfg=242
-    hi! Cursor guibg=#000000 ctermbg=0 guifg=#f5f5ff ctermfg=15
-    hi! CursorColumn guibg=#ededed ctermbg=253
-    hi! CursorLine guibg=#ededed ctermbg=253
-    hi! CursorLineNr guibg=bg guifg=#000000 ctermfg=0
-    hi! FoldColumn gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
-    hi! Folded guibg=#c6c6ce ctermbg=251 guifg=#1a1a1a ctermfg=234 gui=underline
-    hi! IndentGuidesEven guibg=#c6c6ce ctermbg=251 guifg=#dcdce5 ctermfg=253
-    hi! IndentGuidesOdd guibg=#dcdce5 ctermbg=253 guifg=#c6c6ce ctermfg=251
-    hi! LineNr guibg=#ededed ctermbg=253 guifg=#696969 ctermfg=242
-    hi! TabLine guibg=#d3d3d3 ctermbg=252 guifg=#333333 ctermfg=236 cterm=underline gui=underline
-    hi! TabLineFill guibg=#666666 ctermbg=241 guifg=fg
-    hi! TabLineSel guibg=bg guifg=#000000 ctermfg=0
-    hi! lCursor guibg=#000000 ctermbg=0 guifg=#666666 ctermfg=241
-    hi! Delimiter guibg=bg guifg=#0000ff ctermfg=21 cterm=NONE gui=NONE
-    hi! Operator guibg=bg guifg=#0000ff ctermfg=21 cterm=NONE gui=NONE
-else
-
-    hi! Normal guibg=#1a1a1a ctermbg=233 guifg=#ffffff ctermfg=15
-    hi! ColorColumn guibg=#474747 ctermbg=238
-    hi! Comment gui=italic guibg=bg guifg=#b2b2b2 ctermfg=249
-    hi! Cursor guibg=#ffffff ctermbg=15 guifg=#474747 ctermfg=238
-    hi! CursorColumn guibg=#474747 ctermbg=238
-    hi! CursorLine guibg=#474747 ctermbg=238
-    hi! CursorLineNr guibg=bg guifg=#ffffff ctermfg=238
-    hi! FoldColumn gui=reverse guibg=bg guifg=fg ctermfg=fg ctermbg=bg cterm=reverse
-    hi! Folded guibg=#666666 ctermbg=241 guifg=#ffffff ctermfg=15 gui=underline
-    hi! IndentGuidesEven guibg=#595959 ctermbg=240 guifg=#474747 ctermfg=238
-    hi! IndentGuidesOdd guibg=#474747 ctermbg=238 guifg=#595959 ctermfg=240
-    hi! LineNr guibg=#474747 ctermbg=238 guifg=#b2b2b2 ctermfg=249
-    hi! TabLine guibg=#666666 ctermbg=241 guifg=#eaeaea ctermfg=7 cterm=underline gui=underline
-    hi! TabLineFill guibg=#b2b2b2 ctermbg=249 guifg=fg
-    hi! TabLineSel guibg=bg guifg=#ffffff ctermfg=15
-    hi! lCursor guibg=#ffffff ctermbg=15 guifg=#474747 ctermfg=238
-    hi! Delimiter guibg=bg guifg=#00ffff ctermfg=14 cterm=NONE gui=NONE
-    hi! Operator guibg=bg guifg=#00ffff ctermfg=14 cterm=NONE gui=NONE
+" not all terminals support italics properly.  If yours does, opt-in.
+if ! exists("g:pencil_terminal_italics")
+  let g:pencil_terminal_italics = 0
 endif
 
-" {{{ Diff
-hi! diffAdded ctermfg=150 guifg=#afdf87
-hi! diffRemoved ctermfg=174 guifg=#df8787
-hi! diffAdd ctermfg=0 guifg=#000000 ctermbg=151 guibg=#afdfaf
-hi! diffDelete ctermfg=238 guifg=#474747 ctermbg=249 guibg=#b2b2b2 cterm=NONE gui=NONE
-hi! diffChange ctermfg=241 guifg=#666666 ctermbg=224 guibg=#FFDDDD
-hi! diffText ctermfg=18 guifg=#000080 ctermbg=174 guibg=#df8787 cterm=NONE gui=NONE
-" }}}
+if ! exists("g:pencil_spell_undercurl")
+  let g:pencil_spell_undercurl = 1
+endif
 
-"Common
-hi! Boolean guifg=#f9065e ctermfg=161 cterm=NONE gui=NONE
-hi! Character guibg=bg guifg=#ff5f00 ctermfg=202 cterm=NONE gui=NONE
-hi! Conceal guibg=#a9a9a9 ctermbg=248 guifg=#d3d3d3 ctermfg=252
-hi! Conditional guibg=bg guifg=#a66ae1 ctermfg=99 cterm=bold gui=bold
-hi! Constant guibg=bg guifg=#a66ae1 ctermfg=99 cterm=bold gui=bold
-hi! Debug guibg=bg guifg=#aa0000 ctermfg=124
-hi! Define guibg=bg guifg=#1aa2ff ctermfg=39 cterm=NONE gui=NONE
-hi! Directory guibg=bg guifg=#ff33cc ctermfg=198 cterm=NONE gui=NONE
-hi! Error guibg=bg guifg=#ff5f00 ctermfg=202 ctermbg=bg cterm=reverse
-hi! ErrorMsg guibg=bg guifg=#ff0000 ctermfg=9 ctermbg=bg cterm=reverse
-hi! Exception guibg=bg guifg=#a66ae1 ctermfg=99 cterm=bold gui=bold
-hi! Float guibg=bg guifg=#f9065e ctermfg=161 cterm=NONE gui=NONE
-hi! Function guibg=bg guifg=#1aa2ff ctermfg=39 cterm=NONE gui=NONE
-hi! Identifier guibg=bg guifg=#a66ae1 ctermfg=99 cterm=bold gui=bold
-hi! Ignore guibg=bg guifg=#f5f5ff ctermfg=15
-hi! IncSearch guibg=#ff7f50 ctermbg=209 guifg=#000000 ctermfg=0 cterm=italic gui=italic
-hi! Include guibg=bg guifg=#6db630 ctermfg=76 cterm=NONE gui=NONE
-hi! Keyword guibg=bg guifg=#1aa2ff ctermfg=39 cterm=NONE gui=NONE
-hi! Label guibg=bg guifg=#a66ae1 ctermfg=99 cterm=bold gui=bold
-hi! MBEChanged guibg=fg guifg=#ff0000 ctermfg=9
-hi! MBENormal guibg=fg guifg=#696969 ctermfg=242
-hi! MBEVisibleActive guibg=fg guifg=#000080 ctermfg=18
-hi! MBEVisibleChanged guibg=fg guifg=#f1996f ctermfg=209
-hi! MBEVisibleChangedActive guibg=fg guifg=#f1996f ctermfg=209
-hi! MBEVisibleNormal guibg=fg guifg=#6db630 ctermfg=76
-hi! Macro guibg=bg guifg=#ff33cc ctermfg=198 cterm=NONE gui=NONE
-hi! MatchParen guibg=Cyan guifg=#000000 ctermfg=0 cterm=NONE gui=NONE
-hi! MatchTag guibg=Cyan guifg=#000000 ctermfg=0 cterm=NONE gui=NONE
-hi! ModeMsg cterm=NONE gui=NONE
-hi! MoreMsg guibg=bg guifg=#1aa2ff ctermfg=39
-hi! NERDTreeBookmarksLeader guibg=bg guifg=#204a87 ctermfg=24
-hi! NERDTreeFlag guibg=#e3d2d2 ctermbg=188 guifg=#ff0000 ctermfg=9
-hi! NONEd guibg=bg guifg=#f9065e ctermfg=161
-hi! NonText guibg=bg guifg=#204a87 ctermfg=24 cterm=NONE gui=NONE
-hi! Number guibg=bg guifg=#f9065e ctermfg=161 cterm=NONE gui=NONE
-hi! Pmenu guibg=#bcc9db ctermbg=152 guifg=#474747 ctermfg=238
-hi! PmenuSel guibg=#204a87 ctermbg=24 guifg=#ffffff ctermfg=15
-hi! PreCondit guibg=bg guifg=#1aa2ff ctermfg=39 cterm=NONE gui=NONE
-hi! PreProc guibg=bg guifg=#a66ae1 ctermfg=99 cterm=bold gui=bold
-hi! Question guibg=bg guifg=#6db630 ctermfg=76
-hi! Repeat guibg=bg guifg=#a66ae1 ctermfg=99 cterm=bold gui=bold
-hi! RubySymbol guibg=bg guifg=#a66ae1 ctermfg=99 cterm=bold gui=bold
-hi! Search guifg=#000000 guibg=#ffff66 ctermfg=0 ctermbg=227 cterm=italic gui=italic
-hi! SignColumn guibg=bg guifg=#000080 ctermfg=18
-hi! Special guibg=bg guifg=#1aa2ff ctermfg=39 cterm=NONE gui=NONE
-hi! SpecialChar guibg=bg guifg=#808080 ctermfg=244
-hi! SpecialComment gui=italic guibg=bg guifg=#999999 ctermfg=246
-hi! SpecialKey guibg=bg guifg=#6db630 ctermfg=76
-hi! SpellBad cterm=reverse guisp=Red gui=undercurl ctermbg=bg ctermfg=Red
-hi! SpellCap cterm=reverse guisp=Green gui=undercurl ctermbg=bg ctermfg=Green
-hi! SpellLocal cterm=underline guisp=Cyan gui=undercurl
-hi! SpellRare cterm=underline guisp=Magenta gui=undercurl
-hi! Statement guibg=bg guifg=#f9065e ctermfg=161 cterm=NONE gui=NONE
-hi! StatusLine guibg=#eaeaea ctermbg=7 guifg=#666666 ctermfg=241
-hi! StorageClass guibg=bg guifg=#f9065e ctermfg=161 cterm=NONE gui=NONE
-hi! String guibg=bg guifg=#ff5f00 ctermfg=202 cterm=NONE gui=NONE
-hi! Structure guibg=bg guifg=#f9065e ctermfg=161 cterm=NONE gui=NONE
-hi! Tag guibg=bg guifg=#f9065e ctermfg=161 cterm=NONE gui=NONE
-hi! Title guibg=bg guifg=#1aa2ff ctermfg=39 cterm=NONE gui=NONE
-hi! Todo gui=italic guibg=#ffff66 ctermbg=227 guifg=#666666 ctermfg=241
-hi! Type guibg=bg guifg=#6db630 ctermfg=76 cterm=bold gui=bold
-hi! Typedef guibg=bg guifg=#6db630 ctermfg=76 cterm=bold gui=bold
-hi! VertSplit guibg=fg guifg=bg cterm=reverse gui=reverse
-hi! Visual guibg=#204a87 ctermbg=24 guifg=#ffffff ctermfg=15
-hi! WarningMsg guibg=bg guifg=#ff0000 ctermfg=9
-hi! WildMenu guibg=#ffff66 ctermbg=227 guifg=#000000 ctermfg=0
+if g:pencil_spell_undercurl == 1
+  let s:sp_un      = 'undercurl'
+else
+  let s:sp_un      = 'underline'
+endif
 
-" for cream statusline
-hi! User1 guifg=#999999 ctermfg=246 guibg=#073642 ctermbg=235
-hi! User2 guifg=#93a1a1 ctermfg=247 guibg=#073642 ctermbg=235
-hi! User3 guifg=#bcc9db ctermfg=152 guibg=#073642 ctermbg=235
-hi! User4 guifg=#d7d7af ctermfg=187 guibg=#073642 ctermbg=235
+let s:black        = { "gui" : "#1a1a1a", "cterm" : "233"}
+let s:dark_blue    = { "gui" : "#2C81FB", "cterm" : "33"}
+let s:dark_cyan    = { "gui" : "#0087af", "cterm" : "31"}
+let s:dark_gray    = { "gui" : "#696969", "cterm" : "242"}
+let s:dark_green   = { "gui" : "#009933", "cterm" : "28"}
+let s:dark_purple  = { "gui" : "#802bd4", "cterm" : "93"}
+let s:dark_red     = { "gui" : "#aa0000", "cterm" : "124"}
+let s:light_black  = { "gui" : "#404040", "cterm" : "235"}
+let s:light_blue   = { "gui" : "#82b4fd", "cterm" : "45"}
+let s:light_cyan   = { "gui" : "#00ffff", "cterm" : "14"}
+let s:light_gray   = { "gui" : "#babac4", "cterm" : "251"}
+let s:light_green  = { "gui" : "#00cc44", "cterm" : "41"}
+let s:light_purple = { "gui" : "#b380e5", "cterm" : "105"}
+let s:lighter_gray = { "gui" : "#ededed", "cterm" : "253"}
+let s:lighter_green= { "gui" : "#afdf87", "cterm" : "150"}
+let s:lighter_red  = { "gui" : "#df8787", "cterm" : "174"}
+let s:orange       = { "gui" : "#ff5f00", "cterm" : "202"}
+let s:pink         = { "gui" : "#ff33cc", "cterm" : "198"}
+let s:red          = { "gui" : "#ff3333", "cterm" : "196"}
+let s:white        = { "gui" : "#ffffff", "cterm" : "15"}
+let s:yellow       = { "gui" : "#ffff66", "cterm" : "227"}
 
-"" Highlighting: Setup some nice colours to show the mark positions.
-"hi! default ShowMarksHLl ctermfg=darkblue ctermbg=blue guifg=blue guibg=lightblue cterm=NONE gui=NONE
-"hi! default ShowMarksHLu ctermfg=darkblue ctermbg=blue guifg=blue guibg=lightblue cterm=NONE gui=NONE
-"hi! default ShowMarksHLo ctermfg=darkblue ctermbg=blue guifg=blue guibg=lightblue cterm=NONE gui=NONE
-"hi! default ShowMarksHLm ctermfg=darkblue ctermbg=blue guifg=blue guibg=lightblue cterm=NONE gui=NONE
+if &background == "dark"
+  let s:bg     = s:black
+  let s:bg_subtle       = s:light_black
+  let s:norm   = s:white
+  let s:norm_subtle     = s:lighter_gray
+  let s:purple = s:light_purple
+  let s:blue   = s:light_blue
+  let s:green  = s:light_green
+  let s:gray = s:dark_gray
+  let s:cyan = s:light_cyan
+else
+  let s:bg     = s:white
+  let s:bg_subtle       = s:lighter_gray
+  let s:norm   = s:black
+  let s:norm_subtle     = s:light_black
+  let s:purple = s:dark_purple
+  let s:blue   = s:dark_blue
+  let s:green  = s:dark_green
+  let s:gray = s:light_gray
+  let s:cyan = s:dark_cyan
+endif
 
+function! s:h(group, style)
+  " Not all terminals support italics properly. If yours does, opt-in.
+  if g:pencil_terminal_italics == 0 && has_key(a:style, "cterm") && a:style["cterm"] == "italic"
+    unlet a:style.cterm
+  endif
+  execute "highlight" a:group
+    \ "guifg="   (has_key(a:style, "fg")    ? a:style.fg.gui   : "NONE")
+    \ "guibg="   (has_key(a:style, "bg")    ? a:style.bg.gui   : "NONE")
+    \ "guisp="   (has_key(a:style, "sp")    ? a:style.sp.gui   : "NONE")
+    \ "gui="     (has_key(a:style, "gui")   ? a:style.gui      : "NONE")
+    \ "ctermfg=" (has_key(a:style, "fg")    ? a:style.fg.cterm : "NONE")
+    \ "ctermbg=" (has_key(a:style, "bg")    ? a:style.bg.cterm : "NONE")
+    \ "cterm="   (has_key(a:style, "cterm") ? a:style.cterm    : "NONE")
+endfunction
+
+call s:h("ColorColumn",   {"bg": s:bg_subtle})
+call s:h("Comment",       {"fg": s:gray, "gui": "italic", "cterm": "italic"})
+call s:h("Cursor",        {"bg": s:blue, "fg": s:norm })
+call s:h("Cursor",        {"bg": s:blue, "fg": s:norm })
+call s:h("CursorColumn",  {"bg": s:bg_subtle})
+call s:h("CursorLine",    {"bg": s:bg_subtle})
+call s:h("CursorLineNr",  {"fg": s:blue, "bg": s:bg_subtle, "gui": "bold", "cterm": "bold"})
+call s:h("DiffAdd",       {"bg": s:lighter_green, "fg": s:light_black})
+call s:h("DiffChange",    {"bg": s:lighter_gray})
+call s:h("DiffDelete",    {"bg": s:dark_gray, "fg": s:black})
+call s:h("DiffText",      {"bg": s:lighter_red, "fg": s:black})
+call s:h("Error",         {"fg": s:white, "bg": s:dark_red , "gui": "bold", "cterm": "bold"})
+call s:h("FoldColumn",    {"fg": s:bg_subtle})
+call s:h("Folded",        {"fg": s:gray, "gui": "reverse"})
+call s:h("IncSearch",     {"bg": s:orange, "fg": s:white, "gui": "italic", "cterm": "italic"})
+call s:h("LineNr",        {"bg": s:gray})
+call s:h("MatchParen",    {"bg": s:lighter_green, "fg": s:norm, "gui": "bold", "cterm": "bold"})
+call s:h("MatchTag",      {"bg": s:lighter_green, "fg": s:norm, "gui": "bold", "cterm": "bold"})
+call s:h("Normal",        {"bg": s:bg, "fg": s:norm})
+call s:h("Pmenu",         {"fg": s:norm_subtle, "bg": s:bg_subtle})
+call s:h("PmenuSbar",     {"fg": s:norm_subtle, "bg": s:bg_subtle})
+call s:h("PmenuSel",      {"fg": s:norm_subtle, "bg": s:light_blue})
+call s:h("PmenuThumb",    {"fg": s:norm_subtle, "bg": s:bg_subtle})
+call s:h("Search",        {"bg": s:yellow, "fg": s:black, "gui": "italic", "cterm": "italic"})
+call s:h("SpellBad",      {"gui": s:sp_un, "sp": s:red})
+call s:h("SpellCap",      {"gui": s:sp_un, "sp": s:cyan})
+call s:h("SpellLocal",    {"gui": s:sp_un, "sp": s:green})
+call s:h("SpellRare",     {"gui": s:sp_un, "sp": s:pink})
+call s:h("TabLine",       {"fg": s:norm, "bg": s:bg_subtle})
+call s:h("TabLineFill",   {"fg": s:norm, "bg": s:bg_subtle})
+call s:h("TabLineSel",    {"fg": s:blue, "bg": s:bg_subtle, "gui": "bold", "cterm": "bold"})
+call s:h("Title",         {"fg": s:pink, "bg": s:bg})
+call s:h("Todo",          {"fg": s:gray, "bg": s:yellow, "gui": "bold", "cterm": "bold"})
+call s:h("Underlined",    {"fg": s:norm, "gui": "underline", "cterm": "underline"})
+call s:h("Visual",        {"bg": s:dark_blue, "fg": s:white })
+
+call s:h("Constant",      {"fg": s:orange})
+hi! link String           Constant
+hi! link Character        Constant
+hi! link Number           Constant
+hi! link Boolean          Constant
+hi! link Float            Constant
+
+call s:h("Identifier",    {"fg": s:blue})
+hi! link Function         Identifier
+
+call s:h("Statement",     {"fg": s:purple})
+hi! link Conditonal       Statement
+hi! link Repeat           Statement
+hi! link Label            Statement
+hi! link Operator         Statement
+hi! link Keyword          Statement
+hi! link Exception        Statement
+
+call s:h("PreProc",       {"fg": s:pink})
+hi! link Include          PreProc
+hi! link Define           PreProc
+hi! link Macro            PreProc
+hi! link PreCondit        PreProc
+
+call s:h("Type",          {"fg": s:green})
+hi! link StorageClass     Type
+hi! link Structure        Type
+hi! link Typedef          Type
+
+call s:h("Special",       {"fg": s:cyan})
+hi! link NonText          Special
+hi! link Directory        Special
+hi! link Ignore           Special
+hi! link SpecialChar      Special
+hi! link SpecialKey       Special
+hi! link Tag              Special
+hi! link Delimiter        Special
+hi! link SpecialComment   Special
+hi! link Debug            Special
