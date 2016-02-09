@@ -34,7 +34,7 @@ else
   let s:sp_un      = 'underline'
 endif
 
-let s:black        = { "gui" : "#1a1a1a", "cterm" : "233"}
+let s:black        = { "gui" : "#262626", "cterm" : "235"}
 let s:dark_blue    = { "gui" : "#2C81FB", "cterm" : "33"}
 let s:dark_cyan    = { "gui" : "#0087af", "cterm" : "31"}
 let s:dark_gray    = { "gui" : "#696969", "cterm" : "242"}
