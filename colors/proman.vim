@@ -34,7 +34,7 @@ else
   let s:sp_un      = 'underline'
 endif
 
-let s:black        = { "gui" : "#1a1a1a", "cterm" : "233"}
+let s:black        = { "gui" : "#262626", "cterm" : "235"}
 let s:dark_blue    = { "gui" : "#2C81FB", "cterm" : "33"}
 let s:dark_cyan    = { "gui" : "#0087af", "cterm" : "31"}
 let s:dark_gray    = { "gui" : "#696969", "cterm" : "242"}
@@ -116,7 +116,7 @@ call s:h("Pmenu",         {"fg": s:norm_subtle, "bg": s:bg_subtle})
 call s:h("PmenuSbar",     {"fg": s:norm_subtle, "bg": s:bg_subtle})
 call s:h("PmenuSel",      {"fg": s:norm_subtle, "bg": s:light_blue})
 call s:h("PmenuThumb",    {"fg": s:norm_subtle, "bg": s:bg_subtle})
-call s:h("Search",        {"bg": s:yellow, "fg": s:black, "gui": "italic", "cterm": "italic"})
+call s:h("Search",        {"bg": s:light_blue, "fg": s:black, "gui": "italic", "cterm": "italic"})
 call s:h("SpellBad",      {"gui": s:sp_un, "sp": s:red})
 call s:h("SpellCap",      {"gui": s:sp_un, "sp": s:cyan})
 call s:h("SpellLocal",    {"gui": s:sp_un, "sp": s:green})
