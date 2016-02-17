@@ -35,8 +35,8 @@ else
 endif
 
 let s:black        = { "gui" : "#262626", "cterm" : "235"}
-let s:dark_blue    = { "gui" : "#2C81FB", "cterm" : "33"}
-let s:dark_cyan    = { "gui" : "#0087af", "cterm" : "31"}
+let s:dark_blue    = { "gui" : "#056bfa", "cterm" : "27"}
+let s:dark_cyan    = { "gui" : "#00afaf", "cterm" : "37"}
 let s:dark_gray    = { "gui" : "#696969", "cterm" : "242"}
 let s:dark_green   = { "gui" : "#009933", "cterm" : "28"}
 let s:dark_purple  = { "gui" : "#802bd4", "cterm" : "93"}
@@ -51,9 +51,10 @@ let s:lighter_gray = { "gui" : "#ededed", "cterm" : "253"}
 let s:lighter_green= { "gui" : "#afdf87", "cterm" : "150"}
 let s:lighter_red  = { "gui" : "#df8787", "cterm" : "174"}
 let s:orange       = { "gui" : "#ff5f00", "cterm" : "202"}
-let s:pink         = { "gui" : "#ff33cc", "cterm" : "198"}
+let s:dark_pink    = { "gui" : "#cc00cc", "cterm" : "129"}
+let s:light_pink   = { "gui" : "#ff33ff", "cterm" : "207"}
 let s:red          = { "gui" : "#ff3333", "cterm" : "196"}
-let s:white        = { "gui" : "#ffffff", "cterm" : "15"}
+let s:white        = { "gui" : "#f2f2f2", "cterm" : "255"}
 let s:yellow       = { "gui" : "#ffff66", "cterm" : "227"}
 
 if &background == "dark"
@@ -66,6 +67,7 @@ if &background == "dark"
   let s:green  = s:light_green
   let s:gray = s:dark_gray
   let s:cyan = s:light_cyan
+  let s:pink = s:light_pink
 else
   let s:bg     = s:white
   let s:bg_subtle       = s:lighter_gray
@@ -76,6 +78,7 @@ else
   let s:green  = s:dark_green
   let s:gray = s:light_gray
   let s:cyan = s:dark_cyan
+  let s:pink = s:dark_pink
 endif
 
 function! s:h(group, style)
@@ -100,8 +103,8 @@ call s:h("Cursor",        {"bg": s:blue, "fg": s:norm })
 call s:h("CursorColumn",  {"bg": s:bg_subtle})
 call s:h("CursorLine",    {"bg": s:bg_subtle})
 call s:h("CursorLineNr",  {"fg": s:blue, "bg": s:bg_subtle, "gui": "bold", "cterm": "bold"})
-call s:h("DiffAdd",       {"bg": s:lighter_green, "fg": s:dark_purple})
-call s:h("DiffChange",    {"bg": s:light_cyan, "fg": s:black})
+call s:h("DiffAdd",       {"bg": s:lighter_green, "fg": s:dark_blue})
+call s:h("DiffChange",    {"bg": s:light_gray, "fg": s:black})
 call s:h("DiffDelete",    {"bg": s:light_black, "fg": s:black})
 call s:h("DiffText",      {"bg": s:lighter_red, "fg": s:black, "gui": "bold", "cterm": "bold"})
 call s:h("Error",         {"fg": s:white, "bg": s:dark_red , "gui": "bold", "cterm": "bold"})
