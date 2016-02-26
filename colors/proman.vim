@@ -34,14 +34,14 @@ else
   let s:sp_un      = 'underline'
 endif
 
-let s:black        = { "gui" : "#262626", "cterm" : "235"}
+let s:dark         = { "gui" : "#262626", "cterm" : "235"}
 let s:dark_blue    = { "gui" : "#056bfa", "cterm" : "27"}
 let s:dark_cyan    = { "gui" : "#00afaf", "cterm" : "37"}
 let s:dark_gray    = { "gui" : "#696969", "cterm" : "242"}
 let s:dark_green   = { "gui" : "#009933", "cterm" : "28"}
 let s:dark_purple  = { "gui" : "#802bd4", "cterm" : "93"}
 let s:dark_red     = { "gui" : "#aa0000", "cterm" : "124"}
-let s:light_black  = { "gui" : "#404040", "cterm" : "235"}
+let s:light_dark   = { "gui" : "#404040", "cterm" : "235"}
 let s:light_blue   = { "gui" : "#82b4fd", "cterm" : "45"}
 let s:light_cyan   = { "gui" : "#00ffff", "cterm" : "14"}
 let s:light_gray   = { "gui" : "#babac4", "cterm" : "251"}
@@ -54,12 +54,12 @@ let s:orange       = { "gui" : "#ff5f00", "cterm" : "202"}
 let s:dark_pink    = { "gui" : "#cc00cc", "cterm" : "129"}
 let s:light_pink   = { "gui" : "#ff33ff", "cterm" : "207"}
 let s:red          = { "gui" : "#ff3333", "cterm" : "196"}
-let s:white        = { "gui" : "#f2f2f2", "cterm" : "255"}
+let s:white        = { "gui" : "#ffffff", "cterm" : "15"}
 let s:yellow       = { "gui" : "#ffff66", "cterm" : "227"}
 
 if &background == "dark"
-  let s:bg     = s:black
-  let s:bg_subtle       = s:light_black
+  let s:bg     = s:dark
+  let s:bg_subtle       = s:light_dark
   let s:norm   = s:white
   let s:norm_subtle     = s:lighter_gray
   let s:purple = s:light_purple
@@ -71,8 +71,8 @@ if &background == "dark"
 else
   let s:bg     = s:white
   let s:bg_subtle       = s:lighter_gray
-  let s:norm   = s:black
-  let s:norm_subtle     = s:light_black
+  let s:norm   = s:dark
+  let s:norm_subtle     = s:light_dark
   let s:purple = s:dark_purple
   let s:blue   = s:dark_blue
   let s:green  = s:dark_green
@@ -104,9 +104,14 @@ call s:h("CursorColumn",  {"bg": s:bg_subtle})
 call s:h("CursorLine",    {"bg": s:bg_subtle})
 call s:h("CursorLineNr",  {"fg": s:blue, "bg": s:bg_subtle, "gui": "bold", "cterm": "bold"})
 call s:h("DiffAdd",       {"bg": s:lighter_green, "fg": s:dark_blue})
-call s:h("DiffChange",    {"bg": s:light_gray, "fg": s:black})
-call s:h("DiffDelete",    {"bg": s:light_black, "fg": s:black})
-call s:h("DiffText",      {"bg": s:lighter_red, "fg": s:black, "gui": "bold", "cterm": "bold"})
+call s:h("DiffDelete",    {"bg": s:light_dark, "fg": s:dark})
+if &background == "dark"
+call s:h("DiffChange",    {"bg": s:dark_gray, "fg": s:white})
+call s:h("DiffText",      {"bg": s:lighter_red, "fg": s:white, "gui": "bold", "cterm": "bold"})
+else
+call s:h("DiffChange",    {"bg": s:light_gray, "fg": s:dark})
+call s:h("DiffText",      {"bg": s:lighter_red, "fg": s:dark, "gui": "bold", "cterm": "bold"})
+endif
 call s:h("Error",         {"fg": s:white, "bg": s:dark_red , "gui": "bold", "cterm": "bold"})
 call s:h("FoldColumn",    {"fg": s:bg_subtle})
 call s:h("Folded",        {"fg": s:gray, "gui": "reverse"})
@@ -119,7 +124,7 @@ call s:h("Pmenu",         {"fg": s:norm_subtle, "bg": s:bg_subtle})
 call s:h("PmenuSbar",     {"fg": s:norm_subtle, "bg": s:bg_subtle})
 call s:h("PmenuSel",      {"fg": s:norm_subtle, "bg": s:light_blue})
 call s:h("PmenuThumb",    {"fg": s:norm_subtle, "bg": s:bg_subtle})
-call s:h("Search",        {"bg": s:light_blue, "fg": s:black, "gui": "italic", "cterm": "italic"})
+call s:h("Search",        {"bg": s:light_blue, "fg": s:dark, "gui": "italic", "cterm": "italic"})
 call s:h("SpellBad",      {"gui": s:sp_un, "sp": s:red})
 call s:h("SpellCap",      {"gui": s:sp_un, "sp": s:cyan})
 call s:h("SpellLocal",    {"gui": s:sp_un, "sp": s:green})
@@ -130,7 +135,7 @@ call s:h("TabLineSel",    {"fg": s:blue, "bg": s:bg_subtle, "gui": "bold", "cter
 call s:h("Title",         {"fg": s:pink, "bg": s:bg})
 call s:h("Todo",          {"fg": s:dark_gray, "bg": s:yellow, "gui": "bold", "cterm": "bold"})
 call s:h("Underlined",    {"fg": s:norm, "gui": "underline", "cterm": "underline"})
-call s:h("Visual",        {"bg": s:dark_blue, "fg": s:white })
+call s:h("Visual",        {"bg": s:light_blue, "fg": s:light_dark })
 
 call s:h("Constant",      {"fg": s:orange})
 hi! link String           Constant
