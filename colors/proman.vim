@@ -52,10 +52,10 @@ let s:light_purple  = { "gui" : "#b380e5", "cterm" : "140" }
 let s:lighter_gray  = { "gui" : "#ededed", "cterm" : "253" }
 let s:lighter_green = { "gui" : "#afdf87", "cterm" : "150" }
 let s:lighter_red   = { "gui" : "#df8787", "cterm" : "174" }
-let s:orange        = { "gui" : "#e06c75", "cterm" : "204" }
+let s:orange        = { "gui" : "#fb660a", "cterm" : "202" }
 let s:red           = { "gui" : "#ff3333", "cterm" : "196" }
 let s:white         = { "gui" : "#ffffff", "cterm" : "15"  }
-let s:yellow        = { "gui" : "#d19a66", "cterm" : "173" }
+let s:yellow        = { "gui" : "#fcca36", "cterm" : "221" }
 
 if &background == "dark"
   let s:bg     = s:dark
@@ -135,7 +135,7 @@ call s:h("TabLineSel",    {"fg": s:blue, "bg": s:bg_subtle, "gui": "bold", "cter
 call s:h("Title",         {"fg": s:pink, "bg": s:bg})
 call s:h("Todo",          {"fg": s:dark_gray, "bg": s:yellow, "gui": "bold", "cterm": "bold"})
 call s:h("Underlined",    {"fg": s:norm, "gui": "underline", "cterm": "underline"})
-call s:h("Visual",        {"bg": s:light_blue, "fg": s:light_dark })
+call s:h("Visual",        {"bg": s:light_blue, "fg": s:dark })
 
 call s:h("Constant",      {"fg": s:orange})
 hi! link String           Constant
