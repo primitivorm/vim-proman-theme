@@ -35,7 +35,7 @@ else
 endif
 
 let s:dark          = { "gui" : "#262626", "cterm" : "235" }
-let s:dark_blue     = { "gui" : "#0086d2", "cterm" : "32"  }
+let s:dark_blue     = { "gui" : "#2452db", "cterm" : "26"  }
 let s:dark_cyan     = { "gui" : "#56b6c2", "cterm" : "38"  }
 let s:dark_gray     = { "gui" : "#696969", "cterm" : "242" }
 let s:dark_green    = { "gui" : "#009933", "cterm" : "29"  }
@@ -135,7 +135,7 @@ call s:h("TabLineSel",    {"fg": s:blue, "bg": s:bg_subtle, "gui": "bold", "cter
 call s:h("Title",         {"fg": s:pink, "bg": s:bg})
 call s:h("Todo",          {"fg": s:dark_gray, "bg": s:yellow, "gui": "bold", "cterm": "bold"})
 call s:h("Underlined",    {"fg": s:norm, "gui": "underline", "cterm": "underline"})
-call s:h("Visual",        {"bg": s:light_blue, "fg": s:dark })
+call s:h("Visual",        {"bg": s:dark_blue, "fg": s:white })
 
 call s:h("Constant",      {"fg": s:orange})
 hi! link String           Constant
