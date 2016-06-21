@@ -55,30 +55,33 @@ let s:lighter_red   = { "gui" : "#df8787", "cterm" : "174" }
 let s:orange        = { "gui" : "#fb660a", "cterm" : "202" }
 let s:red           = { "gui" : "#ff3333", "cterm" : "196" }
 let s:white         = { "gui" : "#ffffff", "cterm" : "15"  }
-let s:yellow        = { "gui" : "#fcca36", "cterm" : "221" }
+let s:dark_yellow   = { "gui" : "#b08503", "cterm" : "221" }
+let s:light_yellow  = { "gui" : "#fcca36", "cterm" : "221" }
 
 if &background == "dark"
-  let s:bg     = s:dark
-  let s:bg_subtle       = s:light_dark
-  let s:norm   = s:white
-  let s:norm_subtle     = s:lighter_gray
-  let s:purple = s:light_purple
-  let s:blue   = s:light_blue
-  let s:green  = s:light_green
-  let s:gray = s:dark_gray
-  let s:cyan = s:light_cyan
-  let s:pink = s:light_pink
+  let s:bg          = s:dark
+  let s:bg_subtle   = s:light_dark
+  let s:norm        = s:white
+  let s:norm_subtle = s:lighter_gray
+  let s:purple      = s:light_purple
+  let s:blue        = s:light_blue
+  let s:green       = s:light_green
+  let s:gray        = s:light_gray
+  let s:cyan        = s:light_cyan
+  let s:pink        = s:light_pink
+  let s:yellow      = s:light_yellow
 else
-  let s:bg     = s:white
-  let s:bg_subtle       = s:lighter_gray
-  let s:norm   = s:dark
-  let s:norm_subtle     = s:light_dark
-  let s:purple = s:dark_purple
-  let s:blue   = s:dark_blue
-  let s:green  = s:dark_green
-  let s:gray = s:light_gray
-  let s:cyan = s:dark_cyan
-  let s:pink = s:dark_pink
+  let s:bg          = s:white
+  let s:bg_subtle   = s:lighter_gray
+  let s:norm        = s:dark
+  let s:norm_subtle = s:light_dark
+  let s:purple      = s:dark_purple
+  let s:blue        = s:dark_blue
+  let s:green       = s:dark_green
+  let s:gray        = s:light_gray
+  let s:cyan        = s:dark_cyan
+  let s:pink        = s:dark_pink
+  let s:yellow      = s:dark_yellow
 endif
 
 function! s:h(group, style)
@@ -124,7 +127,7 @@ call s:h("Pmenu",         {"fg": s:norm_subtle, "bg": s:bg_subtle})
 call s:h("PmenuSbar",     {"fg": s:norm_subtle, "bg": s:bg_subtle})
 call s:h("PmenuSel",      {"fg": s:white, "bg": s:light_blue})
 call s:h("PmenuThumb",    {"fg": s:norm_subtle, "bg": s:bg_subtle})
-call s:h("Search",        {"bg": s:light_green, "fg": s:white, "gui": "italic", "cterm": "italic"})
+call s:h("Search",        {"bg": s:yellow, "fg": s:dark, "gui": "italic", "cterm": "italic"})
 call s:h("SpellBad",      {"gui": s:sp_un, "sp": s:red})
 call s:h("SpellCap",      {"gui": s:sp_un, "sp": s:cyan})
 call s:h("SpellLocal",    {"gui": s:sp_un, "sp": s:green})
@@ -135,7 +138,7 @@ call s:h("TabLineSel",    {"fg": s:blue, "bg": s:bg_subtle, "gui": "bold", "cter
 call s:h("Title",         {"fg": s:pink, "bg": s:bg})
 call s:h("Todo",          {"fg": s:dark_gray, "bg": s:yellow, "gui": "bold", "cterm": "bold"})
 call s:h("Underlined",    {"fg": s:norm, "gui": "underline", "cterm": "underline"})
-call s:h("Visual",        {"bg": s:dark_blue, "fg": s:white })
+call s:h("Visual",        {"bg": s:gray, "fg": s:dark})
 
 call s:h("Constant",      {"fg": s:orange})
 hi! link String           Constant
@@ -144,7 +147,7 @@ hi! link Number           Constant
 hi! link Boolean          Constant
 hi! link Float            Constant
 
-call s:h("Identifier",    {"fg": s:blue})
+call s:h("Identifier",    {"fg": s:green})
 hi! link Function         Identifier
 
 call s:h("Statement",     {"fg": s:purple})
@@ -161,7 +164,7 @@ hi! link Define           PreProc
 hi! link Macro            PreProc
 hi! link PreCondit        PreProc
 
-call s:h("Type",          {"fg": s:green})
+call s:h("Type",          {"fg": s:yellow})
 hi! link StorageClass     Type
 hi! link Structure        Type
 hi! link Typedef          Type
