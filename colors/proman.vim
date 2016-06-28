@@ -43,13 +43,13 @@ let s:dark_pink     = { "gui" : "#cc00cc", "cterm" : "198" }
 let s:dark_purple   = { "gui" : "#802bd4", "cterm" : "92"  }
 let s:dark_red      = { "gui" : "#aa0000", "cterm" : "124" }
 let s:dark_yellow   = { "gui" : "#b08503", "cterm" : "221" }
-let s:light_blue    = { "gui" : "#8bc4f4", "cterm" : "39"  }
+let s:light_blue    = { "gui" : "#a2d0f6", "cterm" : "39"  }
 let s:light_cyan    = { "gui" : "#53d3d2", "cterm" : "110" }
 let s:light_dark    = { "gui" : "#404040", "cterm" : "235" }
 let s:light_gray    = { "gui" : "#babac4", "cterm" : "251" }
 let s:light_green   = { "gui" : "#93c763", "cterm" : "113" }
-let s:light_pink    = { "gui" : "#f34aff", "cterm" : "207" }
-let s:light_purple  = { "gui" : "#b380e5", "cterm" : "140" }
+let s:light_pink    = { "gui" : "#f780ff", "cterm" : "207" }
+let s:light_purple  = { "gui" : "#bf95e9", "cterm" : "140" }
 let s:light_yellow  = { "gui" : "#fcca36", "cterm" : "221" }
 let s:lighter_gray  = { "gui" : "#ededed", "cterm" : "253" }
 let s:lighter_green = { "gui" : "#afdf87", "cterm" : "150" }
@@ -125,7 +125,7 @@ call s:h("MatchTag",      {"bg": s:lighter_green, "fg": s:norm, "gui": "bold", "
 call s:h("Normal",        {"bg": s:bg, "fg": s:norm})
 call s:h("Pmenu",         {"fg": s:norm_subtle, "bg": s:bg_subtle})
 call s:h("PmenuSbar",     {"fg": s:norm_subtle, "bg": s:bg_subtle})
-call s:h("PmenuSel",      {"fg": s:white, "bg": s:light_blue})
+call s:h("PmenuSel",      {"fg": s:dark, "bg": s:light_cyan})
 call s:h("PmenuThumb",    {"fg": s:norm_subtle, "bg": s:bg_subtle})
 call s:h("Search",        {"bg": s:light_yellow, "fg": s:dark, "gui": "italic", "cterm": "italic"})
 call s:h("SpellBad",      {"gui": s:sp_un, "sp": s:red})
@@ -140,7 +140,7 @@ call s:h("Todo",          {"fg": s:dark_gray, "bg": s:yellow, "gui": "bold", "ct
 call s:h("Underlined",    {"fg": s:norm, "gui": "underline", "cterm": "underline"})
 call s:h("Visual",        {"bg": s:gray, "fg": s:dark})
 
-call s:h("Constant",      {"fg": s:orange})
+call s:h("Constant",      {"fg": s:red})
 hi! link String           Constant
 hi! link Character        Constant
 hi! link Number           Constant
