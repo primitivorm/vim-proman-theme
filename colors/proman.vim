@@ -34,29 +34,29 @@ else
   let s:sp_un      = 'underline'
 endif
 
-let s:dark          = { "gui" : "#262626", "cterm" : "235" }
-let s:dark_blue     = { "gui" : "#2452db", "cterm" : "26"  }
+let s:dark          = { "gui" : "#262626", "cterm" : "234" }
+let s:dark_blue     = { "gui" : "#2452db", "cterm" : "21"  }
 let s:dark_cyan     = { "gui" : "#56b6c2", "cterm" : "38"  }
 let s:dark_gray     = { "gui" : "#696969", "cterm" : "242" }
-let s:dark_green    = { "gui" : "#009933", "cterm" : "29"  }
-let s:dark_pink     = { "gui" : "#cc00cc", "cterm" : "198" }
+let s:dark_green    = { "gui" : "#009933", "cterm" : "28"  }
+let s:dark_pink     = { "gui" : "#cc00cc", "cterm" : "162" }
 let s:dark_purple   = { "gui" : "#802bd4", "cterm" : "92"  }
 let s:dark_red      = { "gui" : "#aa0000", "cterm" : "124" }
-let s:dark_yellow   = { "gui" : "#b08503", "cterm" : "221" }
-let s:light_blue    = { "gui" : "#a2d0f6", "cterm" : "39"  }
-let s:light_cyan    = { "gui" : "#53d3d2", "cterm" : "110" }
-let s:light_dark    = { "gui" : "#404040", "cterm" : "235" }
+let s:dark_yellow   = { "gui" : "#b08503", "cterm" : "94" }
+let s:light_blue    = { "gui" : "#a2d0f6", "cterm" : "32"  }
+let s:light_cyan    = { "gui" : "#53d3d2", "cterm" : "45" }
+let s:light_dark    = { "gui" : "#404040", "cterm" : "238" }
 let s:light_gray    = { "gui" : "#babac4", "cterm" : "251" }
-let s:light_green   = { "gui" : "#93c763", "cterm" : "113" }
-let s:light_pink    = { "gui" : "#f780ff", "cterm" : "207" }
+let s:light_green   = { "gui" : "#93c763", "cterm" : "112" }
+let s:light_pink    = { "gui" : "#f780ff", "cterm" : "213" }
 let s:light_purple  = { "gui" : "#bf95e9", "cterm" : "140" }
 let s:light_yellow  = { "gui" : "#fcca36", "cterm" : "221" }
 let s:lighter_gray  = { "gui" : "#ededed", "cterm" : "253" }
-let s:lighter_green = { "gui" : "#afdf87", "cterm" : "150" }
+let s:lighter_green = { "gui" : "#afdf87", "cterm" : "120" }
 let s:lighter_red   = { "gui" : "#df8787", "cterm" : "174" }
 let s:orange        = { "gui" : "#fb660a", "cterm" : "202" }
-let s:red           = { "gui" : "#ff3333", "cterm" : "196" }
-let s:white         = { "gui" : "#ffffff", "cterm" : "15"  }
+let s:red           = { "gui" : "#ff3333", "cterm" : "160" }
+let s:white         = { "gui" : "#ffffff", "cterm" : "255"  }
 
 if &background == "dark"
   let s:bg          = s:dark
@@ -147,7 +147,7 @@ hi! link Number           Constant
 hi! link Boolean          Constant
 hi! link Float            Constant
 
-call s:h("Identifier",    {"fg": s:blue})
+call s:h("Identifier",    {"fg": s:cyan})
 hi! link Function         Identifier
 
 call s:h("Statement",     {"fg": s:purple})
@@ -169,7 +169,7 @@ hi! link StorageClass     Type
 hi! link Structure        Type
 hi! link Typedef          Type
 
-call s:h("Special",       {"fg": s:cyan, "gui": "bold", "cterm": "bold"})
+call s:h("Special",       {"fg": s:red, "gui": "bold", "cterm": "bold"})
 hi! link NonText          Special
 hi! link Directory        Special
 hi! link Ignore           Special
