@@ -35,28 +35,28 @@ else
 endif
 
 let s:dark          = { "gui" : "#1c1c1c", "cterm" : "234" }
-let s:dark_blue     = { "gui" : "#0000ff", "cterm" : "21"  }
-let s:dark_cyan     = { "gui" : "#00afd7", "cterm" : "38"  }
+let s:dark_blue     = { "gui" : "#0087ff", "cterm" : "33"  }
+let s:dark_cyan     = { "gui" : "#00afaf", "cterm" : "37"  }
 let s:dark_gray     = { "gui" : "#666666", "cterm" : "242" }
-let s:dark_green    = { "gui" : "#005f00", "cterm" : "22"  }
-let s:dark_pink     = { "gui" : "#d70087", "cterm" : "162" }
+let s:dark_green    = { "gui" : "#00af00", "cterm" : "34"  }
+let s:dark_pink     = { "gui" : "#ff0087", "cterm" : "198" }
 let s:dark_purple   = { "gui" : "#8700d7", "cterm" : "92"  }
 let s:dark_red      = { "gui" : "#af0000", "cterm" : "124" }
-let s:dark_yellow   = { "gui" : "#875f00", "cterm" : "94" }
-let s:light_blue    = { "gui" : "#00d7ff", "cterm" : "45"  }
-let s:light_cyan    = { "gui" : "#00ffff", "cterm" : "51" }
+let s:dark_yellow   = { "gui" : "#808000", "cterm" : "3"   }
+let s:light_blue    = { "gui" : "#5fd7ff", "cterm" : "81"  }
+let s:light_cyan    = { "gui" : "#00ffff", "cterm" : "51"  }
 let s:light_dark    = { "gui" : "#444444", "cterm" : "238" }
-let s:light_gray    = { "gui" : "#c6c6c6", "cterm" : "251" }
+let s:light_gray    = { "gui" : "#a8a8a8", "cterm" : "247" }
 let s:light_green   = { "gui" : "#87d700", "cterm" : "112" }
 let s:light_pink    = { "gui" : "#ff87ff", "cterm" : "213" }
-let s:light_purple  = { "gui" : "#af87d7", "cterm" : "140" }
+let s:light_purple  = { "gui" : "#af87ff", "cterm" : "141" }
 let s:light_yellow  = { "gui" : "#ffd75f", "cterm" : "221" }
 let s:lighter_gray  = { "gui" : "#dadada", "cterm" : "253" }
 let s:lighter_green = { "gui" : "#87ff87", "cterm" : "120" }
 let s:lighter_red   = { "gui" : "#d78787", "cterm" : "174" }
 let s:orange        = { "gui" : "#ff5f00", "cterm" : "202" }
 let s:red           = { "gui" : "#ff0000", "cterm" : "196" }
-let s:white         = { "gui" : "#eeeeee", "cterm" : "255"  }
+let s:white         = { "gui" : "#eeeeee", "cterm" : "255" }
 
 if &background == "dark"
   let s:bg          = s:dark
@@ -106,26 +106,21 @@ call s:h("Cursor",        {"bg": s:blue, "fg": s:white })
 call s:h("CursorColumn",  {"bg": s:bg_subtle})
 call s:h("CursorLine",    {"bg": s:bg_subtle})
 call s:h("CursorLineNr",  {"fg": s:norm, "bg": s:bg_subtle, "gui": "bold", "cterm": "bold"})
-call s:h("DiffAdd",       {"bg": s:lighter_green, "fg": s:dark_blue})
+call s:h("DiffAdd",       {"bg": s:lighter_green, "fg": s:dark})
 call s:h("DiffDelete",    {"bg": s:light_dark, "fg": s:dark})
-if &background == "dark"
-call s:h("DiffChange",    {"bg": s:dark_gray, "fg": s:white})
-call s:h("DiffText",      {"bg": s:lighter_red, "fg": s:white, "gui": "bold", "cterm": "bold"})
-else
-call s:h("DiffChange",    {"bg": s:light_gray, "fg": s:dark})
-call s:h("DiffText",      {"bg": s:lighter_red, "fg": s:dark, "gui": "bold", "cterm": "bold"})
-endif
+call s:h("DiffChange",    {"bg": s:gray, "fg": s:norm})
+call s:h("DiffText",      {"bg": s:lighter_red, "fg": s:dark, "gui": "italic", "cterm": "italic"})
 call s:h("Error",         {"fg": s:white, "bg": s:dark_red , "gui": "bold", "cterm": "bold"})
 call s:h("FoldColumn",    {"fg": s:bg_subtle})
 call s:h("Folded",        {"fg": s:gray, "gui": "reverse"})
 call s:h("IncSearch",     {"bg": s:orange, "fg": s:white, "gui": "italic", "cterm": "italic"})
 call s:h("LineNr",        {"bg": s:bg_subtle})
-call s:h("MatchParen",    {"bg": s:lighter_green, "fg": s:norm, "gui": "bold", "cterm": "bold"})
-call s:h("MatchTag",      {"bg": s:lighter_green, "fg": s:norm, "gui": "bold", "cterm": "bold"})
+call s:h("MatchParen",    {"bg": s:purple, "fg": s:norm, "gui": "bold", "cterm": "bold"})
+call s:h("MatchTag",      {"bg": s:purple, "fg": s:norm, "gui": "bold", "cterm": "bold"})
 call s:h("Normal",        {"bg": s:bg, "fg": s:norm})
 call s:h("Pmenu",         {"fg": s:norm_subtle, "bg": s:bg_subtle})
 call s:h("PmenuSbar",     {"fg": s:norm_subtle, "bg": s:bg_subtle})
-call s:h("PmenuSel",      {"fg": s:dark, "bg": s:light_cyan})
+call s:h("PmenuSel",      {"fg": s:dark, "bg": s:light_pink})
 call s:h("PmenuThumb",    {"fg": s:norm_subtle, "bg": s:bg_subtle})
 call s:h("Search",        {"bg": s:light_yellow, "fg": s:dark, "gui": "italic", "cterm": "italic"})
 call s:h("SpellBad",      {"gui": s:sp_un, "sp": s:red})
@@ -140,14 +135,14 @@ call s:h("Todo",          {"fg": s:dark_gray, "bg": s:yellow, "gui": "bold", "ct
 call s:h("Underlined",    {"fg": s:norm, "gui": "underline", "cterm": "underline"})
 call s:h("Visual",        {"bg": s:gray, "fg": s:dark})
 
-call s:h("Constant",      {"fg": s:red})
+call s:h("Constant",      {"fg": s:orange})
 hi! link String           Constant
 hi! link Character        Constant
 hi! link Number           Constant
 hi! link Boolean          Constant
 hi! link Float            Constant
 
-call s:h("Identifier",    {"fg": s:cyan})
+call s:h("Identifier",    {"fg": s:blue})
 hi! link Function         Identifier
 
 call s:h("Statement",     {"fg": s:purple})
@@ -158,7 +153,7 @@ hi! link Operator         Statement
 hi! link Keyword          Statement
 hi! link Exception        Statement
 
-call s:h("PreProc",       {"fg": s:pink})
+call s:h("PreProc",       {"fg": s:green})
 hi! link Include          PreProc
 hi! link Define           PreProc
 hi! link Macro            PreProc
@@ -169,7 +164,7 @@ hi! link StorageClass     Type
 hi! link Structure        Type
 hi! link Typedef          Type
 
-call s:h("Special",       {"fg": s:red, "gui": "bold", "cterm": "bold"})
+call s:h("Special",       {"fg": s:pink, "gui": "bold", "cterm": "bold"})
 hi! link NonText          Special
 hi! link Directory        Special
 hi! link Ignore           Special
