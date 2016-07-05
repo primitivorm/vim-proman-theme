@@ -35,10 +35,10 @@ else
 endif
 
 let s:dark          = { "gui" : "#1c1c1c", "cterm" : "234" }
-let s:dark_blue     = { "gui" : "#0087ff", "cterm" : "33"  }
+let s:dark_blue     = { "gui" : "#005fff", "cterm" : "27"  }
 let s:dark_cyan     = { "gui" : "#00afaf", "cterm" : "37"  }
 let s:dark_gray     = { "gui" : "#666666", "cterm" : "242" }
-let s:dark_green    = { "gui" : "#00af00", "cterm" : "34"  }
+let s:dark_green    = { "gui" : "#008700", "cterm" : "28"  }
 let s:dark_pink     = { "gui" : "#ff0087", "cterm" : "198" }
 let s:dark_purple   = { "gui" : "#8700d7", "cterm" : "92"  }
 let s:dark_red      = { "gui" : "#af0000", "cterm" : "124" }
@@ -142,10 +142,10 @@ hi! link Number           Constant
 hi! link Boolean          Constant
 hi! link Float            Constant
 
-call s:h("Identifier",    {"fg": s:blue})
+call s:h("Identifier",    {"fg": s:green})
 hi! link Function         Identifier
 
-call s:h("Statement",     {"fg": s:purple})
+call s:h("Statement",     {"fg": s:blue})
 hi! link Conditonal       Statement
 hi! link Repeat           Statement
 hi! link Label            Statement
@@ -153,18 +153,18 @@ hi! link Operator         Statement
 hi! link Keyword          Statement
 hi! link Exception        Statement
 
-call s:h("PreProc",       {"fg": s:green})
+call s:h("PreProc",       {"fg": s:purple})
 hi! link Include          PreProc
 hi! link Define           PreProc
 hi! link Macro            PreProc
 hi! link PreCondit        PreProc
 
-call s:h("Type",          {"fg": s:yellow})
+call s:h("Type",          {"fg": s:pink})
 hi! link StorageClass     Type
 hi! link Structure        Type
 hi! link Typedef          Type
 
-call s:h("Special",       {"fg": s:pink, "gui": "bold", "cterm": "bold"})
+call s:h("Special",       {"fg": s:yellow, "gui": "bold", "cterm": "bold"})
 hi! link NonText          Special
 hi! link Directory        Special
 hi! link Ignore           Special
