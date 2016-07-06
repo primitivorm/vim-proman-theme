@@ -78,7 +78,7 @@ else
   let s:purple      = s:dark_purple
   let s:blue        = s:dark_blue
   let s:green       = s:dark_green
-  let s:gray        = s:light_gray
+  let s:gray        = s:dark_gray
   let s:cyan        = s:dark_cyan
   let s:pink        = s:dark_pink
   let s:yellow      = s:dark_yellow
@@ -133,7 +133,7 @@ call s:h("TabLineSel",    {"fg": s:blue, "bg": s:bg_subtle, "gui": "bold", "cter
 call s:h("Title",         {"fg": s:pink, "bg": s:bg})
 call s:h("Todo",          {"fg": s:dark_gray, "bg": s:yellow, "gui": "bold", "cterm": "bold"})
 call s:h("Underlined",    {"fg": s:norm, "gui": "underline", "cterm": "underline"})
-call s:h("Visual",        {"bg": s:gray, "fg": s:dark})
+call s:h("Visual",        {"bg": s:dark_yellow, "fg": s:white})
 
 call s:h("Constant",      {"fg": s:orange})
 hi! link String           Constant
