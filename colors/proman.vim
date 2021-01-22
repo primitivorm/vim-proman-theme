@@ -133,7 +133,7 @@ call s:h("TabLineSel",    {"fg": s:blue, "bg": s:bg_subtle, "gui": "bold", "cter
 call s:h("Title",         {"fg": s:pink, "bg": s:bg})
 call s:h("Todo",          {"fg": s:dark_gray, "bg": s:yellow, "gui": "bold", "cterm": "bold"})
 call s:h("Underlined",    {"fg": s:norm, "gui": "underline", "cterm": "underline"})
-call s:h("Visual",        {"bg": s:dark_yellow, "fg": s:white})
+call s:h("Visual",        {"bg": s:lighter_red, "fg": s:dark})
 
 call s:h("Constant",      {"fg": s:orange})
 hi! link String           Constant
